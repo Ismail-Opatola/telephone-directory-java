@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="javadoc">
+    <target name="javadoc">
+        <javadoc access="public" author="true" classpath="C:\Users\Ismail\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;target/test-classes" destdir="doc" nodeprecated="false" nodeprecatedlist="false" noindex="false" nonavbar="false" notree="false" packagenames="telephonedirectorypackage" source="15" sourcepath="src/test/resources;src/main/resources;src/test/java;src/main/java" splitindex="true" use="true" version="true"/>
+    </target>
+</project>

@@ -1,0 +1,22 @@
+================ HELP ===================
+
+TOPIC
+	Telephone Directory Help System
+
+DESCRIPTION
+	Displays help about Telephone Directory cmdlets and concepts.
+	
+----------------------------------------
+Key		|	Description
+----------------------------------------
+B or b		|	Back to Main Menu
+D or d		|	Delete a contact
+F or f		|	Find a contact by query of type char 'A' - 'Z', string or number.
+H or h		|	Displays help about Telephone Directory cmdlets and concepts.  
+N or n		|	Create and add New Contact to Telephone Directory 
+L or l		|	List all Telephone Directory details 
+Q or q		|	Quit application
+Spacebar	|	Used to scroll through, while listing all Telephone Directory details 
+U or u		|	Update a contact
+
+================ END ===================

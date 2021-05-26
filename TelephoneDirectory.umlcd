@@ -1,0 +1,1441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_YqL5oL5uEeuUdIo-vNH3CQ">
+  <modelElement href="TelephoneDirectory.uml#_aScQ4L5uEeuUdIo-vNH3CQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_bElfgL5uEeuUdIo-vNH3CQ" targetItem="_bE9S8L5uEeuUdIo-vNH3CQ" sourceItem="_bEjqUL5uEeuUdIo-vNH3CQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_bE7dwL5uEeuUdIo-vNH3CQ" source="_bE9S8L5uEeuUdIo-vNH3CQ">
+    <modelElement href="TelephoneDirectory.uml#_ajC4sL5uEeuUdIo-vNH3CQ"/>
+    <stereotypes xmi:id="_bE7dwb5uEeuUdIo-vNH3CQ" name="Reference">
+      <modelElement href="TelephoneDirectory.uml#_ajF8AL5uEeuUdIo-vNH3CQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_bE7dwr5uEeuUdIo-vNH3CQ" text=""/>
+    <sourceRole xmi:id="_bE7dw75uEeuUdIo-vNH3CQ" aggregationKind="NONE" name="">
+      <modelElement href="TelephoneDirectory.uml#_ajC4sb5uEeuUdIo-vNH3CQ"/>
+      <visibility xmi:id="_bE7dxL5uEeuUdIo-vNH3CQ" label="+"/>
+      <cardinality xmi:id="_bE7dxb5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_bE7dxr5uEeuUdIo-vNH3CQ" aggregationKind="NONE" name="uid" navigable="true">
+      <modelElement href="TelephoneDirectory.uml#_ag48kL5uEeuUdIo-vNH3CQ"/>
+      <visibility xmi:id="_bE7dx75uEeuUdIo-vNH3CQ" label="+"/>
+      <cardinality xmi:id="_bE7dyL5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_bHRnIb5uEeuUdIo-vNH3CQ" targetItem="_bHUqcL5uEeuUdIo-vNH3CQ" sourceItem="_bHRnIL5uEeuUdIo-vNH3CQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_bHZi8L5uEeuUdIo-vNH3CQ" targetItem="_bHr20L5uEeuUdIo-vNH3CQ" sourceItem="_bHY74L5uEeuUdIo-vNH3CQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_bIERUL5uEeuUdIo-vNH3CQ" sourceAnchor="0.0,125.0" targetAnchor="165.0,92.0" target="_bHr20L5uEeuUdIo-vNH3CQ" source="_bIfvKL5uEeuUdIo-vNH3CQ">
+    <modelElement href="TelephoneDirectory.uml#_ajI_UL5uEeuUdIo-vNH3CQ"/>
+    <bendpoints xmi:id="_buHksL5uEeuUdIo-vNH3CQ" sourceX="-249" targetY="180"/>
+    <stereotypes xmi:id="_bIIiwb5uEeuUdIo-vNH3CQ" name="Reference">
+      <modelElement href="TelephoneDirectory.uml#_ajJmYL5uEeuUdIo-vNH3CQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_bIH7sL5uEeuUdIo-vNH3CQ" text="">
+      <visualProperties xmi:id="_buNEQL5uEeuUdIo-vNH3CQ" position="206.78670531479048,-18.008978727743084"/>
+    </nameVisual>
+    <sourceRole xmi:id="_bIH7sb5uEeuUdIo-vNH3CQ" aggregationKind="NONE" name="">
+      <modelElement href="TelephoneDirectory.uml#_ajI_Ub5uEeuUdIo-vNH3CQ"/>
+      <visualProperties xmi:id="_buMdML5uEeuUdIo-vNH3CQ" position="-59.81037676447551,-33.4945414331595"/>
+      <visibility xmi:id="_bIWlMr5uEeuUdIo-vNH3CQ" label="+"/>
+      <cardinality xmi:id="_bIWlMb5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_bIIiwL5uEeuUdIo-vNH3CQ" aggregationKind="NONE" name="fileHandler" navigable="true">
+      <modelElement href="TelephoneDirectory.uml#_ahFJ0L5uEeuUdIo-vNH3CQ"/>
+      <visualProperties xmi:id="_buNrUL5uEeuUdIo-vNH3CQ" position="207.72762980884977,146.8768492431946"/>
+      <visibility xmi:id="_bIXMQb5uEeuUdIo-vNH3CQ" label="~"/>
+      <cardinality xmi:id="_bIXMQL5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_bIGtkb5uEeuUdIo-vNH3CQ" targetItem="_bIfvKL5uEeuUdIo-vNH3CQ" sourceItem="_bIGtkL5uEeuUdIo-vNH3CQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_bIHUoL5uEeuUdIo-vNH3CQ" source="_bIfvKL5uEeuUdIo-vNH3CQ">
+    <modelElement href="TelephoneDirectory.uml#_ajGjEL5uEeuUdIo-vNH3CQ"/>
+    <stereotypes xmi:id="_bIWlML5uEeuUdIo-vNH3CQ" name="Reference">
+      <modelElement href="TelephoneDirectory.uml#_ajIYQL5uEeuUdIo-vNH3CQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_bIV-IL5uEeuUdIo-vNH3CQ" text=""/>
+    <sourceRole xmi:id="_bIV-Ib5uEeuUdIo-vNH3CQ" aggregationKind="NONE" name="">
+      <modelElement href="TelephoneDirectory.uml#_ajGjEb5uEeuUdIo-vNH3CQ"/>
+      <visibility xmi:id="_bIZogL5uEeuUdIo-vNH3CQ" label="+"/>
+      <cardinality xmi:id="_bIZBcL5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_bIV-Ir5uEeuUdIo-vNH3CQ" aggregationKind="NONE" name="contactList" navigable="true">
+      <modelElement href="TelephoneDirectory.uml#_ag_qQL5uEeuUdIo-vNH3CQ"/>
+      <visibility xmi:id="_bIZogr5uEeuUdIo-vNH3CQ" label="-"/>
+      <cardinality xmi:id="_bIZogb5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_bIKX8b5uEeuUdIo-vNH3CQ" targetItem="_bIgWRr5uEeuUdIo-vNH3CQ" sourceItem="_bIKX8L5uEeuUdIo-vNH3CQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_bIMNIL5uEeuUdIo-vNH3CQ" targetItem="_bIgWT75uEeuUdIo-vNH3CQ" sourceItem="_bILmEL5uEeuUdIo-vNH3CQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_bINbQb5uEeuUdIo-vNH3CQ" targetItem="_bIgWVb5uEeuUdIo-vNH3CQ" sourceItem="_bINbQL5uEeuUdIo-vNH3CQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_bIOpYb5uEeuUdIo-vNH3CQ" targetItem="_bIgWXb5uEeuUdIo-vNH3CQ" sourceItem="_bIOpYL5uEeuUdIo-vNH3CQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_bIP3gb5uEeuUdIo-vNH3CQ" targetItem="_bIgWZr5uEeuUdIo-vNH3CQ" sourceItem="_bIP3gL5uEeuUdIo-vNH3CQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_bIRFoL5uEeuUdIo-vNH3CQ" targetItem="_bIgWbr5uEeuUdIo-vNH3CQ" sourceItem="_bIQekL5uEeuUdIo-vNH3CQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_bIRssb5uEeuUdIo-vNH3CQ" targetItem="_bIgWdL5uEeuUdIo-vNH3CQ" sourceItem="_bIRssL5uEeuUdIo-vNH3CQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_bIS60L5uEeuUdIo-vNH3CQ" targetItem="_bIgWer5uEeuUdIo-vNH3CQ" sourceItem="_bISTwL5uEeuUdIo-vNH3CQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_bITh4b5uEeuUdIo-vNH3CQ" targetItem="_bIgWgr5uEeuUdIo-vNH3CQ" sourceItem="_bITh4L5uEeuUdIo-vNH3CQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_bIfIEL5uEeuUdIo-vNH3CQ" sourceAnchor="159.0,0.0" targetAnchor="0.0,116.0" target="_bNKzyb5uEeuUdIo-vNH3CQ" source="_bIfvKL5uEeuUdIo-vNH3CQ">
+    <modelElement href="TelephoneDirectory.uml#_ajKNcL5uEeuUdIo-vNH3CQ"/>
+    <bendpoints xmi:id="_buJZ4L5uEeuUdIo-vNH3CQ" sourceY="-171" targetX="-238"/>
+    <stereotypes xmi:id="_bIfvIL5uEeuUdIo-vNH3CQ" name="Reference">
+      <modelElement href="TelephoneDirectory.uml#_ajMCoL5uEeuUdIo-vNH3CQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_bIfvIb5uEeuUdIo-vNH3CQ" text="">
+      <visualProperties xmi:id="_buQuoL5uEeuUdIo-vNH3CQ" position="-22.140103591661813,17.6599511549598"/>
+    </nameVisual>
+    <sourceRole xmi:id="_bIfvIr5uEeuUdIo-vNH3CQ" aggregationKind="NONE" name="">
+      <modelElement href="TelephoneDirectory.uml#_ajKNcb5uEeuUdIo-vNH3CQ"/>
+      <visualProperties xmi:id="_buO5cL5uEeuUdIo-vNH3CQ" position="-16.086690308409004,-80.38873327216518"/>
+      <visibility xmi:id="_bIfvI75uEeuUdIo-vNH3CQ" label="+"/>
+      <cardinality xmi:id="_bIfvJL5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_bIfvJb5uEeuUdIo-vNH3CQ" aggregationKind="NONE" name="helpers" navigable="true">
+      <modelElement href="TelephoneDirectory.uml#_ahFw4b5uEeuUdIo-vNH3CQ"/>
+      <visualProperties xmi:id="_buRVsL5uEeuUdIo-vNH3CQ" position="-272.37370208112577,-79.20184126971569"/>
+      <visibility xmi:id="_bIfvJr5uEeuUdIo-vNH3CQ" label="~"/>
+      <cardinality xmi:id="_bIfvJ75uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_bKG4sb5uEeuUdIo-vNH3CQ" targetItem="_bKSe4L5uEeuUdIo-vNH3CQ" sourceItem="_bKG4sL5uEeuUdIo-vNH3CQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_bKIG0L5uEeuUdIo-vNH3CQ" sourceAnchor="0.0,155.0" targetAnchor="130.0,211.0" dashed="true" superClass="_bKSe4L5uEeuUdIo-vNH3CQ" subClass="_bIfvKL5uEeuUdIo-vNH3CQ">
+    <modelElement href="TelephoneDirectory.uml#_aeSUgL5uEeuUdIo-vNH3CQ"/>
+    <bendpoints xmi:id="_buJZ4b5uEeuUdIo-vNH3CQ" sourceX="-597" targetY="210"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_bKIt4L5uEeuUdIo-vNH3CQ" source="_bKSe4L5uEeuUdIo-vNH3CQ">
+    <modelElement href="TelephoneDirectory.uml#_ai-AML5uEeuUdIo-vNH3CQ"/>
+    <stereotypes xmi:id="_bKPbkL5uEeuUdIo-vNH3CQ" name="Reference">
+      <modelElement href="TelephoneDirectory.uml#_ai-nQL5uEeuUdIo-vNH3CQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_bKONcL5uEeuUdIo-vNH3CQ" text=""/>
+    <sourceRole xmi:id="_bKO0gL5uEeuUdIo-vNH3CQ" aggregationKind="NONE" name="">
+      <modelElement href="TelephoneDirectory.uml#_ai-AMb5uEeuUdIo-vNH3CQ"/>
+      <visibility xmi:id="_bKQCob5uEeuUdIo-vNH3CQ" label="+"/>
+      <cardinality xmi:id="_bKQCoL5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_bKO0gb5uEeuUdIo-vNH3CQ" aggregationKind="NONE" name="all" navigable="true">
+      <modelElement href="TelephoneDirectory.uml#_aZ1SUL5uEeuUdIo-vNH3CQ"/>
+      <visibility xmi:id="_bKQpsb5uEeuUdIo-vNH3CQ" label="+"/>
+      <cardinality xmi:id="_bKQpsL5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_bK6xAL5uEeuUdIo-vNH3CQ" sourceAnchor="110.0,0.0" targetAnchor="159.0,251.0" target="_bIfvKL5uEeuUdIo-vNH3CQ" source="_bLvQYL5uEeuUdIo-vNH3CQ">
+    <modelElement href="TelephoneDirectory.uml#_ajQ7IL5uEeuUdIo-vNH3CQ"/>
+    <stereotypes xmi:id="_bK_CcL5uEeuUdIo-vNH3CQ" name="Reference">
+      <modelElement href="TelephoneDirectory.uml#_ajgLsL5uEeuUdIo-vNH3CQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_bK90UL5uEeuUdIo-vNH3CQ" text="">
+      <visualProperties xmi:id="_buTx8L5uEeuUdIo-vNH3CQ" position="-9.617424774347853,-93.85107975725234"/>
+    </nameVisual>
+    <sourceRole xmi:id="_bK90Ub5uEeuUdIo-vNH3CQ" aggregationKind="NONE" name="">
+      <modelElement href="TelephoneDirectory.uml#_ajQ7Ib5uEeuUdIo-vNH3CQ"/>
+      <visualProperties xmi:id="_buSj0L5uEeuUdIo-vNH3CQ" position="3.051153261719378,-72.34347511546508"/>
+      <visibility xmi:id="_bLbHUb5uEeuUdIo-vNH3CQ" label="+"/>
+      <cardinality xmi:id="_bLbHUL5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_bK-bYL5uEeuUdIo-vNH3CQ" aggregationKind="NONE" name="db" navigable="true">
+      <modelElement href="TelephoneDirectory.uml#_ahQI8L5uEeuUdIo-vNH3CQ"/>
+      <visualProperties xmi:id="_buUZAL5uEeuUdIo-vNH3CQ" position="-3.6905135905646205,-153.74337710950903"/>
+      <visibility xmi:id="_bLbuYL5uEeuUdIo-vNH3CQ" label="~"/>
+      <cardinality xmi:id="_bLbHUr5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_bK9NQb5uEeuUdIo-vNH3CQ" targetItem="_bLvQYL5uEeuUdIo-vNH3CQ" sourceItem="_bK9NQL5uEeuUdIo-vNH3CQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_bK_Ccb5uEeuUdIo-vNH3CQ" sourceAnchor="411.0,104.0" targetAnchor="460.0,232.0" target="_bNKzyb5uEeuUdIo-vNH3CQ" source="_bLvQYL5uEeuUdIo-vNH3CQ">
+    <modelElement href="TelephoneDirectory.uml#_ajgywL5uEeuUdIo-vNH3CQ"/>
+    <bendpoints xmi:id="_buLPEL5uEeuUdIo-vNH3CQ" sourceX="397" targetY="465"/>
+    <stereotypes xmi:id="_bLcVcb5uEeuUdIo-vNH3CQ" name="Reference">
+      <modelElement href="TelephoneDirectory.uml#_ajhZ0L5uEeuUdIo-vNH3CQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_bLbuYr5uEeuUdIo-vNH3CQ" text="">
+      <visualProperties xmi:id="_buW1QL5uEeuUdIo-vNH3CQ" position="-276.89750744161836,-17.43582993368682"/>
+    </nameVisual>
+    <sourceRole xmi:id="_bLbuY75uEeuUdIo-vNH3CQ" aggregationKind="NONE" name="">
+      <modelElement href="TelephoneDirectory.uml#_ajgywb5uEeuUdIo-vNH3CQ"/>
+      <visualProperties xmi:id="_buVnIL5uEeuUdIo-vNH3CQ" position="41.938450393984766,-33.378401658401344"/>
+      <visibility xmi:id="_bLsNEL5uEeuUdIo-vNH3CQ" label="+"/>
+      <cardinality xmi:id="_bLrmAL5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_bLcVcL5uEeuUdIo-vNH3CQ" aggregationKind="NONE" name="helpers" navigable="true">
+      <modelElement href="TelephoneDirectory.uml#_ahQwAb5uEeuUdIo-vNH3CQ"/>
+      <visualProperties xmi:id="_buXcUL5uEeuUdIo-vNH3CQ" position="-185.63209230870598,431.0388268241844"/>
+      <visibility xmi:id="_bLsNEr5uEeuUdIo-vNH3CQ" label="~"/>
+      <cardinality xmi:id="_bLsNEb5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_bLAQkL5uEeuUdIo-vNH3CQ" targetItem="_bLvQcr5uEeuUdIo-vNH3CQ" sourceItem="_bK_pgL5uEeuUdIo-vNH3CQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_bLA3oL5uEeuUdIo-vNH3CQ" targetItem="_bLvQeL5uEeuUdIo-vNH3CQ" sourceItem="_bLAQkb5uEeuUdIo-vNH3CQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_bLBesL5uEeuUdIo-vNH3CQ" targetItem="_bLvQe75uEeuUdIo-vNH3CQ" sourceItem="_bLA3ob5uEeuUdIo-vNH3CQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_bLBesr5uEeuUdIo-vNH3CQ" targetItem="_bLvQfr5uEeuUdIo-vNH3CQ" sourceItem="_bLBesb5uEeuUdIo-vNH3CQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_bLCs0L5uEeuUdIo-vNH3CQ" targetItem="_bLvQgb5uEeuUdIo-vNH3CQ" sourceItem="_bLCFwL5uEeuUdIo-vNH3CQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_bLDT4L5uEeuUdIo-vNH3CQ" targetItem="_bLvQhL5uEeuUdIo-vNH3CQ" sourceItem="_bLCs0b5uEeuUdIo-vNH3CQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_bLD68b5uEeuUdIo-vNH3CQ" targetItem="_bLvQh75uEeuUdIo-vNH3CQ" sourceItem="_bLD68L5uEeuUdIo-vNH3CQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_bLJagb5uEeuUdIo-vNH3CQ" targetItem="_bLvQir5uEeuUdIo-vNH3CQ" sourceItem="_bLJagL5uEeuUdIo-vNH3CQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_bLLPsL5uEeuUdIo-vNH3CQ" targetItem="_bLvQkL5uEeuUdIo-vNH3CQ" sourceItem="_bLKooL5uEeuUdIo-vNH3CQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_bLNE4L5uEeuUdIo-vNH3CQ" targetItem="_bLvQlb5uEeuUdIo-vNH3CQ" sourceItem="_bLMd0L5uEeuUdIo-vNH3CQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_bLO6EL5uEeuUdIo-vNH3CQ" targetItem="_bLvQmr5uEeuUdIo-vNH3CQ" sourceItem="_bLOTAL5uEeuUdIo-vNH3CQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_bLQIMb5uEeuUdIo-vNH3CQ" targetItem="_bLvQn75uEeuUdIo-vNH3CQ" sourceItem="_bLQIML5uEeuUdIo-vNH3CQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_bLRWUb5uEeuUdIo-vNH3CQ" targetItem="_bLvQpb5uEeuUdIo-vNH3CQ" sourceItem="_bLRWUL5uEeuUdIo-vNH3CQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_bLSkcL5uEeuUdIo-vNH3CQ" targetItem="_bLvQq75uEeuUdIo-vNH3CQ" sourceItem="_bLR9YL5uEeuUdIo-vNH3CQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_bLTLgL5uEeuUdIo-vNH3CQ" targetItem="_bLvQrr5uEeuUdIo-vNH3CQ" sourceItem="_bLSkcb5uEeuUdIo-vNH3CQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_bLTLgr5uEeuUdIo-vNH3CQ" targetItem="_bLvQsb5uEeuUdIo-vNH3CQ" sourceItem="_bLTLgb5uEeuUdIo-vNH3CQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_bLUZoL5uEeuUdIo-vNH3CQ" targetItem="_bLvQtL5uEeuUdIo-vNH3CQ" sourceItem="_bLTykL5uEeuUdIo-vNH3CQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_bLVAsL5uEeuUdIo-vNH3CQ" targetItem="_bLvQvb5uEeuUdIo-vNH3CQ" sourceItem="_bLUZob5uEeuUdIo-vNH3CQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_bLVnwL5uEeuUdIo-vNH3CQ" targetItem="_bLvQw75uEeuUdIo-vNH3CQ" sourceItem="_bLVAsb5uEeuUdIo-vNH3CQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_bLW14b5uEeuUdIo-vNH3CQ" targetItem="_bLvQyb5uEeuUdIo-vNH3CQ" sourceItem="_bLW14L5uEeuUdIo-vNH3CQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_bLYEAb5uEeuUdIo-vNH3CQ" targetItem="_bLvQ2b5uEeuUdIo-vNH3CQ" sourceItem="_bLYEAL5uEeuUdIo-vNH3CQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_bLYrEb5uEeuUdIo-vNH3CQ" targetItem="_bLvQ4r5uEeuUdIo-vNH3CQ" sourceItem="_bLYrEL5uEeuUdIo-vNH3CQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_bLZ5ML5uEeuUdIo-vNH3CQ" targetItem="_bLv3dL5uEeuUdIo-vNH3CQ" sourceItem="_bLZSIL5uEeuUdIo-vNH3CQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_bLupUL5uEeuUdIo-vNH3CQ" source="_bLvQYL5uEeuUdIo-vNH3CQ">
+    <modelElement href="TelephoneDirectory.uml#_ajPtAb5uEeuUdIo-vNH3CQ"/>
+    <stereotypes xmi:id="_bLupUb5uEeuUdIo-vNH3CQ" name="Reference">
+      <modelElement href="TelephoneDirectory.uml#_ajQUEL5uEeuUdIo-vNH3CQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_bLupUr5uEeuUdIo-vNH3CQ" text=""/>
+    <sourceRole xmi:id="_bLupU75uEeuUdIo-vNH3CQ" aggregationKind="NONE" name="">
+      <modelElement href="TelephoneDirectory.uml#_ajPtAr5uEeuUdIo-vNH3CQ"/>
+      <visibility xmi:id="_bLupVL5uEeuUdIo-vNH3CQ" label="+"/>
+      <cardinality xmi:id="_bLupVb5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_bLupVr5uEeuUdIo-vNH3CQ" aggregationKind="NONE" name="scanner" navigable="true">
+      <modelElement href="TelephoneDirectory.uml#_ahO60L5uEeuUdIo-vNH3CQ"/>
+      <visibility xmi:id="_bLupV75uEeuUdIo-vNH3CQ" label="-"/>
+      <cardinality xmi:id="_bLupWL5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_bM5G8b5uEeuUdIo-vNH3CQ" targetItem="_bNKzyb5uEeuUdIo-vNH3CQ" sourceItem="_bM5G8L5uEeuUdIo-vNH3CQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_bNI-kL5uEeuUdIo-vNH3CQ" source="_bNKzyb5uEeuUdIo-vNH3CQ">
+    <modelElement href="TelephoneDirectory.uml#_ajMpsL5uEeuUdIo-vNH3CQ"/>
+    <stereotypes xmi:id="_bNI-kb5uEeuUdIo-vNH3CQ" name="Reference">
+      <modelElement href="TelephoneDirectory.uml#_ajNQwL5uEeuUdIo-vNH3CQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_bNI-kr5uEeuUdIo-vNH3CQ" text=""/>
+    <sourceRole xmi:id="_bNI-k75uEeuUdIo-vNH3CQ" aggregationKind="NONE" name="">
+      <modelElement href="TelephoneDirectory.uml#_ajMpsb5uEeuUdIo-vNH3CQ"/>
+      <visibility xmi:id="_bNI-lL5uEeuUdIo-vNH3CQ" label="+"/>
+      <cardinality xmi:id="_bNI-lb5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_bNI-lr5uEeuUdIo-vNH3CQ" aggregationKind="NONE" name="firstnameComparator" navigable="true">
+      <modelElement href="TelephoneDirectory.uml#_ahHmEL5uEeuUdIo-vNH3CQ"/>
+      <visibility xmi:id="_bNI-l75uEeuUdIo-vNH3CQ" label="+"/>
+      <cardinality xmi:id="_bNI-mL5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_bNKzwL5uEeuUdIo-vNH3CQ" source="_bNKzyb5uEeuUdIo-vNH3CQ">
+    <modelElement href="TelephoneDirectory.uml#_ajN30L5uEeuUdIo-vNH3CQ"/>
+    <stereotypes xmi:id="_bNKzwb5uEeuUdIo-vNH3CQ" name="Reference">
+      <modelElement href="TelephoneDirectory.uml#_ajPtAL5uEeuUdIo-vNH3CQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_bNKzwr5uEeuUdIo-vNH3CQ" text=""/>
+    <sourceRole xmi:id="_bNKzw75uEeuUdIo-vNH3CQ" aggregationKind="NONE" name="">
+      <modelElement href="TelephoneDirectory.uml#_ajN30b5uEeuUdIo-vNH3CQ"/>
+      <visibility xmi:id="_bNKzxL5uEeuUdIo-vNH3CQ" label="+"/>
+      <cardinality xmi:id="_bNKzxb5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_bNKzxr5uEeuUdIo-vNH3CQ" aggregationKind="NONE" name="uuidComparator" navigable="true">
+      <modelElement href="TelephoneDirectory.uml#_ahL3gL5uEeuUdIo-vNH3CQ"/>
+      <visibility xmi:id="_bNKzx75uEeuUdIo-vNH3CQ" label="+"/>
+      <cardinality xmi:id="_bNKzyL5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_bEjqUL5uEeuUdIo-vNH3CQ" sourceConnectionVisual="_bElfgL5uEeuUdIo-vNH3CQ" text="Contact class&#xD;&#xA;@author Ismail&#xD;&#xA; *" item="_bE9S8L5uEeuUdIo-vNH3CQ">
+    <modelElement href="TelephoneDirectory.uml#_aiopAL5uEeuUdIo-vNH3CQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_bHRnIL5uEeuUdIo-vNH3CQ" sourceConnectionVisual="_bHRnIb5uEeuUdIo-vNH3CQ" text="Main Class - initialize the TelephoneDirectory app&#xD;&#xA;@author Ismail&#xD;&#xA; *" item="_bHUqcL5uEeuUdIo-vNH3CQ">
+    <modelElement href="TelephoneDirectory.uml#_airFQb5uEeuUdIo-vNH3CQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_bHY74L5uEeuUdIo-vNH3CQ" sourceConnectionVisual="_bHZi8L5uEeuUdIo-vNH3CQ" text="FileHadler Utility to write and read Json file" item="_bHr20L5uEeuUdIo-vNH3CQ">
+    <modelElement href="TelephoneDirectory.uml#_aip3I75uEeuUdIo-vNH3CQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_bIGtkL5uEeuUdIo-vNH3CQ" sourceConnectionVisual="_bIGtkb5uEeuUdIo-vNH3CQ" text="Database class - handle all db operations&#xD;&#xA;@author Ismail&#xD;&#xA; *" item="_bIfvKL5uEeuUdIo-vNH3CQ">
+    <modelElement href="TelephoneDirectory.uml#_aiopAb5uEeuUdIo-vNH3CQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_bIKX8L5uEeuUdIo-vNH3CQ" sourceConnectionVisual="_bIKX8b5uEeuUdIo-vNH3CQ" text="Database Constructor&#xD;&#xA;&#x9; * @param pathToDatabase" item="_bIgWRr5uEeuUdIo-vNH3CQ">
+    <modelElement href="TelephoneDirectory.uml#_aipQEL5uEeuUdIo-vNH3CQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_bILmEL5uEeuUdIo-vNH3CQ" sourceConnectionVisual="_bIMNIL5uEeuUdIo-vNH3CQ" text="get all contacts in database&#xD;&#xA;&#x9; * @return contact list" item="_bIgWT75uEeuUdIo-vNH3CQ">
+    <modelElement href="TelephoneDirectory.uml#_aipQEb5uEeuUdIo-vNH3CQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_bINbQL5uEeuUdIo-vNH3CQ" sourceConnectionVisual="_bINbQb5uEeuUdIo-vNH3CQ" text="get a single contact&#xD;&#xA;&#x9; * @param query - string" item="_bIgWVb5uEeuUdIo-vNH3CQ">
+    <modelElement href="TelephoneDirectory.uml#_aipQEr5uEeuUdIo-vNH3CQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_bIOpYL5uEeuUdIo-vNH3CQ" sourceConnectionVisual="_bIOpYb5uEeuUdIo-vNH3CQ" text="find all matches to a query in the database&#xD;&#xA;&#x9; * @param queryString&#xD;&#xA;&#x9; * @return array list of contacts or empty array list" item="_bIgWXb5uEeuUdIo-vNH3CQ">
+    <modelElement href="TelephoneDirectory.uml#_aip3IL5uEeuUdIo-vNH3CQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_bIP3gL5uEeuUdIo-vNH3CQ" sourceConnectionVisual="_bIP3gb5uEeuUdIo-vNH3CQ" text="find exact match to a query in the database&#xD;&#xA;&#x9; * @param queryString&#xD;&#xA;&#x9; * @return contact object or null" item="_bIgWZr5uEeuUdIo-vNH3CQ">
+    <modelElement href="TelephoneDirectory.uml#_aip3Ib5uEeuUdIo-vNH3CQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_bIQekL5uEeuUdIo-vNH3CQ" sourceConnectionVisual="_bIRFoL5uEeuUdIo-vNH3CQ" text="fetch db.json file from local storage,&#xD;&#xA;&#x9; * parse and return data&#xD;&#xA;&#x9; * @return array list of contacts" item="_bIgWbr5uEeuUdIo-vNH3CQ">
+    <modelElement href="TelephoneDirectory.uml#_aip3Ir5uEeuUdIo-vNH3CQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_bIRssL5uEeuUdIo-vNH3CQ" sourceConnectionVisual="_bIRssb5uEeuUdIo-vNH3CQ" text="create and write to database&#xD;&#xA;&#x9; * @param data - contact object" item="_bIgWdL5uEeuUdIo-vNH3CQ">
+    <modelElement href="TelephoneDirectory.uml#_aipQE75uEeuUdIo-vNH3CQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_bISTwL5uEeuUdIo-vNH3CQ" sourceConnectionVisual="_bIS60L5uEeuUdIo-vNH3CQ" text="update or patch contact object and write to database&#xD;&#xA;&#x9; * @param data - contact object&#xD;&#xA;&#x9; * @return boolean" item="_bIgWer5uEeuUdIo-vNH3CQ">
+    <modelElement href="TelephoneDirectory.uml#_aipQFL5uEeuUdIo-vNH3CQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_bITh4L5uEeuUdIo-vNH3CQ" sourceConnectionVisual="_bITh4b5uEeuUdIo-vNH3CQ" text="delete contact object from database&#xD;&#xA;&#x9; * @param query - uuid" item="_bIgWgr5uEeuUdIo-vNH3CQ">
+    <modelElement href="TelephoneDirectory.uml#_aipQFb5uEeuUdIo-vNH3CQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_bKG4sL5uEeuUdIo-vNH3CQ" sourceConnectionVisual="_bKG4sb5uEeuUdIo-vNH3CQ" text="Database Interface&#xD;&#xA;@author Ismail&#xD;&#xA; *" item="_bKSe4L5uEeuUdIo-vNH3CQ">
+    <modelElement href="TelephoneDirectory.uml#_airFQL5uEeuUdIo-vNH3CQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_bK9NQL5uEeuUdIo-vNH3CQ" sourceConnectionVisual="_bK9NQb5uEeuUdIo-vNH3CQ" text="Telephone Directory Class - &#xD;&#xA;main composition of the app&#xD;&#xA;@author Ismail&#xD;&#xA; *" item="_bLvQYL5uEeuUdIo-vNH3CQ">
+    <modelElement href="TelephoneDirectory.uml#_airFQr5uEeuUdIo-vNH3CQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_bK_pgL5uEeuUdIo-vNH3CQ" sourceConnectionVisual="_bLAQkL5uEeuUdIo-vNH3CQ" text="Telephone Directory constructor" item="_bLvQcr5uEeuUdIo-vNH3CQ">
+    <modelElement href="TelephoneDirectory.uml#_airFQ75uEeuUdIo-vNH3CQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_bLAQkb5uEeuUdIo-vNH3CQ" sourceConnectionVisual="_bLA3oL5uEeuUdIo-vNH3CQ" text="request user actions and listen for response" item="_bLvQeL5uEeuUdIo-vNH3CQ">
+    <modelElement href="TelephoneDirectory.uml#_airsUL5uEeuUdIo-vNH3CQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_bLA3ob5uEeuUdIo-vNH3CQ" sourceConnectionVisual="_bLBesL5uEeuUdIo-vNH3CQ" text="Displays help about Telephone Directory cmdlets" item="_bLvQe75uEeuUdIo-vNH3CQ">
+    <modelElement href="TelephoneDirectory.uml#_airsUb5uEeuUdIo-vNH3CQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_bLBesb5uEeuUdIo-vNH3CQ" sourceConnectionVisual="_bLBesr5uEeuUdIo-vNH3CQ" text="creates a new contact&#xD;&#xA;&#x9; * and save to the database" item="_bLvQfr5uEeuUdIo-vNH3CQ">
+    <modelElement href="TelephoneDirectory.uml#_airsUr5uEeuUdIo-vNH3CQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_bLCFwL5uEeuUdIo-vNH3CQ" sourceConnectionVisual="_bLCs0L5uEeuUdIo-vNH3CQ" text="list all contacts in the Telephone Directory" item="_bLvQgb5uEeuUdIo-vNH3CQ">
+    <modelElement href="TelephoneDirectory.uml#_airsU75uEeuUdIo-vNH3CQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_bLCs0b5uEeuUdIo-vNH3CQ" sourceConnectionVisual="_bLDT4L5uEeuUdIo-vNH3CQ" text="find contact by query&lt;br>&#xD;&#xA;&#x9; * prompts user for:&#xD;&#xA;&#x9; * &lt;ul>&#xD;&#xA;&#x9; * &#x9;&lt;li>query string&lt;/li>&#xD;&#xA;&#x9; * &#x9;&lt;li>find exact match&lt;/li>&#xD;&#xA;&#x9; * &#x9;&lt;li>find all possible match&lt;/li>&#xD;&#xA;&#x9; * &lt;/ul>" item="_bLvQhL5uEeuUdIo-vNH3CQ">
+    <modelElement href="TelephoneDirectory.uml#_airsVL5uEeuUdIo-vNH3CQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_bLD68L5uEeuUdIo-vNH3CQ" sourceConnectionVisual="_bLD68b5uEeuUdIo-vNH3CQ" text="kill or stop running application" item="_bLvQh75uEeuUdIo-vNH3CQ">
+    <modelElement href="TelephoneDirectory.uml#_airsVb5uEeuUdIo-vNH3CQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_bLJagL5uEeuUdIo-vNH3CQ" sourceConnectionVisual="_bLJagb5uEeuUdIo-vNH3CQ" text="generate an object map &#xD;&#xA;&#x9; * &lt;ul>&#xD;&#xA;&#x9; * &#x9;&lt;li>whose keys ranges from 0 to Z char&lt;/li> &#xD;&#xA;&#x9; * &#x9;&lt;li>holds boolean value - true or false&lt;/li>&#xD;&#xA;&#x9; * &lt;/ul>&#xD;&#xA;&#x9; * @return Map" item="_bLvQir5uEeuUdIo-vNH3CQ">
+    <modelElement href="TelephoneDirectory.uml#_airsV75uEeuUdIo-vNH3CQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_bLKooL5uEeuUdIo-vNH3CQ" sourceConnectionVisual="_bLLPsL5uEeuUdIo-vNH3CQ" text="prompt user to enter search query&lt;br>" item="_bLvQkL5uEeuUdIo-vNH3CQ">
+    <modelElement href="TelephoneDirectory.uml#_aisTYb5uEeuUdIo-vNH3CQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_bLMd0L5uEeuUdIo-vNH3CQ" sourceConnectionVisual="_bLNE4L5uEeuUdIo-vNH3CQ" text="prompt user to enter details for a new contact&lt;br>&#xD;&#xA;&#x9; * &lt;small>prompt for &lt;i>firstname, lastname, phone&lt;/i>&lt;/small>&#xD;&#xA;&#x9; * @return a new contact object" item="_bLvQlb5uEeuUdIo-vNH3CQ">
+    <modelElement href="TelephoneDirectory.uml#_aisTYr5uEeuUdIo-vNH3CQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_bLOTAL5uEeuUdIo-vNH3CQ" sourceConnectionVisual="_bLO6EL5uEeuUdIo-vNH3CQ" text="prompt user for action to either find all matches to query,&#xD;&#xA;&#x9; * find the exact match or quit app&#xD;&#xA;&#x9; * @return boolean" item="_bLvQmr5uEeuUdIo-vNH3CQ">
+    <modelElement href="TelephoneDirectory.uml#_ais6cL5uEeuUdIo-vNH3CQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_bLQIML5uEeuUdIo-vNH3CQ" sourceConnectionVisual="_bLQIMb5uEeuUdIo-vNH3CQ" text="A wrapper arround System.out.println. &#xD;&#xA;&#x9; * Prints string data to the console&#xD;&#xA;&#x9; * @param data" item="_bLvQn75uEeuUdIo-vNH3CQ">
+    <modelElement href="TelephoneDirectory.uml#_ais6c75uEeuUdIo-vNH3CQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_bLRWUL5uEeuUdIo-vNH3CQ" sourceConnectionVisual="_bLRWUb5uEeuUdIo-vNH3CQ" text="print data inline" item="_bLvQpb5uEeuUdIo-vNH3CQ">
+    <modelElement href="TelephoneDirectory.uml#_ais6dL5uEeuUdIo-vNH3CQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_bLR9YL5uEeuUdIo-vNH3CQ" sourceConnectionVisual="_bLSkcL5uEeuUdIo-vNH3CQ" text="print an empty line to std-output" item="_bLvQq75uEeuUdIo-vNH3CQ">
+    <modelElement href="TelephoneDirectory.uml#_ais6db5uEeuUdIo-vNH3CQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_bLSkcb5uEeuUdIo-vNH3CQ" sourceConnectionVisual="_bLTLgL5uEeuUdIo-vNH3CQ" text="&lt;p>&lt;i>visual que&lt;/i>&lt;/p>&#xD;&#xA;&#x9; * imitate application startup progress feedback" item="_bLvQrr5uEeuUdIo-vNH3CQ">
+    <modelElement href="TelephoneDirectory.uml#_ais6dr5uEeuUdIo-vNH3CQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_bLTLgb5uEeuUdIo-vNH3CQ" sourceConnectionVisual="_bLTLgr5uEeuUdIo-vNH3CQ" text="&lt;p>&lt;i>visual que&lt;/i>&lt;/p>&#xD;&#xA;&#x9; * imitate application exit progress feedback" item="_bLvQsb5uEeuUdIo-vNH3CQ">
+    <modelElement href="TelephoneDirectory.uml#_ais6d75uEeuUdIo-vNH3CQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_bLTykL5uEeuUdIo-vNH3CQ" sourceConnectionVisual="_bLUZoL5uEeuUdIo-vNH3CQ" text="display total execution time after a task &#xD;&#xA;&#x9; * @param startTime&#xD;&#xA;&#x9; * @param endTime" item="_bLvQtL5uEeuUdIo-vNH3CQ">
+    <modelElement href="TelephoneDirectory.uml#_aithgL5uEeuUdIo-vNH3CQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_bLUZob5uEeuUdIo-vNH3CQ" sourceConnectionVisual="_bLVAsL5uEeuUdIo-vNH3CQ" text="display a single contact object to console&#xD;&#xA;&#x9; * @param response" item="_bLvQvb5uEeuUdIo-vNH3CQ">
+    <modelElement href="TelephoneDirectory.uml#_aisTYL5uEeuUdIo-vNH3CQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_bLVAsb5uEeuUdIo-vNH3CQ" sourceConnectionVisual="_bLVnwL5uEeuUdIo-vNH3CQ" text="request more actions on a contact&#xD;&#xA;&#x9; * (U)pdate, (D)elete, (B)ack to main menu, (Q)uit app &#xD;&#xA;&#x9; * @return" item="_bLvQw75uEeuUdIo-vNH3CQ">
+    <modelElement href="TelephoneDirectory.uml#_ais6cb5uEeuUdIo-vNH3CQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_bLW14L5uEeuUdIo-vNH3CQ" sourceConnectionVisual="_bLW14b5uEeuUdIo-vNH3CQ" text="Delete contact from Telephone Directory&#xD;&#xA;&#x9; * @param uid&#xD;&#xA;&#x9; * @return boolean" item="_bLvQyb5uEeuUdIo-vNH3CQ">
+    <modelElement href="TelephoneDirectory.uml#_ais6cr5uEeuUdIo-vNH3CQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_bLYEAL5uEeuUdIo-vNH3CQ" sourceConnectionVisual="_bLYEAb5uEeuUdIo-vNH3CQ" text="parse and print contact object to console&#xD;&#xA;&#x9; * @param i&#xD;&#xA;&#x9; * @param contact" item="_bLvQ2b5uEeuUdIo-vNH3CQ">
+    <modelElement href="TelephoneDirectory.uml#_aithgb5uEeuUdIo-vNH3CQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_bLYrEL5uEeuUdIo-vNH3CQ" sourceConnectionVisual="_bLYrEb5uEeuUdIo-vNH3CQ" text="sort and display a list of contacts to the console&#xD;&#xA;&#x9; * @param contactList" item="_bLvQ4r5uEeuUdIo-vNH3CQ">
+    <modelElement href="TelephoneDirectory.uml#_airsVr5uEeuUdIo-vNH3CQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_bLZSIL5uEeuUdIo-vNH3CQ" sourceConnectionVisual="_bLZ5ML5uEeuUdIo-vNH3CQ" text="track and display range 0 - Z to console&#xD;&#xA;&#x9; * @param range&#xD;&#xA;&#x9; * @param contact" item="_bLv3dL5uEeuUdIo-vNH3CQ">
+    <modelElement href="TelephoneDirectory.uml#_airsWL5uEeuUdIo-vNH3CQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_bM5G8L5uEeuUdIo-vNH3CQ" sourceConnectionVisual="_bM5G8b5uEeuUdIo-vNH3CQ" text="Helpers - contains utilities to convert, parse&#xD;&#xA;compare and loop data&#xD;&#xA;@author Ismail&#xD;&#xA; *" item="_bNKzyb5uEeuUdIo-vNH3CQ">
+    <modelElement href="TelephoneDirectory.uml#_aiqeML5uEeuUdIo-vNH3CQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bE9S8L5uEeuUdIo-vNH3CQ" comments="_bEjqUL5uEeuUdIo-vNH3CQ" targetConnectionVisual="_bElfgL5uEeuUdIo-vNH3CQ" name="Contact" associationsOut="_bE7dwL5uEeuUdIo-vNH3CQ">
+    <modelElement href="TelephoneDirectory.uml#_aWdOML5uEeuUdIo-vNH3CQ"/>
+    <visualProperties xmi:id="_bE96AL5uEeuUdIo-vNH3CQ" position="30.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_bE96Ab5uEeuUdIo-vNH3CQ" label="+"/>
+    <attributes xmi:id="_bE96Ar5uEeuUdIo-vNH3CQ" name="uid">
+      <modelElement href="TelephoneDirectory.uml#_ag48kL5uEeuUdIo-vNH3CQ"/>
+      <visibility xmi:id="_bE96A75uEeuUdIo-vNH3CQ" label="+"/>
+      <cardinality xmi:id="_bE96BL5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+      <type xmi:id="_bE96Bb5uEeuUdIo-vNH3CQ" name="UUID">
+        <modelElement href="TelephoneDirectory.uml#_adtswL5uEeuUdIo-vNH3CQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bE96Br5uEeuUdIo-vNH3CQ" name="firstname">
+      <modelElement href="TelephoneDirectory.uml#_ag5joL5uEeuUdIo-vNH3CQ"/>
+      <visibility xmi:id="_bE96B75uEeuUdIo-vNH3CQ" label="+"/>
+      <cardinality xmi:id="_bE96CL5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+      <type xmi:id="_bE96Cb5uEeuUdIo-vNH3CQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bE96Cr5uEeuUdIo-vNH3CQ" name="lastname">
+      <modelElement href="TelephoneDirectory.uml#_ag9OAL5uEeuUdIo-vNH3CQ"/>
+      <visibility xmi:id="_bE96C75uEeuUdIo-vNH3CQ" label="+"/>
+      <cardinality xmi:id="_bE96DL5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+      <type xmi:id="_bE96Db5uEeuUdIo-vNH3CQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bE96Dr5uEeuUdIo-vNH3CQ" name="phone">
+      <modelElement href="TelephoneDirectory.uml#_ag91EL5uEeuUdIo-vNH3CQ"/>
+      <visibility xmi:id="_bE96D75uEeuUdIo-vNH3CQ" label="+"/>
+      <cardinality xmi:id="_bE96EL5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+      <type xmi:id="_bE96Eb5uEeuUdIo-vNH3CQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_bE96Er5uEeuUdIo-vNH3CQ" name="Contact">
+      <modelElement href="TelephoneDirectory.uml#_aWki8L5uEeuUdIo-vNH3CQ"/>
+      <keywords xmi:id="_bE96E75uEeuUdIo-vNH3CQ" keyword="create"/>
+      <visibility xmi:id="_bE96FL5uEeuUdIo-vNH3CQ" label="+"/>
+      <cardinality xmi:id="_bE96Fb5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bE96Fr5uEeuUdIo-vNH3CQ">
+        <modelElement href="TelephoneDirectory.uml#_aWo0YL5uEeuUdIo-vNH3CQ"/>
+        <type xmi:id="_bE96F75uEeuUdIo-vNH3CQ" name="Contact">
+          <modelElement href="TelephoneDirectory.uml#_aWdOML5uEeuUdIo-vNH3CQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bE96GL5uEeuUdIo-vNH3CQ" name="firstname">
+        <modelElement href="TelephoneDirectory.uml#_aWlKAL5uEeuUdIo-vNH3CQ"/>
+        <cardinality xmi:id="_bE96Gb5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+        <type xmi:id="_bE96Gr5uEeuUdIo-vNH3CQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_bE96G75uEeuUdIo-vNH3CQ" name="lastname">
+        <modelElement href="TelephoneDirectory.uml#_aWlxEL5uEeuUdIo-vNH3CQ"/>
+        <cardinality xmi:id="_bE-hEL5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+        <type xmi:id="_bE-hEb5uEeuUdIo-vNH3CQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_bE-hEr5uEeuUdIo-vNH3CQ" name="phone">
+        <modelElement href="TelephoneDirectory.uml#_aWlxEb5uEeuUdIo-vNH3CQ"/>
+        <cardinality xmi:id="_bE-hE75uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+        <type xmi:id="_bE-hFL5uEeuUdIo-vNH3CQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bE-hFb5uEeuUdIo-vNH3CQ" name="Contact">
+      <modelElement href="TelephoneDirectory.uml#_aWqCgL5uEeuUdIo-vNH3CQ"/>
+      <keywords xmi:id="_bE-hFr5uEeuUdIo-vNH3CQ" keyword="create"/>
+      <visibility xmi:id="_bE-hF75uEeuUdIo-vNH3CQ" label="+"/>
+      <cardinality xmi:id="_bE-hGL5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bE-hGb5uEeuUdIo-vNH3CQ">
+        <modelElement href="TelephoneDirectory.uml#_aWqpkr5uEeuUdIo-vNH3CQ"/>
+        <type xmi:id="_bE-hGr5uEeuUdIo-vNH3CQ" name="Contact">
+          <modelElement href="TelephoneDirectory.uml#_aWdOML5uEeuUdIo-vNH3CQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_bE-hG75uEeuUdIo-vNH3CQ" name="toString">
+      <modelElement href="TelephoneDirectory.uml#_aWrQoL5uEeuUdIo-vNH3CQ"/>
+      <stereotypes xmi:id="_bE-hHL5uEeuUdIo-vNH3CQ" name="LegacyStyledElement">
+        <modelElement href="TelephoneDirectory.uml#_aWsewL5uEeuUdIo-vNH3CQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_bE_IIL5uEeuUdIo-vNH3CQ" name="Annotations">
+        <modelElement href="TelephoneDirectory.uml#_aWxXQL5uEeuUdIo-vNH3CQ"/>
+      </stereotypes>
+      <visibility xmi:id="_bE_IIb5uEeuUdIo-vNH3CQ" label="+"/>
+      <cardinality xmi:id="_bE_IIr5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bE_II75uEeuUdIo-vNH3CQ">
+        <modelElement href="TelephoneDirectory.uml#_aWr3sL5uEeuUdIo-vNH3CQ"/>
+        <type xmi:id="_bE_IJL5uEeuUdIo-vNH3CQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_bE_IJb5uEeuUdIo-vNH3CQ" name="clone">
+      <modelElement href="TelephoneDirectory.uml#_aWx-Ub5uEeuUdIo-vNH3CQ"/>
+      <stereotypes xmi:id="_bE_IJr5uEeuUdIo-vNH3CQ" name="LegacyStyledElement">
+        <modelElement href="TelephoneDirectory.uml#_aWzMcL5uEeuUdIo-vNH3CQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_bE_IJ75uEeuUdIo-vNH3CQ" name="Annotations">
+        <modelElement href="TelephoneDirectory.uml#_aW1osL5uEeuUdIo-vNH3CQ"/>
+      </stereotypes>
+      <visibility xmi:id="_bE_IKL5uEeuUdIo-vNH3CQ" label="#"/>
+      <cardinality xmi:id="_bE_IKb5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bE_IKr5uEeuUdIo-vNH3CQ">
+        <modelElement href="TelephoneDirectory.uml#_agLK4L5uEeuUdIo-vNH3CQ"/>
+        <type xmi:id="_bE_IK75uEeuUdIo-vNH3CQ" name="Object">
+          <modelElement href="TelephoneDirectory.uml#_agJVsL5uEeuUdIo-vNH3CQ"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bHNVsL5uEeuUdIo-vNH3CQ" name="CloneNotSupportedException">
+    <modelElement href="TelephoneDirectory.uml#_agLx8L5uEeuUdIo-vNH3CQ"/>
+    <visualProperties xmi:id="_bHNVsb5uEeuUdIo-vNH3CQ" position="160.0,436.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_bHNVsr5uEeuUdIo-vNH3CQ" name="Reference">
+      <modelElement href="TelephoneDirectory.uml#_agNAEL5uEeuUdIo-vNH3CQ"/>
+    </stereotypes>
+    <visibility xmi:id="_bHNVs75uEeuUdIo-vNH3CQ" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bHUqcL5uEeuUdIo-vNH3CQ" comments="_bHRnIL5uEeuUdIo-vNH3CQ" targetConnectionVisual="_bHRnIb5uEeuUdIo-vNH3CQ" name="Main">
+    <modelElement href="TelephoneDirectory.uml#_aaahIL5uEeuUdIo-vNH3CQ"/>
+    <visualProperties xmi:id="_bHUqcb5uEeuUdIo-vNH3CQ" position="154.0,553.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_bHUqcr5uEeuUdIo-vNH3CQ" label="+"/>
+    <operations xmi:id="_bHUqc75uEeuUdIo-vNH3CQ" name="main" staticOperation="true">
+      <modelElement href="TelephoneDirectory.uml#_aabvQL5uEeuUdIo-vNH3CQ"/>
+      <visibility xmi:id="_bHUqdL5uEeuUdIo-vNH3CQ" label="+"/>
+      <cardinality xmi:id="_bHUqdb5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_bHUqdr5uEeuUdIo-vNH3CQ" name="args">
+        <modelElement href="TelephoneDirectory.uml#_aabvQb5uEeuUdIo-vNH3CQ"/>
+        <cardinality xmi:id="_bHUqd75uEeuUdIo-vNH3CQ" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_bHUqeL5uEeuUdIo-vNH3CQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bHr20L5uEeuUdIo-vNH3CQ" comments="_bHY74L5uEeuUdIo-vNH3CQ" targetConnectionVisual="_bHZi8L5uEeuUdIo-vNH3CQ" name="FileHandler" associationsIn="_bIERUL5uEeuUdIo-vNH3CQ">
+    <modelElement href="TelephoneDirectory.uml#_aY3B8L5uEeuUdIo-vNH3CQ"/>
+    <visualProperties xmi:id="_bHr20b5uEeuUdIo-vNH3CQ" position="-787.0,-139.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_bHr20r5uEeuUdIo-vNH3CQ" label="+"/>
+    <operations xmi:id="_bHr2075uEeuUdIo-vNH3CQ" name="FileHandler">
+      <modelElement href="TelephoneDirectory.uml#_aZCBEL5uEeuUdIo-vNH3CQ"/>
+      <keywords xmi:id="_bHr21L5uEeuUdIo-vNH3CQ" keyword="create"/>
+      <stereotypes xmi:id="_bHr21b5uEeuUdIo-vNH3CQ" name="LegacyStyledElement">
+        <modelElement href="TelephoneDirectory.uml#_aZGSgL5uEeuUdIo-vNH3CQ"/>
+      </stereotypes>
+      <visibility xmi:id="_bHr21r5uEeuUdIo-vNH3CQ" label="+"/>
+      <cardinality xmi:id="_bHr2175uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bHr22L5uEeuUdIo-vNH3CQ">
+        <modelElement href="TelephoneDirectory.uml#_aZGSgb5uEeuUdIo-vNH3CQ"/>
+        <type xmi:id="_bHr22b5uEeuUdIo-vNH3CQ" name="FileHandler">
+          <modelElement href="TelephoneDirectory.uml#_aY3B8L5uEeuUdIo-vNH3CQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_bHr22r5uEeuUdIo-vNH3CQ" name="writeToJsonFile">
+      <modelElement href="TelephoneDirectory.uml#_aZG5kL5uEeuUdIo-vNH3CQ"/>
+      <visibility xmi:id="_bHr2275uEeuUdIo-vNH3CQ" label="+"/>
+      <cardinality xmi:id="_bHr23L5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_bHr23b5uEeuUdIo-vNH3CQ" name="filePath">
+        <modelElement href="TelephoneDirectory.uml#_aZHgoL5uEeuUdIo-vNH3CQ"/>
+        <cardinality xmi:id="_bHr23r5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+        <type xmi:id="_bHr2375uEeuUdIo-vNH3CQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_bHr24L5uEeuUdIo-vNH3CQ" name="jsonData">
+        <modelElement href="TelephoneDirectory.uml#_aZHgob5uEeuUdIo-vNH3CQ"/>
+        <cardinality xmi:id="_bHr24b5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+        <type xmi:id="_bHr24r5uEeuUdIo-vNH3CQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bHr2475uEeuUdIo-vNH3CQ" name="readFromJsonFile">
+      <modelElement href="TelephoneDirectory.uml#_aZLLAL5uEeuUdIo-vNH3CQ"/>
+      <stereotypes xmi:id="_bHr25L5uEeuUdIo-vNH3CQ" name="Generics">
+        <modelElement href="TelephoneDirectory.uml#_aZTt4L5uEeuUdIo-vNH3CQ"/>
+      </stereotypes>
+      <visibility xmi:id="_bHsd4L5uEeuUdIo-vNH3CQ" label="+"/>
+      <cardinality xmi:id="_bHsd4b5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bHsd4r5uEeuUdIo-vNH3CQ">
+        <modelElement href="TelephoneDirectory.uml#_agTGsL5uEeuUdIo-vNH3CQ"/>
+        <type xmi:id="_bHsd475uEeuUdIo-vNH3CQ" name="ArrayList">
+          <modelElement href="TelephoneDirectory.uml#_ad7IIb5uEeuUdIo-vNH3CQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bHsd5L5uEeuUdIo-vNH3CQ" name="filePath">
+        <modelElement href="TelephoneDirectory.uml#_aZLLAb5uEeuUdIo-vNH3CQ"/>
+        <cardinality xmi:id="_bHsd5b5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+        <type xmi:id="_bHsd5r5uEeuUdIo-vNH3CQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bH7ucL5uEeuUdIo-vNH3CQ" name="ParseException">
+    <modelElement href="TelephoneDirectory.uml#_ad5S8L5uEeuUdIo-vNH3CQ"/>
+    <visualProperties xmi:id="_bH7ucb5uEeuUdIo-vNH3CQ" position="397.0,433.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_bH7ucr5uEeuUdIo-vNH3CQ" name="Reference">
+      <modelElement href="TelephoneDirectory.uml#_ad7IIL5uEeuUdIo-vNH3CQ"/>
+    </stereotypes>
+    <visibility xmi:id="_bH7uc75uEeuUdIo-vNH3CQ" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bIfvKL5uEeuUdIo-vNH3CQ" comments="_bIGtkL5uEeuUdIo-vNH3CQ" targetConnectionVisual="_bIGtkb5uEeuUdIo-vNH3CQ" name="Database" associationsIn="_bK6xAL5uEeuUdIo-vNH3CQ" associationsOut="_bIERUL5uEeuUdIo-vNH3CQ _bIHUoL5uEeuUdIo-vNH3CQ _bIfIEL5uEeuUdIo-vNH3CQ" generalizations="_bKIG0L5uEeuUdIo-vNH3CQ">
+    <modelElement href="TelephoneDirectory.uml#_aXBO4L5uEeuUdIo-vNH3CQ"/>
+    <visualProperties xmi:id="_bIfvKb5uEeuUdIo-vNH3CQ" position="-373.0,8.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_bIgWML5uEeuUdIo-vNH3CQ" label="+"/>
+    <attributes xmi:id="_bIgWMb5uEeuUdIo-vNH3CQ" name="contactList">
+      <modelElement href="TelephoneDirectory.uml#_ag_qQL5uEeuUdIo-vNH3CQ"/>
+      <stereotypes xmi:id="_bIgWMr5uEeuUdIo-vNH3CQ" name="Generics">
+        <modelElement href="TelephoneDirectory.uml#_ahBfcL5uEeuUdIo-vNH3CQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_bIgWM75uEeuUdIo-vNH3CQ" name="LegacyStyledElement">
+        <modelElement href="TelephoneDirectory.uml#_ahDUoL5uEeuUdIo-vNH3CQ"/>
+      </stereotypes>
+      <visibility xmi:id="_bIgWNL5uEeuUdIo-vNH3CQ" label="-"/>
+      <cardinality xmi:id="_bIgWNb5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+      <type xmi:id="_bIgWNr5uEeuUdIo-vNH3CQ" name="ArrayList">
+        <modelElement href="TelephoneDirectory.uml#_ad7IIb5uEeuUdIo-vNH3CQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bIgWN75uEeuUdIo-vNH3CQ" name="pathToDatabase">
+      <modelElement href="TelephoneDirectory.uml#_ahD7sL5uEeuUdIo-vNH3CQ"/>
+      <stereotypes xmi:id="_bIgWOL5uEeuUdIo-vNH3CQ" name="LegacyStyledElement">
+        <modelElement href="TelephoneDirectory.uml#_ahEiwL5uEeuUdIo-vNH3CQ"/>
+      </stereotypes>
+      <visibility xmi:id="_bIgWOb5uEeuUdIo-vNH3CQ" label="-"/>
+      <cardinality xmi:id="_bIgWOr5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+      <type xmi:id="_bIgWO75uEeuUdIo-vNH3CQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bIgWPL5uEeuUdIo-vNH3CQ" name="fileHandler">
+      <modelElement href="TelephoneDirectory.uml#_ahFJ0L5uEeuUdIo-vNH3CQ"/>
+      <stereotypes xmi:id="_bIgWPb5uEeuUdIo-vNH3CQ" name="LegacyStyledElement">
+        <modelElement href="TelephoneDirectory.uml#_ahFw4L5uEeuUdIo-vNH3CQ"/>
+      </stereotypes>
+      <visibility xmi:id="_bIgWPr5uEeuUdIo-vNH3CQ" label="~"/>
+      <cardinality xmi:id="_bIgWP75uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+      <type xmi:id="_bIgWQL5uEeuUdIo-vNH3CQ" name="FileHandler">
+        <modelElement href="TelephoneDirectory.uml#_aY3B8L5uEeuUdIo-vNH3CQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bIgWQb5uEeuUdIo-vNH3CQ" name="helpers">
+      <modelElement href="TelephoneDirectory.uml#_ahFw4b5uEeuUdIo-vNH3CQ"/>
+      <stereotypes xmi:id="_bIgWQr5uEeuUdIo-vNH3CQ" name="LegacyStyledElement">
+        <modelElement href="TelephoneDirectory.uml#_ahGX8L5uEeuUdIo-vNH3CQ"/>
+      </stereotypes>
+      <visibility xmi:id="_bIgWQ75uEeuUdIo-vNH3CQ" label="~"/>
+      <cardinality xmi:id="_bIgWRL5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+      <type xmi:id="_bIgWRb5uEeuUdIo-vNH3CQ" name="Helpers">
+        <modelElement href="TelephoneDirectory.uml#_aZeF8L5uEeuUdIo-vNH3CQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_bIgWRr5uEeuUdIo-vNH3CQ" comments="_bIKX8L5uEeuUdIo-vNH3CQ" targetConnectionVisual="_bIKX8b5uEeuUdIo-vNH3CQ" name="Database">
+      <modelElement href="TelephoneDirectory.uml#_aXH8kL5uEeuUdIo-vNH3CQ"/>
+      <keywords xmi:id="_bIgWR75uEeuUdIo-vNH3CQ" keyword="create"/>
+      <visibility xmi:id="_bIgWSL5uEeuUdIo-vNH3CQ" label="+"/>
+      <cardinality xmi:id="_bIgWSb5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bIgWSr5uEeuUdIo-vNH3CQ">
+        <modelElement href="TelephoneDirectory.uml#_aXSUob5uEeuUdIo-vNH3CQ"/>
+        <type xmi:id="_bIgWS75uEeuUdIo-vNH3CQ" name="Database">
+          <modelElement href="TelephoneDirectory.uml#_aXBO4L5uEeuUdIo-vNH3CQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bIgWTL5uEeuUdIo-vNH3CQ" name="pathToDatabase">
+        <modelElement href="TelephoneDirectory.uml#_aXH8kb5uEeuUdIo-vNH3CQ"/>
+        <cardinality xmi:id="_bIgWTb5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+        <type xmi:id="_bIgWTr5uEeuUdIo-vNH3CQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bIgWT75uEeuUdIo-vNH3CQ" comments="_bILmEL5uEeuUdIo-vNH3CQ" targetConnectionVisual="_bIMNIL5uEeuUdIo-vNH3CQ" name="getAll">
+      <modelElement href="TelephoneDirectory.uml#_aXUJ0L5uEeuUdIo-vNH3CQ"/>
+      <stereotypes xmi:id="_bIgWUL5uEeuUdIo-vNH3CQ" name="Generics">
+        <modelElement href="TelephoneDirectory.uml#_aXWmEL5uEeuUdIo-vNH3CQ"/>
+      </stereotypes>
+      <visibility xmi:id="_bIgWUb5uEeuUdIo-vNH3CQ" label="+"/>
+      <cardinality xmi:id="_bIgWUr5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bIgWU75uEeuUdIo-vNH3CQ">
+        <modelElement href="TelephoneDirectory.uml#_agQqcL5uEeuUdIo-vNH3CQ"/>
+        <type xmi:id="_bIgWVL5uEeuUdIo-vNH3CQ" name="ArrayList">
+          <modelElement href="TelephoneDirectory.uml#_ad7IIb5uEeuUdIo-vNH3CQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_bIgWVb5uEeuUdIo-vNH3CQ" comments="_bINbQL5uEeuUdIo-vNH3CQ" targetConnectionVisual="_bINbQb5uEeuUdIo-vNH3CQ" name="get">
+      <modelElement href="TelephoneDirectory.uml#_aXcFoL5uEeuUdIo-vNH3CQ"/>
+      <visibility xmi:id="_bIgWVr5uEeuUdIo-vNH3CQ" label="+"/>
+      <cardinality xmi:id="_bIgWV75uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bIgWWL5uEeuUdIo-vNH3CQ">
+        <modelElement href="TelephoneDirectory.uml#_aeV-4L5uEeuUdIo-vNH3CQ"/>
+        <type xmi:id="_bIgWWb5uEeuUdIo-vNH3CQ" name="Contact">
+          <modelElement href="TelephoneDirectory.uml#_aWdOML5uEeuUdIo-vNH3CQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bIgWWr5uEeuUdIo-vNH3CQ" name="query">
+        <modelElement href="TelephoneDirectory.uml#_aXcFob5uEeuUdIo-vNH3CQ"/>
+        <cardinality xmi:id="_bIgWW75uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+        <type xmi:id="_bIgWXL5uEeuUdIo-vNH3CQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bIgWXb5uEeuUdIo-vNH3CQ" comments="_bIOpYL5uEeuUdIo-vNH3CQ" targetConnectionVisual="_bIOpYb5uEeuUdIo-vNH3CQ" name="findAll">
+      <modelElement href="TelephoneDirectory.uml#_aXizUL5uEeuUdIo-vNH3CQ"/>
+      <stereotypes xmi:id="_bIgWXr5uEeuUdIo-vNH3CQ" name="Generics">
+        <modelElement href="TelephoneDirectory.uml#_aXkogL5uEeuUdIo-vNH3CQ"/>
+      </stereotypes>
+      <visibility xmi:id="_bIgWX75uEeuUdIo-vNH3CQ" label="+"/>
+      <cardinality xmi:id="_bIgWYL5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bIgWYb5uEeuUdIo-vNH3CQ">
+        <modelElement href="TelephoneDirectory.uml#_agRRgL5uEeuUdIo-vNH3CQ"/>
+        <type xmi:id="_bIgWYr5uEeuUdIo-vNH3CQ" name="ArrayList">
+          <modelElement href="TelephoneDirectory.uml#_ad7IIb5uEeuUdIo-vNH3CQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bIgWY75uEeuUdIo-vNH3CQ" name="queryString">
+        <modelElement href="TelephoneDirectory.uml#_aXizUb5uEeuUdIo-vNH3CQ"/>
+        <cardinality xmi:id="_bIgWZL5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+        <type xmi:id="_bIgWZb5uEeuUdIo-vNH3CQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bIgWZr5uEeuUdIo-vNH3CQ" comments="_bIP3gL5uEeuUdIo-vNH3CQ" targetConnectionVisual="_bIP3gb5uEeuUdIo-vNH3CQ" name="find">
+      <modelElement href="TelephoneDirectory.uml#_aXl2oL5uEeuUdIo-vNH3CQ"/>
+      <visibility xmi:id="_bIgWZ75uEeuUdIo-vNH3CQ" label="+"/>
+      <cardinality xmi:id="_bIgWaL5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bIgWab5uEeuUdIo-vNH3CQ">
+        <modelElement href="TelephoneDirectory.uml#_aea3YL5uEeuUdIo-vNH3CQ"/>
+        <type xmi:id="_bIgWar5uEeuUdIo-vNH3CQ" name="Contact">
+          <modelElement href="TelephoneDirectory.uml#_aWdOML5uEeuUdIo-vNH3CQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bIgWa75uEeuUdIo-vNH3CQ" name="queryString">
+        <modelElement href="TelephoneDirectory.uml#_aXmdsL5uEeuUdIo-vNH3CQ"/>
+        <cardinality xmi:id="_bIgWbL5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+        <type xmi:id="_bIgWbb5uEeuUdIo-vNH3CQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bIgWbr5uEeuUdIo-vNH3CQ" comments="_bIQekL5uEeuUdIo-vNH3CQ" targetConnectionVisual="_bIRFoL5uEeuUdIo-vNH3CQ" name="fetchDB">
+      <modelElement href="TelephoneDirectory.uml#_aXnEwL5uEeuUdIo-vNH3CQ"/>
+      <stereotypes xmi:id="_bIgWb75uEeuUdIo-vNH3CQ" name="Generics">
+        <modelElement href="TelephoneDirectory.uml#_aYnxYL5uEeuUdIo-vNH3CQ"/>
+      </stereotypes>
+      <visibility xmi:id="_bIgWcL5uEeuUdIo-vNH3CQ" label="+"/>
+      <cardinality xmi:id="_bIgWcb5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bIgWcr5uEeuUdIo-vNH3CQ">
+        <modelElement href="TelephoneDirectory.uml#_agRRgb5uEeuUdIo-vNH3CQ"/>
+        <type xmi:id="_bIgWc75uEeuUdIo-vNH3CQ" name="ArrayList">
+          <modelElement href="TelephoneDirectory.uml#_ad7IIb5uEeuUdIo-vNH3CQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_bIgWdL5uEeuUdIo-vNH3CQ" comments="_bIRssL5uEeuUdIo-vNH3CQ" targetConnectionVisual="_bIRssb5uEeuUdIo-vNH3CQ" name="create">
+      <modelElement href="TelephoneDirectory.uml#_aeV-4b5uEeuUdIo-vNH3CQ"/>
+      <visibility xmi:id="_bIgWdb5uEeuUdIo-vNH3CQ" label="+"/>
+      <cardinality xmi:id="_bIgWdr5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_bIgWd75uEeuUdIo-vNH3CQ" name="data">
+        <modelElement href="TelephoneDirectory.uml#_aeWl8L5uEeuUdIo-vNH3CQ"/>
+        <cardinality xmi:id="_bIgWeL5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+        <type xmi:id="_bIgWeb5uEeuUdIo-vNH3CQ" name="Contact">
+          <modelElement href="TelephoneDirectory.uml#_aWdOML5uEeuUdIo-vNH3CQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bIgWer5uEeuUdIo-vNH3CQ" comments="_bISTwL5uEeuUdIo-vNH3CQ" targetConnectionVisual="_bIS60L5uEeuUdIo-vNH3CQ" name="update">
+      <modelElement href="TelephoneDirectory.uml#_aeWl8b5uEeuUdIo-vNH3CQ"/>
+      <visibility xmi:id="_bIgWe75uEeuUdIo-vNH3CQ" label="+"/>
+      <cardinality xmi:id="_bIgWfL5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bIgWfb5uEeuUdIo-vNH3CQ">
+        <modelElement href="TelephoneDirectory.uml#_aeXNAb5uEeuUdIo-vNH3CQ"/>
+        <type xmi:id="_bIgWfr5uEeuUdIo-vNH3CQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bIgWf75uEeuUdIo-vNH3CQ" name="data">
+        <modelElement href="TelephoneDirectory.uml#_aeXNAL5uEeuUdIo-vNH3CQ"/>
+        <cardinality xmi:id="_bIgWgL5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+        <type xmi:id="_bIgWgb5uEeuUdIo-vNH3CQ" name="Contact">
+          <modelElement href="TelephoneDirectory.uml#_aWdOML5uEeuUdIo-vNH3CQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bIgWgr5uEeuUdIo-vNH3CQ" comments="_bITh4L5uEeuUdIo-vNH3CQ" targetConnectionVisual="_bITh4b5uEeuUdIo-vNH3CQ" name="delete">
+      <modelElement href="TelephoneDirectory.uml#_aeX0EL5uEeuUdIo-vNH3CQ"/>
+      <visibility xmi:id="_bIgWg75uEeuUdIo-vNH3CQ" label="+"/>
+      <cardinality xmi:id="_bIgWhL5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bIgWhb5uEeuUdIo-vNH3CQ">
+        <modelElement href="TelephoneDirectory.uml#_aeYbIL5uEeuUdIo-vNH3CQ"/>
+        <type xmi:id="_bIgWhr5uEeuUdIo-vNH3CQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bIgWh75uEeuUdIo-vNH3CQ" name="contact">
+        <modelElement href="TelephoneDirectory.uml#_aeX0Eb5uEeuUdIo-vNH3CQ"/>
+        <cardinality xmi:id="_bIgWiL5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+        <type xmi:id="_bIgWib5uEeuUdIo-vNH3CQ" name="Contact">
+          <modelElement href="TelephoneDirectory.uml#_aWdOML5uEeuUdIo-vNH3CQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_bKSe4L5uEeuUdIo-vNH3CQ" comments="_bKG4sL5uEeuUdIo-vNH3CQ" targetConnectionVisual="_bKG4sb5uEeuUdIo-vNH3CQ" name="IDatabase" associationsOut="_bKIt4L5uEeuUdIo-vNH3CQ" subclassedBy="_bKIG0L5uEeuUdIo-vNH3CQ">
+    <modelElement href="TelephoneDirectory.uml#_aZ0EML5uEeuUdIo-vNH3CQ"/>
+    <visualProperties xmi:id="_bKSe4b5uEeuUdIo-vNH3CQ" position="-1100.0,-258.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_bKSe4r5uEeuUdIo-vNH3CQ" label="+"/>
+    <attributes xmi:id="_bKSe475uEeuUdIo-vNH3CQ" name="all">
+      <modelElement href="TelephoneDirectory.uml#_aZ1SUL5uEeuUdIo-vNH3CQ"/>
+      <stereotypes xmi:id="_bKSe5L5uEeuUdIo-vNH3CQ" name="Generics">
+        <modelElement href="TelephoneDirectory.uml#_aZ4VoL5uEeuUdIo-vNH3CQ"/>
+      </stereotypes>
+      <visibility xmi:id="_bKSe5b5uEeuUdIo-vNH3CQ" label="+"/>
+      <cardinality xmi:id="_bKSe5r5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+      <type xmi:id="_bKSe575uEeuUdIo-vNH3CQ" name="ArrayList">
+        <modelElement href="TelephoneDirectory.uml#_ad7IIb5uEeuUdIo-vNH3CQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_bKSe6L5uEeuUdIo-vNH3CQ" name="find">
+      <modelElement href="TelephoneDirectory.uml#_aZ7Y8L5uEeuUdIo-vNH3CQ"/>
+      <visibility xmi:id="_bKSe6b5uEeuUdIo-vNH3CQ" label="+"/>
+      <cardinality xmi:id="_bKSe6r5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bKSe675uEeuUdIo-vNH3CQ">
+        <modelElement href="TelephoneDirectory.uml#_ae-RAb5uEeuUdIo-vNH3CQ"/>
+        <type xmi:id="_bKSe7L5uEeuUdIo-vNH3CQ" name="Contact">
+          <modelElement href="TelephoneDirectory.uml#_aWdOML5uEeuUdIo-vNH3CQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bKSe7b5uEeuUdIo-vNH3CQ" name="query">
+        <modelElement href="TelephoneDirectory.uml#_aZ8AAL5uEeuUdIo-vNH3CQ"/>
+        <cardinality xmi:id="_bKSe7r5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+        <type xmi:id="_bKSe775uEeuUdIo-vNH3CQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bKSe8L5uEeuUdIo-vNH3CQ" name="findAll">
+      <modelElement href="TelephoneDirectory.uml#_aZ-cQL5uEeuUdIo-vNH3CQ"/>
+      <stereotypes xmi:id="_bKSe8b5uEeuUdIo-vNH3CQ" name="Generics">
+        <modelElement href="TelephoneDirectory.uml#_aaDUwL5uEeuUdIo-vNH3CQ"/>
+      </stereotypes>
+      <visibility xmi:id="_bKSe8r5uEeuUdIo-vNH3CQ" label="+"/>
+      <cardinality xmi:id="_bKSe875uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bKSe9L5uEeuUdIo-vNH3CQ">
+        <modelElement href="TelephoneDirectory.uml#_agod4L5uEeuUdIo-vNH3CQ"/>
+        <type xmi:id="_bKSe9b5uEeuUdIo-vNH3CQ" name="ArrayList">
+          <modelElement href="TelephoneDirectory.uml#_ad7IIb5uEeuUdIo-vNH3CQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bKSe9r5uEeuUdIo-vNH3CQ" name="query">
+        <modelElement href="TelephoneDirectory.uml#_aZ-cQb5uEeuUdIo-vNH3CQ"/>
+        <cardinality xmi:id="_bKSe975uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+        <type xmi:id="_bKSe-L5uEeuUdIo-vNH3CQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bKSe-b5uEeuUdIo-vNH3CQ" name="get">
+      <modelElement href="TelephoneDirectory.uml#_aaEi4L5uEeuUdIo-vNH3CQ"/>
+      <visibility xmi:id="_bKSe-r5uEeuUdIo-vNH3CQ" label="+"/>
+      <cardinality xmi:id="_bKSe-75uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bKSe_L5uEeuUdIo-vNH3CQ">
+        <modelElement href="TelephoneDirectory.uml#_ae-4EL5uEeuUdIo-vNH3CQ"/>
+        <type xmi:id="_bKSe_b5uEeuUdIo-vNH3CQ" name="Contact">
+          <modelElement href="TelephoneDirectory.uml#_aWdOML5uEeuUdIo-vNH3CQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bKSe_r5uEeuUdIo-vNH3CQ" name="query">
+        <modelElement href="TelephoneDirectory.uml#_aaFJ8L5uEeuUdIo-vNH3CQ"/>
+        <cardinality xmi:id="_bKSe_75uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+        <type xmi:id="_bKSfAL5uEeuUdIo-vNH3CQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bKSfAb5uEeuUdIo-vNH3CQ" name="fetchDB">
+      <modelElement href="TelephoneDirectory.uml#_aaFxAL5uEeuUdIo-vNH3CQ"/>
+      <stereotypes xmi:id="_bKSfAr5uEeuUdIo-vNH3CQ" name="Generics">
+        <modelElement href="TelephoneDirectory.uml#_aaKCcL5uEeuUdIo-vNH3CQ"/>
+      </stereotypes>
+      <visibility xmi:id="_bKSfA75uEeuUdIo-vNH3CQ" label="+"/>
+      <cardinality xmi:id="_bKSfBL5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bKSfBb5uEeuUdIo-vNH3CQ">
+        <modelElement href="TelephoneDirectory.uml#_agpsAL5uEeuUdIo-vNH3CQ"/>
+        <type xmi:id="_bKSfBr5uEeuUdIo-vNH3CQ" name="ArrayList">
+          <modelElement href="TelephoneDirectory.uml#_ad7IIb5uEeuUdIo-vNH3CQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_bKSfB75uEeuUdIo-vNH3CQ" name="create">
+      <modelElement href="TelephoneDirectory.uml#_ae7NsL5uEeuUdIo-vNH3CQ"/>
+      <visibility xmi:id="_bKSfCL5uEeuUdIo-vNH3CQ" label="+"/>
+      <cardinality xmi:id="_bKSfCb5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_bKSfCr5uEeuUdIo-vNH3CQ" name="data">
+        <modelElement href="TelephoneDirectory.uml#_ae7Nsb5uEeuUdIo-vNH3CQ"/>
+        <cardinality xmi:id="_bKSfC75uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+        <type xmi:id="_bKSfDL5uEeuUdIo-vNH3CQ" name="Contact">
+          <modelElement href="TelephoneDirectory.uml#_aWdOML5uEeuUdIo-vNH3CQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bKSfDb5uEeuUdIo-vNH3CQ" name="update">
+      <modelElement href="TelephoneDirectory.uml#_ae8b0L5uEeuUdIo-vNH3CQ"/>
+      <visibility xmi:id="_bKSfDr5uEeuUdIo-vNH3CQ" label="+"/>
+      <cardinality xmi:id="_bKSfD75uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bKSfEL5uEeuUdIo-vNH3CQ">
+        <modelElement href="TelephoneDirectory.uml#_ae9C4b5uEeuUdIo-vNH3CQ"/>
+        <type xmi:id="_bKSfEb5uEeuUdIo-vNH3CQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bKSfEr5uEeuUdIo-vNH3CQ" name="data">
+        <modelElement href="TelephoneDirectory.uml#_ae9C4L5uEeuUdIo-vNH3CQ"/>
+        <cardinality xmi:id="_bKSfE75uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+        <type xmi:id="_bKSfFL5uEeuUdIo-vNH3CQ" name="Contact">
+          <modelElement href="TelephoneDirectory.uml#_aWdOML5uEeuUdIo-vNH3CQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bKSfFb5uEeuUdIo-vNH3CQ" name="delete">
+      <modelElement href="TelephoneDirectory.uml#_ae9p8L5uEeuUdIo-vNH3CQ"/>
+      <visibility xmi:id="_bKSfFr5uEeuUdIo-vNH3CQ" label="+"/>
+      <cardinality xmi:id="_bKSfF75uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bKSfGL5uEeuUdIo-vNH3CQ">
+        <modelElement href="TelephoneDirectory.uml#_ae-RAL5uEeuUdIo-vNH3CQ"/>
+        <type xmi:id="_bKSfGb5uEeuUdIo-vNH3CQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bKSfGr5uEeuUdIo-vNH3CQ" name="contact">
+        <modelElement href="TelephoneDirectory.uml#_ae9p8b5uEeuUdIo-vNH3CQ"/>
+        <cardinality xmi:id="_bKSfG75uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+        <type xmi:id="_bKSfHL5uEeuUdIo-vNH3CQ" name="Contact">
+          <modelElement href="TelephoneDirectory.uml#_aWdOML5uEeuUdIo-vNH3CQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bLvQYL5uEeuUdIo-vNH3CQ" comments="_bK9NQL5uEeuUdIo-vNH3CQ" targetConnectionVisual="_bK9NQb5uEeuUdIo-vNH3CQ" name="TelephoneDirectory" associationsOut="_bK6xAL5uEeuUdIo-vNH3CQ _bK_Ccb5uEeuUdIo-vNH3CQ _bLupUL5uEeuUdIo-vNH3CQ">
+    <modelElement href="TelephoneDirectory.uml#_aauqML5uEeuUdIo-vNH3CQ"/>
+    <visualProperties xmi:id="_bLvQYb5uEeuUdIo-vNH3CQ" position="-324.0,314.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_bLvQYr5uEeuUdIo-vNH3CQ" label="+"/>
+    <attributes xmi:id="_bLvQY75uEeuUdIo-vNH3CQ" name="scanner">
+      <modelElement href="TelephoneDirectory.uml#_ahO60L5uEeuUdIo-vNH3CQ"/>
+      <stereotypes xmi:id="_bLvQZL5uEeuUdIo-vNH3CQ" name="LegacyStyledElement">
+        <modelElement href="TelephoneDirectory.uml#_ahPh4L5uEeuUdIo-vNH3CQ"/>
+      </stereotypes>
+      <visibility xmi:id="_bLvQZb5uEeuUdIo-vNH3CQ" label="-"/>
+      <cardinality xmi:id="_bLvQZr5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+      <type xmi:id="_bLvQZ75uEeuUdIo-vNH3CQ" name="Scanner">
+        <modelElement href="TelephoneDirectory.uml#_afHa8b5uEeuUdIo-vNH3CQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bLvQaL5uEeuUdIo-vNH3CQ" name="db">
+      <modelElement href="TelephoneDirectory.uml#_ahQI8L5uEeuUdIo-vNH3CQ"/>
+      <stereotypes xmi:id="_bLvQab5uEeuUdIo-vNH3CQ" name="LegacyStyledElement">
+        <modelElement href="TelephoneDirectory.uml#_ahQwAL5uEeuUdIo-vNH3CQ"/>
+      </stereotypes>
+      <visibility xmi:id="_bLvQar5uEeuUdIo-vNH3CQ" label="~"/>
+      <cardinality xmi:id="_bLvQa75uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+      <type xmi:id="_bLvQbL5uEeuUdIo-vNH3CQ" name="Database">
+        <modelElement href="TelephoneDirectory.uml#_aXBO4L5uEeuUdIo-vNH3CQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bLvQbb5uEeuUdIo-vNH3CQ" name="helpers">
+      <modelElement href="TelephoneDirectory.uml#_ahQwAb5uEeuUdIo-vNH3CQ"/>
+      <stereotypes xmi:id="_bLvQbr5uEeuUdIo-vNH3CQ" name="LegacyStyledElement">
+        <modelElement href="TelephoneDirectory.uml#_ahRXEL5uEeuUdIo-vNH3CQ"/>
+      </stereotypes>
+      <visibility xmi:id="_bLvQb75uEeuUdIo-vNH3CQ" label="~"/>
+      <cardinality xmi:id="_bLvQcL5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+      <type xmi:id="_bLvQcb5uEeuUdIo-vNH3CQ" name="Helpers">
+        <modelElement href="TelephoneDirectory.uml#_aZeF8L5uEeuUdIo-vNH3CQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_bLvQcr5uEeuUdIo-vNH3CQ" comments="_bK_pgL5uEeuUdIo-vNH3CQ" targetConnectionVisual="_bLAQkL5uEeuUdIo-vNH3CQ" name="TelephoneDirectory">
+      <modelElement href="TelephoneDirectory.uml#_aayUkL5uEeuUdIo-vNH3CQ"/>
+      <keywords xmi:id="_bLvQc75uEeuUdIo-vNH3CQ" keyword="create"/>
+      <visibility xmi:id="_bLvQdL5uEeuUdIo-vNH3CQ" label="~"/>
+      <cardinality xmi:id="_bLvQdb5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bLvQdr5uEeuUdIo-vNH3CQ">
+        <modelElement href="TelephoneDirectory.uml#_aay7or5uEeuUdIo-vNH3CQ"/>
+        <type xmi:id="_bLvQd75uEeuUdIo-vNH3CQ" name="TelephoneDirectory">
+          <modelElement href="TelephoneDirectory.uml#_aauqML5uEeuUdIo-vNH3CQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_bLvQeL5uEeuUdIo-vNH3CQ" comments="_bLAQkb5uEeuUdIo-vNH3CQ" targetConnectionVisual="_bLA3oL5uEeuUdIo-vNH3CQ" name="askQuestion">
+      <modelElement href="TelephoneDirectory.uml#_aazisL5uEeuUdIo-vNH3CQ"/>
+      <visibility xmi:id="_bLvQeb5uEeuUdIo-vNH3CQ" label="-"/>
+      <cardinality xmi:id="_bLvQer5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_bLvQe75uEeuUdIo-vNH3CQ" comments="_bLA3ob5uEeuUdIo-vNH3CQ" targetConnectionVisual="_bLBesL5uEeuUdIo-vNH3CQ" name="help">
+      <modelElement href="TelephoneDirectory.uml#_aa1X4L5uEeuUdIo-vNH3CQ"/>
+      <visibility xmi:id="_bLvQfL5uEeuUdIo-vNH3CQ" label="+"/>
+      <cardinality xmi:id="_bLvQfb5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_bLvQfr5uEeuUdIo-vNH3CQ" comments="_bLBesb5uEeuUdIo-vNH3CQ" targetConnectionVisual="_bLBesr5uEeuUdIo-vNH3CQ" name="newContact">
+      <modelElement href="TelephoneDirectory.uml#_aa1-8L5uEeuUdIo-vNH3CQ"/>
+      <visibility xmi:id="_bLvQf75uEeuUdIo-vNH3CQ" label="+"/>
+      <cardinality xmi:id="_bLvQgL5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_bLvQgb5uEeuUdIo-vNH3CQ" comments="_bLCFwL5uEeuUdIo-vNH3CQ" targetConnectionVisual="_bLCs0L5uEeuUdIo-vNH3CQ" name="list">
+      <modelElement href="TelephoneDirectory.uml#_aa2mAL5uEeuUdIo-vNH3CQ"/>
+      <visibility xmi:id="_bLvQgr5uEeuUdIo-vNH3CQ" label="+"/>
+      <cardinality xmi:id="_bLvQg75uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_bLvQhL5uEeuUdIo-vNH3CQ" comments="_bLCs0b5uEeuUdIo-vNH3CQ" targetConnectionVisual="_bLDT4L5uEeuUdIo-vNH3CQ" name="find">
+      <modelElement href="TelephoneDirectory.uml#_aa3NEL5uEeuUdIo-vNH3CQ"/>
+      <visibility xmi:id="_bLvQhb5uEeuUdIo-vNH3CQ" label="+"/>
+      <cardinality xmi:id="_bLvQhr5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_bLvQh75uEeuUdIo-vNH3CQ" comments="_bLD68L5uEeuUdIo-vNH3CQ" targetConnectionVisual="_bLD68b5uEeuUdIo-vNH3CQ" name="quit">
+      <modelElement href="TelephoneDirectory.uml#_aa30IL5uEeuUdIo-vNH3CQ"/>
+      <visibility xmi:id="_bLvQiL5uEeuUdIo-vNH3CQ" label="+"/>
+      <cardinality xmi:id="_bLvQib5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_bLvQir5uEeuUdIo-vNH3CQ" comments="_bLJagL5uEeuUdIo-vNH3CQ" targetConnectionVisual="_bLJagb5uEeuUdIo-vNH3CQ" name="generateMapOfRange0ToZ">
+      <modelElement href="TelephoneDirectory.uml#_aa4bML5uEeuUdIo-vNH3CQ"/>
+      <stereotypes xmi:id="_bLvQi75uEeuUdIo-vNH3CQ" name="Generics">
+        <modelElement href="TelephoneDirectory.uml#_aa5pUL5uEeuUdIo-vNH3CQ"/>
+      </stereotypes>
+      <visibility xmi:id="_bLvQjL5uEeuUdIo-vNH3CQ" label="-"/>
+      <cardinality xmi:id="_bLvQjb5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bLvQjr5uEeuUdIo-vNH3CQ">
+        <modelElement href="TelephoneDirectory.uml#_agt9cL5uEeuUdIo-vNH3CQ"/>
+        <type xmi:id="_bLvQj75uEeuUdIo-vNH3CQ" name="Map">
+          <modelElement href="TelephoneDirectory.uml#_afFlwb5uEeuUdIo-vNH3CQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_bLvQkL5uEeuUdIo-vNH3CQ" comments="_bLKooL5uEeuUdIo-vNH3CQ" targetConnectionVisual="_bLLPsL5uEeuUdIo-vNH3CQ" name="requestQuery">
+      <modelElement href="TelephoneDirectory.uml#_aa7egL5uEeuUdIo-vNH3CQ"/>
+      <visibility xmi:id="_bLvQkb5uEeuUdIo-vNH3CQ" label="-"/>
+      <cardinality xmi:id="_bLvQkr5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bLvQk75uEeuUdIo-vNH3CQ">
+        <modelElement href="TelephoneDirectory.uml#_aa7egb5uEeuUdIo-vNH3CQ"/>
+        <type xmi:id="_bLvQlL5uEeuUdIo-vNH3CQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_bLvQlb5uEeuUdIo-vNH3CQ" comments="_bLMd0L5uEeuUdIo-vNH3CQ" targetConnectionVisual="_bLNE4L5uEeuUdIo-vNH3CQ" name="requestNewContactDetails">
+      <modelElement href="TelephoneDirectory.uml#_aa8FkL5uEeuUdIo-vNH3CQ"/>
+      <visibility xmi:id="_bLvQlr5uEeuUdIo-vNH3CQ" label="-"/>
+      <cardinality xmi:id="_bLvQl75uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bLvQmL5uEeuUdIo-vNH3CQ">
+        <modelElement href="TelephoneDirectory.uml#_afMTcL5uEeuUdIo-vNH3CQ"/>
+        <type xmi:id="_bLvQmb5uEeuUdIo-vNH3CQ" name="Contact">
+          <modelElement href="TelephoneDirectory.uml#_aWdOML5uEeuUdIo-vNH3CQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_bLvQmr5uEeuUdIo-vNH3CQ" comments="_bLOTAL5uEeuUdIo-vNH3CQ" targetConnectionVisual="_bLO6EL5uEeuUdIo-vNH3CQ" name="askToFindAllMatch">
+      <modelElement href="TelephoneDirectory.uml#_aa8soL5uEeuUdIo-vNH3CQ"/>
+      <visibility xmi:id="_bLvQm75uEeuUdIo-vNH3CQ" label="-"/>
+      <cardinality xmi:id="_bLvQnL5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bLvQnb5uEeuUdIo-vNH3CQ">
+        <modelElement href="TelephoneDirectory.uml#_aa9TsL5uEeuUdIo-vNH3CQ"/>
+        <type xmi:id="_bLvQnr5uEeuUdIo-vNH3CQ" name="Boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_bLvQn75uEeuUdIo-vNH3CQ" comments="_bLQIML5uEeuUdIo-vNH3CQ" targetConnectionVisual="_bLQIMb5uEeuUdIo-vNH3CQ" name="sendFeedback">
+      <modelElement href="TelephoneDirectory.uml#_aa_v8L5uEeuUdIo-vNH3CQ"/>
+      <visibility xmi:id="_bLvQoL5uEeuUdIo-vNH3CQ" label="-"/>
+      <cardinality xmi:id="_bLvQob5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_bLvQor5uEeuUdIo-vNH3CQ" name="data">
+        <modelElement href="TelephoneDirectory.uml#_abAXAL5uEeuUdIo-vNH3CQ"/>
+        <cardinality xmi:id="_bLvQo75uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+        <type xmi:id="_bLvQpL5uEeuUdIo-vNH3CQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bLvQpb5uEeuUdIo-vNH3CQ" comments="_bLRWUL5uEeuUdIo-vNH3CQ" targetConnectionVisual="_bLRWUb5uEeuUdIo-vNH3CQ" name="sendFeedbackInline">
+      <modelElement href="TelephoneDirectory.uml#_abBlIL5uEeuUdIo-vNH3CQ"/>
+      <visibility xmi:id="_bLvQpr5uEeuUdIo-vNH3CQ" label="-"/>
+      <cardinality xmi:id="_bLvQp75uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_bLvQqL5uEeuUdIo-vNH3CQ" name="data">
+        <modelElement href="TelephoneDirectory.uml#_abCMML5uEeuUdIo-vNH3CQ"/>
+        <cardinality xmi:id="_bLvQqb5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+        <type xmi:id="_bLvQqr5uEeuUdIo-vNH3CQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bLvQq75uEeuUdIo-vNH3CQ" comments="_bLR9YL5uEeuUdIo-vNH3CQ" targetConnectionVisual="_bLSkcL5uEeuUdIo-vNH3CQ" name="displayBlankLine">
+      <modelElement href="TelephoneDirectory.uml#_abCzQL5uEeuUdIo-vNH3CQ"/>
+      <visibility xmi:id="_bLvQrL5uEeuUdIo-vNH3CQ" label="-"/>
+      <cardinality xmi:id="_bLvQrb5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_bLvQrr5uEeuUdIo-vNH3CQ" comments="_bLSkcb5uEeuUdIo-vNH3CQ" targetConnectionVisual="_bLTLgL5uEeuUdIo-vNH3CQ" name="launchAppStaticFeedback">
+      <modelElement href="TelephoneDirectory.uml#_abDaUL5uEeuUdIo-vNH3CQ"/>
+      <visibility xmi:id="_bLvQr75uEeuUdIo-vNH3CQ" label="-"/>
+      <cardinality xmi:id="_bLvQsL5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_bLvQsb5uEeuUdIo-vNH3CQ" comments="_bLTLgb5uEeuUdIo-vNH3CQ" targetConnectionVisual="_bLTLgr5uEeuUdIo-vNH3CQ" name="killAppStaticFeedback">
+      <modelElement href="TelephoneDirectory.uml#_abDaUb5uEeuUdIo-vNH3CQ"/>
+      <visibility xmi:id="_bLvQsr5uEeuUdIo-vNH3CQ" label="-"/>
+      <cardinality xmi:id="_bLvQs75uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_bLvQtL5uEeuUdIo-vNH3CQ" comments="_bLTykL5uEeuUdIo-vNH3CQ" targetConnectionVisual="_bLUZoL5uEeuUdIo-vNH3CQ" name="sendExecutionTimeFeedback">
+      <modelElement href="TelephoneDirectory.uml#_abEocL5uEeuUdIo-vNH3CQ"/>
+      <visibility xmi:id="_bLvQtb5uEeuUdIo-vNH3CQ" label="-"/>
+      <cardinality xmi:id="_bLvQtr5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_bLvQt75uEeuUdIo-vNH3CQ" name="startTime">
+        <modelElement href="TelephoneDirectory.uml#_abEocb5uEeuUdIo-vNH3CQ"/>
+        <cardinality xmi:id="_bLvQuL5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+        <type xmi:id="_bLvQub5uEeuUdIo-vNH3CQ" name="long">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_bLvQur5uEeuUdIo-vNH3CQ" name="endTime">
+        <modelElement href="TelephoneDirectory.uml#_abEocr5uEeuUdIo-vNH3CQ"/>
+        <cardinality xmi:id="_bLvQu75uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+        <type xmi:id="_bLvQvL5uEeuUdIo-vNH3CQ" name="long">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bLvQvb5uEeuUdIo-vNH3CQ" comments="_bLUZob5uEeuUdIo-vNH3CQ" targetConnectionVisual="_bLVAsL5uEeuUdIo-vNH3CQ" name="displayData">
+      <modelElement href="TelephoneDirectory.uml#_afLFUL5uEeuUdIo-vNH3CQ"/>
+      <visibility xmi:id="_bLvQvr5uEeuUdIo-vNH3CQ" label="-"/>
+      <cardinality xmi:id="_bLvQv75uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_bLvQwL5uEeuUdIo-vNH3CQ" name="response">
+        <modelElement href="TelephoneDirectory.uml#_afLsYL5uEeuUdIo-vNH3CQ"/>
+        <cardinality xmi:id="_bLvQwb5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+        <type xmi:id="_bLvQwr5uEeuUdIo-vNH3CQ" name="Contact">
+          <modelElement href="TelephoneDirectory.uml#_aWdOML5uEeuUdIo-vNH3CQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bLvQw75uEeuUdIo-vNH3CQ" comments="_bLVAsb5uEeuUdIo-vNH3CQ" targetConnectionVisual="_bLVnwL5uEeuUdIo-vNH3CQ" name="requestMoreAction">
+      <modelElement href="TelephoneDirectory.uml#_afMTcb5uEeuUdIo-vNH3CQ"/>
+      <visibility xmi:id="_bLvQxL5uEeuUdIo-vNH3CQ" label="-"/>
+      <cardinality xmi:id="_bLvQxb5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_bLvQxr5uEeuUdIo-vNH3CQ" name="contact">
+        <modelElement href="TelephoneDirectory.uml#_afM6gL5uEeuUdIo-vNH3CQ"/>
+        <cardinality xmi:id="_bLvQx75uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+        <type xmi:id="_bLvQyL5uEeuUdIo-vNH3CQ" name="Contact">
+          <modelElement href="TelephoneDirectory.uml#_aWdOML5uEeuUdIo-vNH3CQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bLvQyb5uEeuUdIo-vNH3CQ" comments="_bLW14L5uEeuUdIo-vNH3CQ" targetConnectionVisual="_bLW14b5uEeuUdIo-vNH3CQ" name="deleteContact">
+      <modelElement href="TelephoneDirectory.uml#_afNhkL5uEeuUdIo-vNH3CQ"/>
+      <visibility xmi:id="_bLvQyr5uEeuUdIo-vNH3CQ" label="+"/>
+      <cardinality xmi:id="_bLvQy75uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bLvQzL5uEeuUdIo-vNH3CQ">
+        <modelElement href="TelephoneDirectory.uml#_afNhkr5uEeuUdIo-vNH3CQ"/>
+        <type xmi:id="_bLvQzb5uEeuUdIo-vNH3CQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bLvQzr5uEeuUdIo-vNH3CQ" name="contact">
+        <modelElement href="TelephoneDirectory.uml#_afNhkb5uEeuUdIo-vNH3CQ"/>
+        <cardinality xmi:id="_bLvQz75uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+        <type xmi:id="_bLvQ0L5uEeuUdIo-vNH3CQ" name="Contact">
+          <modelElement href="TelephoneDirectory.uml#_aWdOML5uEeuUdIo-vNH3CQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bLvQ0b5uEeuUdIo-vNH3CQ" name="updateContact">
+      <modelElement href="TelephoneDirectory.uml#_afOvsL5uEeuUdIo-vNH3CQ"/>
+      <visibility xmi:id="_bLvQ0r5uEeuUdIo-vNH3CQ" label="+"/>
+      <cardinality xmi:id="_bLvQ075uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bLvQ1L5uEeuUdIo-vNH3CQ">
+        <modelElement href="TelephoneDirectory.uml#_afP90L5uEeuUdIo-vNH3CQ"/>
+        <type xmi:id="_bLvQ1b5uEeuUdIo-vNH3CQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bLvQ1r5uEeuUdIo-vNH3CQ" name="oldContact">
+        <modelElement href="TelephoneDirectory.uml#_afPWwL5uEeuUdIo-vNH3CQ"/>
+        <cardinality xmi:id="_bLvQ175uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+        <type xmi:id="_bLvQ2L5uEeuUdIo-vNH3CQ" name="Contact">
+          <modelElement href="TelephoneDirectory.uml#_aWdOML5uEeuUdIo-vNH3CQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bLvQ2b5uEeuUdIo-vNH3CQ" comments="_bLYEAL5uEeuUdIo-vNH3CQ" targetConnectionVisual="_bLYEAb5uEeuUdIo-vNH3CQ" name="displayContactDetails">
+      <modelElement href="TelephoneDirectory.uml#_afWEcL5uEeuUdIo-vNH3CQ"/>
+      <visibility xmi:id="_bLvQ2r5uEeuUdIo-vNH3CQ" label="-"/>
+      <cardinality xmi:id="_bLvQ275uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_bLvQ3L5uEeuUdIo-vNH3CQ" name="i">
+        <modelElement href="TelephoneDirectory.uml#_afWEcb5uEeuUdIo-vNH3CQ"/>
+        <cardinality xmi:id="_bLvQ3b5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+        <type xmi:id="_bLvQ3r5uEeuUdIo-vNH3CQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_bLvQ375uEeuUdIo-vNH3CQ" name="contact">
+        <modelElement href="TelephoneDirectory.uml#_afWEcr5uEeuUdIo-vNH3CQ"/>
+        <cardinality xmi:id="_bLvQ4L5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+        <type xmi:id="_bLvQ4b5uEeuUdIo-vNH3CQ" name="Contact">
+          <modelElement href="TelephoneDirectory.uml#_aWdOML5uEeuUdIo-vNH3CQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bLvQ4r5uEeuUdIo-vNH3CQ" comments="_bLYrEL5uEeuUdIo-vNH3CQ" targetConnectionVisual="_bLYrEb5uEeuUdIo-vNH3CQ" name="sortAndDisplayData">
+      <modelElement href="TelephoneDirectory.uml#_agq6IL5uEeuUdIo-vNH3CQ"/>
+      <visibility xmi:id="_bLvQ475uEeuUdIo-vNH3CQ" label="-"/>
+      <cardinality xmi:id="_bLv3cL5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_bLv3cb5uEeuUdIo-vNH3CQ" name="contactList">
+        <modelElement href="TelephoneDirectory.uml#_agq6Ib5uEeuUdIo-vNH3CQ"/>
+        <cardinality xmi:id="_bLv3cr5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+        <type xmi:id="_bLv3c75uEeuUdIo-vNH3CQ" name="ArrayList">
+          <modelElement href="TelephoneDirectory.uml#_ad7IIb5uEeuUdIo-vNH3CQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bLv3dL5uEeuUdIo-vNH3CQ" comments="_bLZSIL5uEeuUdIo-vNH3CQ" targetConnectionVisual="_bLZ5ML5uEeuUdIo-vNH3CQ" name="displayByRange">
+      <modelElement href="TelephoneDirectory.uml#_agt9cb5uEeuUdIo-vNH3CQ"/>
+      <visibility xmi:id="_bLv3db5uEeuUdIo-vNH3CQ" label="-"/>
+      <cardinality xmi:id="_bLv3dr5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_bLv3d75uEeuUdIo-vNH3CQ" name="range">
+        <modelElement href="TelephoneDirectory.uml#_agt9cr5uEeuUdIo-vNH3CQ"/>
+        <cardinality xmi:id="_bLv3eL5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+        <type xmi:id="_bLv3eb5uEeuUdIo-vNH3CQ" name="Map">
+          <modelElement href="TelephoneDirectory.uml#_afFlwb5uEeuUdIo-vNH3CQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_bLv3er5uEeuUdIo-vNH3CQ" name="contact">
+        <modelElement href="TelephoneDirectory.uml#_agukgL5uEeuUdIo-vNH3CQ"/>
+        <cardinality xmi:id="_bLv3e75uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+        <type xmi:id="_bLv3fL5uEeuUdIo-vNH3CQ" name="Contact">
+          <modelElement href="TelephoneDirectory.uml#_aWdOML5uEeuUdIo-vNH3CQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bNKzyb5uEeuUdIo-vNH3CQ" comments="_bM5G8L5uEeuUdIo-vNH3CQ" targetConnectionVisual="_bM5G8b5uEeuUdIo-vNH3CQ" name="Helpers" associationsIn="_bIfIEL5uEeuUdIo-vNH3CQ _bK_Ccb5uEeuUdIo-vNH3CQ" associationsOut="_bNI-kL5uEeuUdIo-vNH3CQ _bNKzwL5uEeuUdIo-vNH3CQ">
+    <modelElement href="TelephoneDirectory.uml#_aZeF8L5uEeuUdIo-vNH3CQ"/>
+    <visualProperties xmi:id="_bNKzyr5uEeuUdIo-vNH3CQ" position="24.0,-279.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_bNKzy75uEeuUdIo-vNH3CQ" label="+"/>
+    <attributes xmi:id="_bNKzzL5uEeuUdIo-vNH3CQ" defaultValue="new Comparator&lt;Contact>() {&#xD;&#xA;&#x9;&#x9;public int compare(Contact s1, Contact s2) {&#xD;&#xA;&#x9;&#x9;&#x9;return Helpers.compare(s1, s2);&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;}" name="firstnameComparator" staticAttribute="true">
+      <modelElement href="TelephoneDirectory.uml#_ahHmEL5uEeuUdIo-vNH3CQ"/>
+      <stereotypes xmi:id="_bNKzzb5uEeuUdIo-vNH3CQ" name="Generics">
+        <modelElement href="TelephoneDirectory.uml#_ahI0ML5uEeuUdIo-vNH3CQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_bNKzzr5uEeuUdIo-vNH3CQ" name="LegacyStyledElement">
+        <modelElement href="TelephoneDirectory.uml#_ahLQcL5uEeuUdIo-vNH3CQ"/>
+      </stereotypes>
+      <visibility xmi:id="_bNKzz75uEeuUdIo-vNH3CQ" label="+"/>
+      <cardinality xmi:id="_bNKz0L5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+      <type xmi:id="_bNKz0b5uEeuUdIo-vNH3CQ" name="Comparator">
+        <modelElement href="TelephoneDirectory.uml#_aerWEL5uEeuUdIo-vNH3CQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bNKz0r5uEeuUdIo-vNH3CQ" defaultValue="new Comparator&lt;Contact>() {&#xD;&#xA;&#x9;&#x9;public int compare(Contact s1, Contact s2) {&#xD;&#xA;&#x9;&#x9;&#x9;return Helpers.compareByUUID(s1, s2);&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;}" name="uuidComparator" staticAttribute="true">
+      <modelElement href="TelephoneDirectory.uml#_ahL3gL5uEeuUdIo-vNH3CQ"/>
+      <stereotypes xmi:id="_bNKz075uEeuUdIo-vNH3CQ" name="Generics">
+        <modelElement href="TelephoneDirectory.uml#_ahMekL5uEeuUdIo-vNH3CQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_bNKz1L5uEeuUdIo-vNH3CQ" name="LegacyStyledElement">
+        <modelElement href="TelephoneDirectory.uml#_ahOTwL5uEeuUdIo-vNH3CQ"/>
+      </stereotypes>
+      <visibility xmi:id="_bNKz1b5uEeuUdIo-vNH3CQ" label="+"/>
+      <cardinality xmi:id="_bNKz1r5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+      <type xmi:id="_bNKz175uEeuUdIo-vNH3CQ" name="Comparator">
+        <modelElement href="TelephoneDirectory.uml#_aerWEL5uEeuUdIo-vNH3CQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_bNKz2L5uEeuUdIo-vNH3CQ" name="Helpers">
+      <modelElement href="TelephoneDirectory.uml#_aZfUEL5uEeuUdIo-vNH3CQ"/>
+      <keywords xmi:id="_bNKz2b5uEeuUdIo-vNH3CQ" keyword="create"/>
+      <stereotypes xmi:id="_bNKz2r5uEeuUdIo-vNH3CQ" name="LegacyStyledElement">
+        <modelElement href="TelephoneDirectory.uml#_aZkzob5uEeuUdIo-vNH3CQ"/>
+      </stereotypes>
+      <visibility xmi:id="_bNKz275uEeuUdIo-vNH3CQ" label="+"/>
+      <cardinality xmi:id="_bNKz3L5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bNKz3b5uEeuUdIo-vNH3CQ">
+        <modelElement href="TelephoneDirectory.uml#_aZlasL5uEeuUdIo-vNH3CQ"/>
+        <type xmi:id="_bNKz3r5uEeuUdIo-vNH3CQ" name="Helpers">
+          <modelElement href="TelephoneDirectory.uml#_aZeF8L5uEeuUdIo-vNH3CQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_bNKz375uEeuUdIo-vNH3CQ" name="convertObjectToJSON">
+      <modelElement href="TelephoneDirectory.uml#_aeyDwL5uEeuUdIo-vNH3CQ"/>
+      <visibility xmi:id="_bNKz4L5uEeuUdIo-vNH3CQ" label="+"/>
+      <cardinality xmi:id="_bNKz4b5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bNKz4r5uEeuUdIo-vNH3CQ">
+        <modelElement href="TelephoneDirectory.uml#_aeyq0L5uEeuUdIo-vNH3CQ"/>
+        <type xmi:id="_bNKz475uEeuUdIo-vNH3CQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bNKz5L5uEeuUdIo-vNH3CQ" name="data">
+        <modelElement href="TelephoneDirectory.uml#_aeyDwb5uEeuUdIo-vNH3CQ"/>
+        <cardinality xmi:id="_bNKz5b5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+        <type xmi:id="_bNKz5r5uEeuUdIo-vNH3CQ" name="Contact">
+          <modelElement href="TelephoneDirectory.uml#_aWdOML5uEeuUdIo-vNH3CQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bNKz575uEeuUdIo-vNH3CQ" name="compare" staticOperation="true">
+      <modelElement href="TelephoneDirectory.uml#_aezR4L5uEeuUdIo-vNH3CQ"/>
+      <visibility xmi:id="_bNKz6L5uEeuUdIo-vNH3CQ" label="+"/>
+      <cardinality xmi:id="_bNKz6b5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bNKz6r5uEeuUdIo-vNH3CQ">
+        <modelElement href="TelephoneDirectory.uml#_aez48L5uEeuUdIo-vNH3CQ"/>
+        <type xmi:id="_bNKz675uEeuUdIo-vNH3CQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bNKz7L5uEeuUdIo-vNH3CQ" name="s1">
+        <modelElement href="TelephoneDirectory.uml#_aezR4b5uEeuUdIo-vNH3CQ"/>
+        <cardinality xmi:id="_bNKz7b5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+        <type xmi:id="_bNKz7r5uEeuUdIo-vNH3CQ" name="Contact">
+          <modelElement href="TelephoneDirectory.uml#_aWdOML5uEeuUdIo-vNH3CQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_bNKz775uEeuUdIo-vNH3CQ" name="s2">
+        <modelElement href="TelephoneDirectory.uml#_aezR4r5uEeuUdIo-vNH3CQ"/>
+        <cardinality xmi:id="_bNKz8L5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+        <type xmi:id="_bNKz8b5uEeuUdIo-vNH3CQ" name="Contact">
+          <modelElement href="TelephoneDirectory.uml#_aWdOML5uEeuUdIo-vNH3CQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bNKz8r5uEeuUdIo-vNH3CQ" name="compareByUUID" staticOperation="true">
+      <modelElement href="TelephoneDirectory.uml#_ae0gAL5uEeuUdIo-vNH3CQ"/>
+      <visibility xmi:id="_bNKz875uEeuUdIo-vNH3CQ" label="+"/>
+      <cardinality xmi:id="_bNKz9L5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bNKz9b5uEeuUdIo-vNH3CQ">
+        <modelElement href="TelephoneDirectory.uml#_ae2VML5uEeuUdIo-vNH3CQ"/>
+        <type xmi:id="_bNKz9r5uEeuUdIo-vNH3CQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bNKz975uEeuUdIo-vNH3CQ" name="s1">
+        <modelElement href="TelephoneDirectory.uml#_ae0gAb5uEeuUdIo-vNH3CQ"/>
+        <cardinality xmi:id="_bNKz-L5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+        <type xmi:id="_bNKz-b5uEeuUdIo-vNH3CQ" name="Contact">
+          <modelElement href="TelephoneDirectory.uml#_aWdOML5uEeuUdIo-vNH3CQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_bNKz-r5uEeuUdIo-vNH3CQ" name="s2">
+        <modelElement href="TelephoneDirectory.uml#_ae1uIL5uEeuUdIo-vNH3CQ"/>
+        <cardinality xmi:id="_bNKz-75uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+        <type xmi:id="_bNKz_L5uEeuUdIo-vNH3CQ" name="Contact">
+          <modelElement href="TelephoneDirectory.uml#_aWdOML5uEeuUdIo-vNH3CQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bNKz_b5uEeuUdIo-vNH3CQ" name="convertListToJSON">
+      <modelElement href="TelephoneDirectory.uml#_agTtwL5uEeuUdIo-vNH3CQ"/>
+      <visibility xmi:id="_bNKz_r5uEeuUdIo-vNH3CQ" label="+"/>
+      <cardinality xmi:id="_bNKz_75uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bNK0AL5uEeuUdIo-vNH3CQ">
+        <modelElement href="TelephoneDirectory.uml#_agUU0L5uEeuUdIo-vNH3CQ"/>
+        <type xmi:id="_bNK0Ab5uEeuUdIo-vNH3CQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bNK0Ar5uEeuUdIo-vNH3CQ" name="data">
+        <modelElement href="TelephoneDirectory.uml#_agTtwb5uEeuUdIo-vNH3CQ"/>
+        <cardinality xmi:id="_bNK0A75uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+        <type xmi:id="_bNK0BL5uEeuUdIo-vNH3CQ" name="ArrayList">
+          <modelElement href="TelephoneDirectory.uml#_ad7IIb5uEeuUdIo-vNH3CQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bNK0Bb5uEeuUdIo-vNH3CQ" name="forEachWithCounter">
+      <modelElement href="TelephoneDirectory.uml#_agZNUL5uEeuUdIo-vNH3CQ"/>
+      <stereotypes xmi:id="_bNK0Br5uEeuUdIo-vNH3CQ" name="TypeParameterDeclaration">
+        <modelElement href="TelephoneDirectory.uml#_agZ0YL5uEeuUdIo-vNH3CQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_bNK0B75uEeuUdIo-vNH3CQ" name="LegacyStyledElement">
+        <modelElement href="TelephoneDirectory.uml#_agabcL5uEeuUdIo-vNH3CQ"/>
+      </stereotypes>
+      <visibility xmi:id="_bNK0CL5uEeuUdIo-vNH3CQ" label="~"/>
+      <cardinality xmi:id="_bNK0Cb5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_bNK0Cr5uEeuUdIo-vNH3CQ" name="source">
+        <modelElement href="TelephoneDirectory.uml#_agZNUb5uEeuUdIo-vNH3CQ"/>
+        <cardinality xmi:id="_bNK0C75uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+        <type xmi:id="_bNK0DL5uEeuUdIo-vNH3CQ" name="Iterable">
+          <modelElement href="TelephoneDirectory.uml#_agWxEL5uEeuUdIo-vNH3CQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_bNK0Db5uEeuUdIo-vNH3CQ" name="consumer">
+        <modelElement href="TelephoneDirectory.uml#_agZNUr5uEeuUdIo-vNH3CQ"/>
+        <cardinality xmi:id="_bNK0Dr5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+        <type xmi:id="_bNK0D75uEeuUdIo-vNH3CQ" name="BiConsumer">
+          <modelElement href="TelephoneDirectory.uml#_aWH3AL5uEeuUdIo-vNH3CQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bNK0EL5uEeuUdIo-vNH3CQ" name="customBinarySearchArrayOfObjects">
+      <modelElement href="TelephoneDirectory.uml#_agfT8L5uEeuUdIo-vNH3CQ"/>
+      <visibility xmi:id="_bNK0Eb5uEeuUdIo-vNH3CQ" label="~"/>
+      <cardinality xmi:id="_bNK0Er5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bNK0E75uEeuUdIo-vNH3CQ">
+        <modelElement href="TelephoneDirectory.uml#_agf7Ab5uEeuUdIo-vNH3CQ"/>
+        <type xmi:id="_bNK0FL5uEeuUdIo-vNH3CQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bNK0Fb5uEeuUdIo-vNH3CQ" name="contacts">
+        <modelElement href="TelephoneDirectory.uml#_agfT8b5uEeuUdIo-vNH3CQ"/>
+        <cardinality xmi:id="_bNK0Fr5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+        <type xmi:id="_bNK0F75uEeuUdIo-vNH3CQ" name="ArrayList">
+          <modelElement href="TelephoneDirectory.uml#_ad7IIb5uEeuUdIo-vNH3CQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_bNK0GL5uEeuUdIo-vNH3CQ" name="query">
+        <modelElement href="TelephoneDirectory.uml#_agf7AL5uEeuUdIo-vNH3CQ"/>
+        <cardinality xmi:id="_bNK0Gb5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+        <type xmi:id="_bNK0Gr5uEeuUdIo-vNH3CQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bNK0G75uEeuUdIo-vNH3CQ" name="customBinarySearchArrayOfObjectsByUUID">
+      <modelElement href="TelephoneDirectory.uml#_agkMcL5uEeuUdIo-vNH3CQ"/>
+      <visibility xmi:id="_bNK0HL5uEeuUdIo-vNH3CQ" label="~"/>
+      <cardinality xmi:id="_bNK0Hb5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bNK0Hr5uEeuUdIo-vNH3CQ">
+        <modelElement href="TelephoneDirectory.uml#_agkzgL5uEeuUdIo-vNH3CQ"/>
+        <type xmi:id="_bNK0H75uEeuUdIo-vNH3CQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bNK0IL5uEeuUdIo-vNH3CQ" name="contacts">
+        <modelElement href="TelephoneDirectory.uml#_agkMcb5uEeuUdIo-vNH3CQ"/>
+        <cardinality xmi:id="_bNK0Ib5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+        <type xmi:id="_bNK0Ir5uEeuUdIo-vNH3CQ" name="ArrayList">
+          <modelElement href="TelephoneDirectory.uml#_ad7IIb5uEeuUdIo-vNH3CQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_bNK0I75uEeuUdIo-vNH3CQ" name="query">
+        <modelElement href="TelephoneDirectory.uml#_agkMcr5uEeuUdIo-vNH3CQ"/>
+        <cardinality xmi:id="_bNK0JL5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+        <type xmi:id="_bNK0Jb5uEeuUdIo-vNH3CQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_bNlqgL5uEeuUdIo-vNH3CQ" name="BiConsumer">
+    <modelElement href="TelephoneDirectory.uml#_aWH3AL5uEeuUdIo-vNH3CQ"/>
+    <visualProperties xmi:id="_bNlqgb5uEeuUdIo-vNH3CQ" position="167.0,679.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_bNlqgr5uEeuUdIo-vNH3CQ" name="Generics">
+      <modelElement href="TelephoneDirectory.uml#_aWN9oL5uEeuUdIo-vNH3CQ"/>
+    </stereotypes>
+    <stereotypes xmi:id="_bNlqg75uEeuUdIo-vNH3CQ" name="LegacyStyledElement">
+      <modelElement href="TelephoneDirectory.uml#_aWUEQL5uEeuUdIo-vNH3CQ"/>
+    </stereotypes>
+    <stereotypes xmi:id="_bNlqhL5uEeuUdIo-vNH3CQ" name="Annotations">
+      <modelElement href="TelephoneDirectory.uml#_aWY8wL5uEeuUdIo-vNH3CQ"/>
+    </stereotypes>
+    <visibility xmi:id="_bNlqhb5uEeuUdIo-vNH3CQ" label="+"/>
+    <operations xmi:id="_bNlqhr5uEeuUdIo-vNH3CQ" name="accept">
+      <modelElement href="TelephoneDirectory.uml#_agG5cb5uEeuUdIo-vNH3CQ"/>
+      <stereotypes xmi:id="_bNlqh75uEeuUdIo-vNH3CQ" name="StyledElement">
+        <modelElement href="TelephoneDirectory.uml#_agIHkL5uEeuUdIo-vNH3CQ"/>
+      </stereotypes>
+      <visibility xmi:id="_bNlqiL5uEeuUdIo-vNH3CQ" label="+"/>
+      <cardinality xmi:id="_bNlqib5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_bNlqir5uEeuUdIo-vNH3CQ" name="t">
+        <modelElement href="TelephoneDirectory.uml#_agG5cr5uEeuUdIo-vNH3CQ"/>
+        <cardinality xmi:id="_bNlqi75uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+        <type xmi:id="_bNlqjL5uEeuUdIo-vNH3CQ" name="T">
+          <modelElement href="TelephoneDirectory.uml#_agALwL5uEeuUdIo-vNH3CQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_bNlqjb5uEeuUdIo-vNH3CQ" name="u">
+        <modelElement href="TelephoneDirectory.uml#_agHggL5uEeuUdIo-vNH3CQ"/>
+        <cardinality xmi:id="_bNlqjr5uEeuUdIo-vNH3CQ" label="1" max="1" min="1"/>
+        <type xmi:id="_bNlqj75uEeuUdIo-vNH3CQ" name="U">
+          <modelElement href="TelephoneDirectory.uml#_agCoAb5uEeuUdIo-vNH3CQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

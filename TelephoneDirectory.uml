@@ -1,0 +1,1659 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_YkfhUL5uEeuUdIo-vNH3CQ" name="TelephoneDirectory">
+    <eAnnotations xmi:id="_ZJrSAL5uEeuUdIo-vNH3CQ" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_ZJzN0L5uEeuUdIo-vNH3CQ" source="codegen">
+        <details xmi:id="_ZJzN0b5uEeuUdIo-vNH3CQ" key="codegenDirectory" value="/TelephoneDirectory/src/main/java"/>
+        <details xmi:id="_bEHlcL5uEeuUdIo-vNH3CQ" key="AssociatedSourceCode" value="/TelephoneDirectory/src/main/java/telephonedirectorypackage/BiConsumer.java;685236190/1;/TelephoneDirectory/src/main/java/telephonedirectorypackage/Contact.java;3675699102/1;/TelephoneDirectory/src/main/java/telephonedirectorypackage/Database.java;3343799210/1;/TelephoneDirectory/src/main/java/telephonedirectorypackage/FileHandler.java;1578696271/1;/TelephoneDirectory/src/main/java/telephonedirectorypackage/Helpers.java;4037924324/1;/TelephoneDirectory/src/main/java/telephonedirectorypackage/IDatabase.java;3179124670/1;/TelephoneDirectory/src/main/java/telephonedirectorypackage/Main.java;3867074665/1;/TelephoneDirectory/src/main/java/telephonedirectorypackage/TelephoneDirectory.java;3046757273/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_aSFrkL5uEeuUdIo-vNH3CQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_aSG5sL5uEeuUdIo-vNH3CQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_aSG5sb5uEeuUdIo-vNH3CQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_aSHgwL5uEeuUdIo-vNH3CQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_aSHgwb5uEeuUdIo-vNH3CQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_aSHgwr5uEeuUdIo-vNH3CQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_aSIH0L5uEeuUdIo-vNH3CQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_aSIH0b5uEeuUdIo-vNH3CQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_aSJV8L5uEeuUdIo-vNH3CQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_aScQ4L5uEeuUdIo-vNH3CQ" name="telephonedirectorypackage">
+      <packagedElement xmi:type="uml:Interface" xmi:id="_aWH3AL5uEeuUdIo-vNH3CQ" name="BiConsumer">
+        <ownedOperation xmi:id="_agG5cb5uEeuUdIo-vNH3CQ" name="accept">
+          <ownedParameter xmi:id="_agG5cr5uEeuUdIo-vNH3CQ" name="t" type="_agALwL5uEeuUdIo-vNH3CQ"/>
+          <ownedParameter xmi:id="_agHggL5uEeuUdIo-vNH3CQ" name="u" type="_agCoAb5uEeuUdIo-vNH3CQ"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_aWdOML5uEeuUdIo-vNH3CQ" name="Contact">
+        <ownedComment xmi:id="_aiopAL5uEeuUdIo-vNH3CQ">
+          <body>Contact class&#xD;
+@author Ismail&#xD;
+ *</body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_ag48kL5uEeuUdIo-vNH3CQ" name="uid" type="_adtswL5uEeuUdIo-vNH3CQ" isReadOnly="true" association="_ajC4sL5uEeuUdIo-vNH3CQ"/>
+        <ownedAttribute xmi:id="_ag5joL5uEeuUdIo-vNH3CQ" name="firstname">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_ag9OAL5uEeuUdIo-vNH3CQ" name="lastname">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_ag91EL5uEeuUdIo-vNH3CQ" name="phone">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ahzikL5uEeuUdIo-vNH3CQ" name="Contact" specification="_aWki8L5uEeuUdIo-vNH3CQ">
+          <ownedParameter xmi:id="_ah0JoL5uEeuUdIo-vNH3CQ" name="firstname">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_ah0Job5uEeuUdIo-vNH3CQ" name="lastname">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_ah0Jor5uEeuUdIo-vNH3CQ" name="phone">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_ah0Jo75uEeuUdIo-vNH3CQ" type="_aWdOML5uEeuUdIo-vNH3CQ" direction="return"/>
+          <language>java</language>
+          <body>this.firstname = firstname;&#xD;
+		this.lastname = lastname;&#xD;
+		this.phone = phone;&#xD;
+		// generate unique identifier&#xD;
+		this.uid = UUID.randomUUID();&#xD;
+		&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_aiA98L5uEeuUdIo-vNH3CQ" name="Contact" specification="_aWqCgL5uEeuUdIo-vNH3CQ">
+          <ownedParameter xmi:id="_aiA98b5uEeuUdIo-vNH3CQ" type="_aWdOML5uEeuUdIo-vNH3CQ" direction="return"/>
+          <language>java</language>
+          <body>// generate unique identifie&#xD;
+		this.uid = UUID.randomUUID();		&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_aiA98r5uEeuUdIo-vNH3CQ" name="toString" specification="_aWrQoL5uEeuUdIo-vNH3CQ">
+          <ownedParameter xmi:id="_aiA9875uEeuUdIo-vNH3CQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return super.toString();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_aiBlAL5uEeuUdIo-vNH3CQ" name="clone" specification="_aWx-Ub5uEeuUdIo-vNH3CQ">
+          <ownedParameter xmi:id="_aiBlAb5uEeuUdIo-vNH3CQ" type="_agJVsL5uEeuUdIo-vNH3CQ" direction="return"/>
+          <language>java</language>
+          <body>return super.clone();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_aWki8L5uEeuUdIo-vNH3CQ" name="Contact" method="_ahzikL5uEeuUdIo-vNH3CQ">
+          <eAnnotations xmi:id="_aWoNUL5uEeuUdIo-vNH3CQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_aWoNUb5uEeuUdIo-vNH3CQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_aWlKAL5uEeuUdIo-vNH3CQ" name="firstname">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_aWlxEL5uEeuUdIo-vNH3CQ" name="lastname">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_aWlxEb5uEeuUdIo-vNH3CQ" name="phone">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_aWo0YL5uEeuUdIo-vNH3CQ" type="_aWdOML5uEeuUdIo-vNH3CQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_aWqCgL5uEeuUdIo-vNH3CQ" name="Contact" method="_aiA98L5uEeuUdIo-vNH3CQ">
+          <eAnnotations xmi:id="_aWqpkL5uEeuUdIo-vNH3CQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_aWqpkb5uEeuUdIo-vNH3CQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_aWqpkr5uEeuUdIo-vNH3CQ" type="_aWdOML5uEeuUdIo-vNH3CQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_aWrQoL5uEeuUdIo-vNH3CQ" name="toString" method="_aiA98r5uEeuUdIo-vNH3CQ">
+          <ownedParameter xmi:id="_aWr3sL5uEeuUdIo-vNH3CQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_aWx-Ub5uEeuUdIo-vNH3CQ" name="clone" visibility="protected" method="_aiBlAL5uEeuUdIo-vNH3CQ" raisedException="_agLx8L5uEeuUdIo-vNH3CQ">
+          <ownedParameter xmi:id="_agLK4L5uEeuUdIo-vNH3CQ" type="_agJVsL5uEeuUdIo-vNH3CQ" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_aXBO4L5uEeuUdIo-vNH3CQ" name="Database">
+        <ownedComment xmi:id="_aiopAb5uEeuUdIo-vNH3CQ">
+          <body>Database class - handle all db operations&#xD;
+@author Ismail&#xD;
+ *</body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_ag_qQL5uEeuUdIo-vNH3CQ" name="contactList" visibility="private" type="_ad7IIb5uEeuUdIo-vNH3CQ" association="_ajGjEL5uEeuUdIo-vNH3CQ"/>
+        <ownedAttribute xmi:id="_ahD7sL5uEeuUdIo-vNH3CQ" name="pathToDatabase" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_ahFJ0L5uEeuUdIo-vNH3CQ" name="fileHandler" visibility="package" type="_aY3B8L5uEeuUdIo-vNH3CQ" association="_ajI_UL5uEeuUdIo-vNH3CQ"/>
+        <ownedAttribute xmi:id="_ahFw4b5uEeuUdIo-vNH3CQ" name="helpers" visibility="package" type="_aZeF8L5uEeuUdIo-vNH3CQ" association="_ajKNcL5uEeuUdIo-vNH3CQ"/>
+        <interfaceRealization xmi:id="_aeSUgL5uEeuUdIo-vNH3CQ" client="_aXBO4L5uEeuUdIo-vNH3CQ" supplier="_aZ0EML5uEeuUdIo-vNH3CQ" contract="_aZ0EML5uEeuUdIo-vNH3CQ"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_aiHEkL5uEeuUdIo-vNH3CQ" name="Database" specification="_aXH8kL5uEeuUdIo-vNH3CQ">
+          <ownedParameter xmi:id="_aiHEkb5uEeuUdIo-vNH3CQ" name="pathToDatabase">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_aiHEkr5uEeuUdIo-vNH3CQ" type="_aXBO4L5uEeuUdIo-vNH3CQ" direction="return"/>
+          <language>java</language>
+          <body>// set path To db.json file&#xD;
+		this.pathToDatabase = pathToDatabase;&#xD;
+		// instantiate fileHandler &#xD;
+		this.fileHandler = new FileHandler();&#xD;
+		// instantiate helpers&#xD;
+		this.helpers = new Helpers();&#xD;
+		// load data from storage i.e db.json&#xD;
+		this.contactList = fetchDB();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_aiI5wL5uEeuUdIo-vNH3CQ" name="getAll" specification="_aXUJ0L5uEeuUdIo-vNH3CQ">
+          <ownedParameter xmi:id="_aiI5wb5uEeuUdIo-vNH3CQ" type="_ad7IIb5uEeuUdIo-vNH3CQ" direction="return"/>
+          <language>java</language>
+          <body>return contactList;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_aiNyQL5uEeuUdIo-vNH3CQ" name="get" specification="_aXcFoL5uEeuUdIo-vNH3CQ">
+          <ownedParameter xmi:id="_aiNyQb5uEeuUdIo-vNH3CQ" name="query">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_aiNyQr5uEeuUdIo-vNH3CQ" type="_aWdOML5uEeuUdIo-vNH3CQ" direction="return"/>
+          <language>java</language>
+          <body>return null;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_aiOZUL5uEeuUdIo-vNH3CQ" name="create" specification="_aeV-4b5uEeuUdIo-vNH3CQ">
+          <ownedParameter xmi:id="_aiOZUb5uEeuUdIo-vNH3CQ" name="data" type="_aWdOML5uEeuUdIo-vNH3CQ"/>
+          <language>java</language>
+          <body>try {&#xD;
+			this.contactList.add(data);&#xD;
+			this.contactList.sort(Helpers.uuidComparator);&#xD;
+			String dataToJSON = helpers.convertListToJSON(contactList);&#xD;
+			fileHandler.writeToJsonFile(this.pathToDatabase, dataToJSON);&#xD;
+		} catch (Exception e) {&#xD;
+			e.printStackTrace();&#xD;
+		}&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_aiOZUr5uEeuUdIo-vNH3CQ" name="update" specification="_aeWl8b5uEeuUdIo-vNH3CQ">
+          <ownedParameter xmi:id="_aiPAYL5uEeuUdIo-vNH3CQ" name="data" type="_aWdOML5uEeuUdIo-vNH3CQ"/>
+          <ownedParameter xmi:id="_aiPAYb5uEeuUdIo-vNH3CQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>for(Contact contact : contactList) {&#xD;
+			if(&#xD;
+				contact.getUid().toString().compareToIgnoreCase(data.getUid().toString()) == 0&#xD;
+			) {&#xD;
+				contact.setFirstname(data.getFirstname());&#xD;
+				contact.setLastname(data.getLastname());&#xD;
+				contact.setPhone(data.getPhone());&#xD;
+			}&#xD;
+		}&#xD;
+		&#xD;
+		 // update database storage file&#xD;
+		 String dataToJSON = helpers.convertListToJSON(contactList);&#xD;
+		 fileHandler.writeToJsonFile(this.pathToDatabase, dataToJSON);&#xD;
+		 contactList = fetchDB();&#xD;
+		 return true;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_aiRcoL5uEeuUdIo-vNH3CQ" name="delete" specification="_aeX0EL5uEeuUdIo-vNH3CQ">
+          <ownedParameter xmi:id="_aiRcob5uEeuUdIo-vNH3CQ" name="contact" type="_aWdOML5uEeuUdIo-vNH3CQ"/>
+          <ownedParameter xmi:id="_aiRcor5uEeuUdIo-vNH3CQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>// delete data from in memory &#xD;
+		 contactList.remove(contact);&#xD;
+		 // update database storage file&#xD;
+		 String dataToJSON = helpers.convertListToJSON(contactList);&#xD;
+		 fileHandler.writeToJsonFile(this.pathToDatabase, dataToJSON);&#xD;
+		 contactList = fetchDB();&#xD;
+		 return true;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_aiSqwL5uEeuUdIo-vNH3CQ" name="findAll" specification="_aXizUL5uEeuUdIo-vNH3CQ">
+          <ownedParameter xmi:id="_aiSqwb5uEeuUdIo-vNH3CQ" name="queryString">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_aiSqwr5uEeuUdIo-vNH3CQ" type="_ad7IIb5uEeuUdIo-vNH3CQ" direction="return"/>
+          <language>java</language>
+          <body>ArrayList&lt;Contact> result = new ArrayList&lt;Contact>(); &#xD;
+		&#xD;
+		for(Contact contact : contactList) {&#xD;
+			if(&#xD;
+				contact.getFirstname().toLowerCase().contains(queryString.toLowerCase())&#xD;
+				|| contact.getLastname().toLowerCase().contains(queryString.toLowerCase())&#xD;
+				|| contact.getPhone().toLowerCase().contains(queryString.toLowerCase())&#xD;
+			) {&#xD;
+				result.add(contact);&#xD;
+			}&#xD;
+		}&#xD;
+		&#xD;
+		return result;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_aiTR0L5uEeuUdIo-vNH3CQ" name="find" specification="_aXl2oL5uEeuUdIo-vNH3CQ">
+          <ownedParameter xmi:id="_aiTR0b5uEeuUdIo-vNH3CQ" name="queryString">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_aiTR0r5uEeuUdIo-vNH3CQ" type="_aWdOML5uEeuUdIo-vNH3CQ" direction="return"/>
+          <language>java</language>
+          <body>for(Contact contact : contactList) {&#xD;
+			if(&#xD;
+				contact.getFirstname().toLowerCase().equalsIgnoreCase(queryString.toLowerCase())&#xD;
+				|| contact.getLastname().toLowerCase().equalsIgnoreCase(queryString.toLowerCase())&#xD;
+				|| contact.getPhone().toLowerCase().equalsIgnoreCase(queryString.toLowerCase())&#xD;
+			) {&#xD;
+				return contact;&#xD;
+			}&#xD;
+		}&#xD;
+		&#xD;
+		return null;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_aiTR075uEeuUdIo-vNH3CQ" name="fetchDB" specification="_aXnEwL5uEeuUdIo-vNH3CQ">
+          <ownedParameter xmi:id="_aiTR1L5uEeuUdIo-vNH3CQ" type="_ad7IIb5uEeuUdIo-vNH3CQ" direction="return"/>
+          <language>java</language>
+          <body>ArrayList&lt;Contact> res;&#xD;
+		try {			&#xD;
+			if(this.pathToDatabase != null || !this.pathToDatabase.isBlank()) {&#xD;
+				res = fileHandler.readFromJsonFile(pathToDatabase);&#xD;
+				res.sort(Helpers.uuidComparator);;&#xD;
+				return res;&#xD;
+			}&#xD;
+		} catch (ParseException e) {&#xD;
+			e.printStackTrace();&#xD;
+		}&#xD;
+		return null;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_aXH8kL5uEeuUdIo-vNH3CQ" name="Database" method="_aiHEkL5uEeuUdIo-vNH3CQ">
+          <eAnnotations xmi:id="_aXOqQL5uEeuUdIo-vNH3CQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_aXSUoL5uEeuUdIo-vNH3CQ" key="create"/>
+          </eAnnotations>
+          <ownedComment xmi:id="_aipQEL5uEeuUdIo-vNH3CQ">
+            <body>Database Constructor&#xD;
+	 * @param pathToDatabase</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_aXH8kb5uEeuUdIo-vNH3CQ" name="pathToDatabase">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_aXSUob5uEeuUdIo-vNH3CQ" type="_aXBO4L5uEeuUdIo-vNH3CQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_aXUJ0L5uEeuUdIo-vNH3CQ" name="getAll" method="_aiI5wL5uEeuUdIo-vNH3CQ">
+          <ownedComment xmi:id="_aipQEb5uEeuUdIo-vNH3CQ">
+            <body>get all contacts in database&#xD;
+	 * @return contact list</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_agQqcL5uEeuUdIo-vNH3CQ" type="_ad7IIb5uEeuUdIo-vNH3CQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_aXcFoL5uEeuUdIo-vNH3CQ" name="get" method="_aiNyQL5uEeuUdIo-vNH3CQ">
+          <ownedComment xmi:id="_aipQEr5uEeuUdIo-vNH3CQ">
+            <body>get a single contact&#xD;
+	 * @param query - string</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_aXcFob5uEeuUdIo-vNH3CQ" name="query">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_aeV-4L5uEeuUdIo-vNH3CQ" type="_aWdOML5uEeuUdIo-vNH3CQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_aXizUL5uEeuUdIo-vNH3CQ" name="findAll" method="_aiSqwL5uEeuUdIo-vNH3CQ">
+          <ownedComment xmi:id="_aip3IL5uEeuUdIo-vNH3CQ">
+            <body>find all matches to a query in the database&#xD;
+	 * @param queryString&#xD;
+	 * @return array list of contacts or empty array list</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_aXizUb5uEeuUdIo-vNH3CQ" name="queryString">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_agRRgL5uEeuUdIo-vNH3CQ" type="_ad7IIb5uEeuUdIo-vNH3CQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_aXl2oL5uEeuUdIo-vNH3CQ" name="find" method="_aiTR0L5uEeuUdIo-vNH3CQ">
+          <ownedComment xmi:id="_aip3Ib5uEeuUdIo-vNH3CQ">
+            <body>find exact match to a query in the database&#xD;
+	 * @param queryString&#xD;
+	 * @return contact object or null</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_aXmdsL5uEeuUdIo-vNH3CQ" name="queryString">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_aea3YL5uEeuUdIo-vNH3CQ" type="_aWdOML5uEeuUdIo-vNH3CQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_aXnEwL5uEeuUdIo-vNH3CQ" name="fetchDB" method="_aiTR075uEeuUdIo-vNH3CQ">
+          <ownedComment xmi:id="_aip3Ir5uEeuUdIo-vNH3CQ">
+            <body>fetch db.json file from local storage,&#xD;
+	 * parse and return data&#xD;
+	 * @return array list of contacts</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_agRRgb5uEeuUdIo-vNH3CQ" type="_ad7IIb5uEeuUdIo-vNH3CQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_aeV-4b5uEeuUdIo-vNH3CQ" name="create" method="_aiOZUL5uEeuUdIo-vNH3CQ">
+          <ownedComment xmi:id="_aipQE75uEeuUdIo-vNH3CQ">
+            <body>create and write to database&#xD;
+	 * @param data - contact object</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_aeWl8L5uEeuUdIo-vNH3CQ" name="data" type="_aWdOML5uEeuUdIo-vNH3CQ"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_aeWl8b5uEeuUdIo-vNH3CQ" name="update" method="_aiOZUr5uEeuUdIo-vNH3CQ">
+          <ownedComment xmi:id="_aipQFL5uEeuUdIo-vNH3CQ">
+            <body>update or patch contact object and write to database&#xD;
+	 * @param data - contact object&#xD;
+	 * @return boolean</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_aeXNAL5uEeuUdIo-vNH3CQ" name="data" type="_aWdOML5uEeuUdIo-vNH3CQ"/>
+          <ownedParameter xmi:id="_aeXNAb5uEeuUdIo-vNH3CQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_aeX0EL5uEeuUdIo-vNH3CQ" name="delete" method="_aiRcoL5uEeuUdIo-vNH3CQ">
+          <ownedComment xmi:id="_aipQFb5uEeuUdIo-vNH3CQ">
+            <body>delete contact object from database&#xD;
+	 * @param query - uuid</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_aeX0Eb5uEeuUdIo-vNH3CQ" name="contact" type="_aWdOML5uEeuUdIo-vNH3CQ"/>
+          <ownedParameter xmi:id="_aeYbIL5uEeuUdIo-vNH3CQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_aY3B8L5uEeuUdIo-vNH3CQ" name="FileHandler">
+        <ownedComment xmi:id="_aip3I75uEeuUdIo-vNH3CQ">
+          <body>FileHadler Utility to write and read Json file</body>
+        </ownedComment>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_aiUf8L5uEeuUdIo-vNH3CQ" name="writeToJsonFile" specification="_aZG5kL5uEeuUdIo-vNH3CQ">
+          <ownedParameter xmi:id="_aiUf8b5uEeuUdIo-vNH3CQ" name="filePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_aiUf8r5uEeuUdIo-vNH3CQ" name="jsonData">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>try {&#xD;
+			FileWriter file = new FileWriter(filePath);&#xD;
+			&#xD;
+			// we can write jsonData to the file&#xD;
+			file.write(jsonData); &#xD;
+			file.flush();&#xD;
+			file.close();&#xD;
+		} catch (IOException e) {&#xD;
+			e.printStackTrace();&#xD;
+		}&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_aiVHAL5uEeuUdIo-vNH3CQ" name="readFromJsonFile" specification="_aZLLAL5uEeuUdIo-vNH3CQ">
+          <ownedParameter xmi:id="_aiVHAb5uEeuUdIo-vNH3CQ" name="filePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_aiVHAr5uEeuUdIo-vNH3CQ" type="_ad7IIb5uEeuUdIo-vNH3CQ" direction="return"/>
+          <language>java</language>
+          <body>try {&#xD;
+			FileReader reader = new FileReader(filePath);&#xD;
+			&#xD;
+         // Deserialize JSON data&#xD;
+			Type contactsType = new TypeToken&lt;ArrayList&lt;Contact>>(){}.getType(); &#xD;
+			final ArrayList&lt;Contact> data = new Gson().fromJson(reader, contactsType);			&#xD;
+			return data;&#xD;
+		} catch (IOException e) {&#xD;
+			e.printStackTrace();&#xD;
+		}&#xD;
+		return null;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_aZCBEL5uEeuUdIo-vNH3CQ" name="FileHandler">
+          <eAnnotations xmi:id="_aZFEYL5uEeuUdIo-vNH3CQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_aZFrcL5uEeuUdIo-vNH3CQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_aZGSgb5uEeuUdIo-vNH3CQ" type="_aY3B8L5uEeuUdIo-vNH3CQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_aZG5kL5uEeuUdIo-vNH3CQ" name="writeToJsonFile" method="_aiUf8L5uEeuUdIo-vNH3CQ">
+          <ownedParameter xmi:id="_aZHgoL5uEeuUdIo-vNH3CQ" name="filePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_aZHgob5uEeuUdIo-vNH3CQ" name="jsonData">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_aZLLAL5uEeuUdIo-vNH3CQ" name="readFromJsonFile" method="_aiVHAL5uEeuUdIo-vNH3CQ" raisedException="_ad5S8L5uEeuUdIo-vNH3CQ">
+          <ownedParameter xmi:id="_aZLLAb5uEeuUdIo-vNH3CQ" name="filePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_agTGsL5uEeuUdIo-vNH3CQ" type="_ad7IIb5uEeuUdIo-vNH3CQ" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_aZeF8L5uEeuUdIo-vNH3CQ" name="Helpers">
+        <ownedComment xmi:id="_aiqeML5uEeuUdIo-vNH3CQ">
+          <body>Helpers - contains utilities to convert, parse&#xD;
+compare and loop data&#xD;
+@author Ismail&#xD;
+ *</body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_ahHmEL5uEeuUdIo-vNH3CQ" name="firstnameComparator" isStatic="true" type="_aerWEL5uEeuUdIo-vNH3CQ" association="_ajMpsL5uEeuUdIo-vNH3CQ">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_ahJbQL5uEeuUdIo-vNH3CQ" value="new Comparator&lt;Contact>() {&#xD;&#xA;&#x9;&#x9;public int compare(Contact s1, Contact s2) {&#xD;&#xA;&#x9;&#x9;&#x9;return Helpers.compare(s1, s2);&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;}"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_ahL3gL5uEeuUdIo-vNH3CQ" name="uuidComparator" isStatic="true" type="_aerWEL5uEeuUdIo-vNH3CQ" association="_ajN30L5uEeuUdIo-vNH3CQ">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_ahMekb5uEeuUdIo-vNH3CQ" value="new Comparator&lt;Contact>() {&#xD;&#xA;&#x9;&#x9;public int compare(Contact s1, Contact s2) {&#xD;&#xA;&#x9;&#x9;&#x9;return Helpers.compareByUUID(s1, s2);&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;}"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_aiVuEL5uEeuUdIo-vNH3CQ" name="convertListToJSON" specification="_agTtwL5uEeuUdIo-vNH3CQ">
+          <ownedParameter xmi:id="_aiVuEb5uEeuUdIo-vNH3CQ" name="data" type="_ad7IIb5uEeuUdIo-vNH3CQ"/>
+          <ownedParameter xmi:id="_aiVuEr5uEeuUdIo-vNH3CQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>Gson prettyGson = new GsonBuilder()&#xD;
+								.serializeNulls()&#xD;
+								.setPrettyPrinting()&#xD;
+								.create();&#xD;
+		String prettyJson = prettyGson.toJson(data);&#xD;
+		return prettyJson;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_aiVuE75uEeuUdIo-vNH3CQ" name="convertObjectToJSON" specification="_aeyDwL5uEeuUdIo-vNH3CQ">
+          <ownedParameter xmi:id="_aiVuFL5uEeuUdIo-vNH3CQ" name="data" type="_aWdOML5uEeuUdIo-vNH3CQ"/>
+          <ownedParameter xmi:id="_aiVuFb5uEeuUdIo-vNH3CQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>// Use this builder to construct a Gson instance when you need to set configuration options other than the default.&#xD;
+		GsonBuilder gsonBuilder = new GsonBuilder();&#xD;
+		&#xD;
+		// This is the main class for using Gson. &#xD;
+		// Gson is typically used by first constructing a Gson instance and then invoking toJson(Object) or fromJson(String, Class) methods on it. &#xD;
+		// Gson instances are Thread-safe so you can reuse them freely across multiple threads.&#xD;
+		Gson gson = gsonBuilder&#xD;
+					.serializeNulls()&#xD;
+					.create();&#xD;
+	&#xD;
+		String objectJson = gson.toJson(data);&#xD;
+		&#xD;
+		return objectJson;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_aiWVIL5uEeuUdIo-vNH3CQ" name="compare" specification="_aezR4L5uEeuUdIo-vNH3CQ">
+          <ownedParameter xmi:id="_aiWVIb5uEeuUdIo-vNH3CQ" name="s1" type="_aWdOML5uEeuUdIo-vNH3CQ"/>
+          <ownedParameter xmi:id="_aiWVIr5uEeuUdIo-vNH3CQ" name="s2" type="_aWdOML5uEeuUdIo-vNH3CQ"/>
+          <ownedParameter xmi:id="_aiWVI75uEeuUdIo-vNH3CQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>String s1Firstname = (String) s1.getFirstname();&#xD;
+		String s2Firstname = (String) s2.getFirstname();			&#xD;
+		return s1Firstname.compareTo(s2Firstname);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_aiXjQL5uEeuUdIo-vNH3CQ" name="compareByUUID" specification="_ae0gAL5uEeuUdIo-vNH3CQ">
+          <ownedParameter xmi:id="_aiXjQb5uEeuUdIo-vNH3CQ" name="s1" type="_aWdOML5uEeuUdIo-vNH3CQ"/>
+          <ownedParameter xmi:id="_aiXjQr5uEeuUdIo-vNH3CQ" name="s2" type="_aWdOML5uEeuUdIo-vNH3CQ"/>
+          <ownedParameter xmi:id="_aiXjQ75uEeuUdIo-vNH3CQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>String s1UUID = s1.getUid().toString();&#xD;
+		String s2UUID = s2.getUid().toString();			&#xD;
+		return s1UUID.compareTo(s2UUID);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_aiXjRL5uEeuUdIo-vNH3CQ" name="forEachWithCounter" specification="_agZNUL5uEeuUdIo-vNH3CQ">
+          <ownedParameter xmi:id="_aiXjRb5uEeuUdIo-vNH3CQ" name="source" type="_agWxEL5uEeuUdIo-vNH3CQ"/>
+          <ownedParameter xmi:id="_aiXjRr5uEeuUdIo-vNH3CQ" name="consumer" type="_aWH3AL5uEeuUdIo-vNH3CQ"/>
+          <language>java</language>
+          <body>int i = 0;&#xD;
+		for(T item: source) {&#xD;
+			consumer.accept(i, item);&#xD;
+			i++;&#xD;
+		}&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_aiYKUL5uEeuUdIo-vNH3CQ" name="customBinarySearchArrayOfObjects" specification="_agfT8L5uEeuUdIo-vNH3CQ">
+          <ownedParameter xmi:id="_aiYKUb5uEeuUdIo-vNH3CQ" name="contacts" type="_ad7IIb5uEeuUdIo-vNH3CQ"/>
+          <ownedParameter xmi:id="_aiYKUr5uEeuUdIo-vNH3CQ" name="query">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_aiYKU75uEeuUdIo-vNH3CQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>int low = 0, high = contacts.size() - 1;&#xD;
+		&#xD;
+		// repeat until the pointers low and high meet each other&#xD;
+		while(low &lt;= high) {&#xD;
+			// get index of mid element&#xD;
+			int mid = low + (high - low) / 2;&#xD;
+			&#xD;
+			// if query to be searched is the mid element&#xD;
+			if(	contacts.get(mid).getFirstname().compareToIgnoreCase(query) == 0&#xD;
+					|| contacts.get(mid).getLastname().compareToIgnoreCase(query) == 0&#xD;
+					|| contacts.get(mid).getPhone().compareToIgnoreCase(query) == 0&#xD;
+					|| contacts.get(mid).getUid().toString().compareToIgnoreCase(query) == 0&#xD;
+					) return mid;&#xD;
+			&#xD;
+			// if query is greater than mid element, compareTo returns a positive number&#xD;
+			// ignore left half&#xD;
+			if(	contacts.get(mid).getFirstname().compareToIgnoreCase(query) &lt; 0&#xD;
+					|| contacts.get(mid).getLastname().compareToIgnoreCase(query) &lt; 0&#xD;
+					|| contacts.get(mid).getPhone().compareToIgnoreCase(query) &lt; 0&#xD;
+					|| contacts.get(mid).getUid().toString().compareToIgnoreCase(query) &lt; 0&#xD;
+					)  {&#xD;
+				low = mid + 1;&#xD;
+			} else {&#xD;
+				// if query is less than mid element&#xD;
+				// ignore right half&#xD;
+				high = mid - 1;&#xD;
+			}&#xD;
+		}&#xD;
+		&#xD;
+		return -1;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_aiYxYL5uEeuUdIo-vNH3CQ" name="customBinarySearchArrayOfObjectsByUUID" specification="_agkMcL5uEeuUdIo-vNH3CQ">
+          <ownedParameter xmi:id="_aiYxYb5uEeuUdIo-vNH3CQ" name="contacts" type="_ad7IIb5uEeuUdIo-vNH3CQ"/>
+          <ownedParameter xmi:id="_aiYxYr5uEeuUdIo-vNH3CQ" name="query">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_aiYxY75uEeuUdIo-vNH3CQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>int low = 0, high = contacts.size() - 1;&#xD;
+		&#xD;
+		// repeat until the pointers low and high meet each other&#xD;
+		while(low &lt;= high) {&#xD;
+			// get index of mid element&#xD;
+			int mid = low + (high - low) / 2;&#xD;
+			&#xD;
+			// if query to be searched is the mid element&#xD;
+			if(contacts.get(mid).getUid().toString().compareToIgnoreCase(query) == 0) &#xD;
+				return mid;&#xD;
+			&#xD;
+			// if query is greater than mid element, compareTo returns a positive number&#xD;
+			// ignore left half&#xD;
+			if(contacts.get(mid).getUid().toString().compareToIgnoreCase(query) > 0)	&#xD;
+				low = mid + 1;&#xD;
+			else &#xD;
+				// if query is less than mid element&#xD;
+				// ignore right half&#xD;
+				high = mid - 1;&#xD;
+		}&#xD;
+		// if no match&#xD;
+		return -1;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_aZfUEL5uEeuUdIo-vNH3CQ" name="Helpers">
+          <eAnnotations xmi:id="_aZkMkL5uEeuUdIo-vNH3CQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_aZkzoL5uEeuUdIo-vNH3CQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_aZlasL5uEeuUdIo-vNH3CQ" type="_aZeF8L5uEeuUdIo-vNH3CQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_aeyDwL5uEeuUdIo-vNH3CQ" name="convertObjectToJSON" method="_aiVuE75uEeuUdIo-vNH3CQ">
+          <ownedParameter xmi:id="_aeyDwb5uEeuUdIo-vNH3CQ" name="data" type="_aWdOML5uEeuUdIo-vNH3CQ"/>
+          <ownedParameter xmi:id="_aeyq0L5uEeuUdIo-vNH3CQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_aezR4L5uEeuUdIo-vNH3CQ" name="compare" isStatic="true" method="_aiWVIL5uEeuUdIo-vNH3CQ">
+          <ownedParameter xmi:id="_aezR4b5uEeuUdIo-vNH3CQ" name="s1" type="_aWdOML5uEeuUdIo-vNH3CQ"/>
+          <ownedParameter xmi:id="_aezR4r5uEeuUdIo-vNH3CQ" name="s2" type="_aWdOML5uEeuUdIo-vNH3CQ"/>
+          <ownedParameter xmi:id="_aez48L5uEeuUdIo-vNH3CQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ae0gAL5uEeuUdIo-vNH3CQ" name="compareByUUID" isStatic="true" method="_aiXjQL5uEeuUdIo-vNH3CQ">
+          <ownedParameter xmi:id="_ae0gAb5uEeuUdIo-vNH3CQ" name="s1" type="_aWdOML5uEeuUdIo-vNH3CQ"/>
+          <ownedParameter xmi:id="_ae1uIL5uEeuUdIo-vNH3CQ" name="s2" type="_aWdOML5uEeuUdIo-vNH3CQ"/>
+          <ownedParameter xmi:id="_ae2VML5uEeuUdIo-vNH3CQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_agTtwL5uEeuUdIo-vNH3CQ" name="convertListToJSON" method="_aiVuEL5uEeuUdIo-vNH3CQ">
+          <ownedParameter xmi:id="_agTtwb5uEeuUdIo-vNH3CQ" name="data" type="_ad7IIb5uEeuUdIo-vNH3CQ"/>
+          <ownedParameter xmi:id="_agUU0L5uEeuUdIo-vNH3CQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_agZNUL5uEeuUdIo-vNH3CQ" name="forEachWithCounter" visibility="package" method="_aiXjRL5uEeuUdIo-vNH3CQ">
+          <ownedParameter xmi:id="_agZNUb5uEeuUdIo-vNH3CQ" name="source" type="_agWxEL5uEeuUdIo-vNH3CQ"/>
+          <ownedParameter xmi:id="_agZNUr5uEeuUdIo-vNH3CQ" name="consumer" type="_aWH3AL5uEeuUdIo-vNH3CQ"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_agfT8L5uEeuUdIo-vNH3CQ" name="customBinarySearchArrayOfObjects" visibility="package" method="_aiYKUL5uEeuUdIo-vNH3CQ">
+          <ownedParameter xmi:id="_agfT8b5uEeuUdIo-vNH3CQ" name="contacts" type="_ad7IIb5uEeuUdIo-vNH3CQ"/>
+          <ownedParameter xmi:id="_agf7AL5uEeuUdIo-vNH3CQ" name="query">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_agf7Ab5uEeuUdIo-vNH3CQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_agkMcL5uEeuUdIo-vNH3CQ" name="customBinarySearchArrayOfObjectsByUUID" visibility="package" method="_aiYxYL5uEeuUdIo-vNH3CQ">
+          <ownedParameter xmi:id="_agkMcb5uEeuUdIo-vNH3CQ" name="contacts" type="_ad7IIb5uEeuUdIo-vNH3CQ"/>
+          <ownedParameter xmi:id="_agkMcr5uEeuUdIo-vNH3CQ" name="query">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_agkzgL5uEeuUdIo-vNH3CQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_aZ0EML5uEeuUdIo-vNH3CQ" name="IDatabase">
+        <ownedComment xmi:id="_airFQL5uEeuUdIo-vNH3CQ">
+          <body>Database Interface&#xD;
+@author Ismail&#xD;
+ *</body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_aZ1SUL5uEeuUdIo-vNH3CQ" name="all" type="_ad7IIb5uEeuUdIo-vNH3CQ" isReadOnly="true" association="_ai-AML5uEeuUdIo-vNH3CQ"/>
+        <ownedOperation xmi:id="_aZ7Y8L5uEeuUdIo-vNH3CQ" name="find">
+          <ownedParameter xmi:id="_aZ8AAL5uEeuUdIo-vNH3CQ" name="query">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_ae-RAb5uEeuUdIo-vNH3CQ" type="_aWdOML5uEeuUdIo-vNH3CQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_aZ-cQL5uEeuUdIo-vNH3CQ" name="findAll">
+          <ownedParameter xmi:id="_aZ-cQb5uEeuUdIo-vNH3CQ" name="query">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_agod4L5uEeuUdIo-vNH3CQ" type="_ad7IIb5uEeuUdIo-vNH3CQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_aaEi4L5uEeuUdIo-vNH3CQ" name="get">
+          <ownedParameter xmi:id="_aaFJ8L5uEeuUdIo-vNH3CQ" name="query">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_ae-4EL5uEeuUdIo-vNH3CQ" type="_aWdOML5uEeuUdIo-vNH3CQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_aaFxAL5uEeuUdIo-vNH3CQ" name="fetchDB">
+          <ownedParameter xmi:id="_agpsAL5uEeuUdIo-vNH3CQ" type="_ad7IIb5uEeuUdIo-vNH3CQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ae7NsL5uEeuUdIo-vNH3CQ" name="create">
+          <ownedParameter xmi:id="_ae7Nsb5uEeuUdIo-vNH3CQ" name="data" type="_aWdOML5uEeuUdIo-vNH3CQ"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ae8b0L5uEeuUdIo-vNH3CQ" name="update">
+          <ownedParameter xmi:id="_ae9C4L5uEeuUdIo-vNH3CQ" name="data" type="_aWdOML5uEeuUdIo-vNH3CQ"/>
+          <ownedParameter xmi:id="_ae9C4b5uEeuUdIo-vNH3CQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ae9p8L5uEeuUdIo-vNH3CQ" name="delete">
+          <ownedParameter xmi:id="_ae9p8b5uEeuUdIo-vNH3CQ" name="contact" type="_aWdOML5uEeuUdIo-vNH3CQ"/>
+          <ownedParameter xmi:id="_ae-RAL5uEeuUdIo-vNH3CQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_aaahIL5uEeuUdIo-vNH3CQ" name="Main">
+        <ownedComment xmi:id="_airFQb5uEeuUdIo-vNH3CQ">
+          <body>Main Class - initialize the TelephoneDirectory app&#xD;
+@author Ismail&#xD;
+ *</body>
+        </ownedComment>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_aiZ_gL5uEeuUdIo-vNH3CQ" name="main" specification="_aabvQL5uEeuUdIo-vNH3CQ">
+          <ownedParameter xmi:id="_aiZ_gb5uEeuUdIo-vNH3CQ" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aiZ_gr5uEeuUdIo-vNH3CQ" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>/**&#xD;
+		 * Write a Java Program which makes the console based telephone directory, &#xD;
+		 * the program must use the array to maintain the ‘n’ number of data. &#xD;
+		 * It should ask the fields like Name, Age and Contact Number of Person.&#xD;
+		 * The program must also save the same data in a file. &#xD;
+		 * The program must also include the option for retrieving the data of any index of array and also between the ranges. &#xD;
+		 * &#xD;
+		 * Following task must be included with switch cases:&#xD;
+		 * Creating an array to save contact details&#xD;
+		 * Also copying the data in the file&#xD;
+		 * To retrieve the any data from the phone directory array&#xD;
+		 * To display the data in the range (as per the start index and end index)&#xD;
+		 * To display all the entries made in the phone directory&#xD;
+		 * To display the all the entries whose name start with “character specified by the end user”.&#xD;
+		 * &#xD;
+		 * And also write a program to multiply the two matrices.&#xD;
+		 * To Multiply two matrices of (2,2) (input must be given by the end user)&#xD;
+		 */&#xD;
+		&#xD;
+		new TelephoneDirectory();&#xD;
+&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_aabvQL5uEeuUdIo-vNH3CQ" name="main" isStatic="true" method="_aiZ_gL5uEeuUdIo-vNH3CQ">
+          <ownedParameter xmi:id="_aabvQb5uEeuUdIo-vNH3CQ" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aauDIL5uEeuUdIo-vNH3CQ" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_aauqML5uEeuUdIo-vNH3CQ" name="TelephoneDirectory">
+        <ownedComment xmi:id="_airFQr5uEeuUdIo-vNH3CQ">
+          <body>Telephone Directory Class - &#xD;
+main composition of the app&#xD;
+@author Ismail&#xD;
+ *</body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_ahO60L5uEeuUdIo-vNH3CQ" name="scanner" visibility="private" type="_afHa8b5uEeuUdIo-vNH3CQ" association="_ajPtAb5uEeuUdIo-vNH3CQ"/>
+        <ownedAttribute xmi:id="_ahQI8L5uEeuUdIo-vNH3CQ" name="db" visibility="package" type="_aXBO4L5uEeuUdIo-vNH3CQ" association="_ajQ7IL5uEeuUdIo-vNH3CQ"/>
+        <ownedAttribute xmi:id="_ahQwAb5uEeuUdIo-vNH3CQ" name="helpers" visibility="package" type="_aZeF8L5uEeuUdIo-vNH3CQ" association="_ajgywL5uEeuUdIo-vNH3CQ"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_aiZ_g75uEeuUdIo-vNH3CQ" name="TelephoneDirectory" specification="_aayUkL5uEeuUdIo-vNH3CQ">
+          <ownedParameter xmi:id="_aiZ_hL5uEeuUdIo-vNH3CQ" type="_aauqML5uEeuUdIo-vNH3CQ" direction="return"/>
+          <language>java</language>
+          <body>helpers = new Helpers();&#xD;
+		// initialize scanner&#xD;
+		scanner = new Scanner(System.in);&#xD;
+		// initialize database&#xD;
+		db = new Database(&quot;lib/db.json&quot;);&#xD;
+		&#xD;
+		launchAppStaticFeedback();&#xD;
+		&#xD;
+		askQuestion();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_aiamkL5uEeuUdIo-vNH3CQ" name="askQuestion" specification="_aazisL5uEeuUdIo-vNH3CQ">
+          <language>java</language>
+          <body>while (true) {&#xD;
+&#xD;
+			System.out.println(&quot;\nWhat do you want to do? Enter a Key...&quot;);&#xD;
+			System.out.print(&quot;(H)elp \n(N)ew Contact \n(L)ist \n(F)ind \n(Q)uit \n> &quot;);&#xD;
+			&#xD;
+			char response = 0;&#xD;
+			try {&#xD;
+				response = Character.toUpperCase(scanner.nextLine().charAt(0));				&#xD;
+&#xD;
+				switch (response) {&#xD;
+				case 'H':&#xD;
+					help();&#xD;
+					break;&#xD;
+				case 'N':&#xD;
+					newContact();&#xD;
+					break;&#xD;
+				case 'L':&#xD;
+					list();&#xD;
+					break;&#xD;
+				case 'F':&#xD;
+					find();&#xD;
+					break;&#xD;
+				case 'Q':&#xD;
+					quit();&#xD;
+					break;&#xD;
+				default:&#xD;
+					// throws when: &#xD;
+					// - user press enter key without typing a char&#xD;
+					// - user enters char other than the above cases&#xD;
+					throw new StringIndexOutOfBoundsException(); &#xD;
+				}&#xD;
+			} catch (StringIndexOutOfBoundsException e) {&#xD;
+				displayBlankLine();&#xD;
+				sendFeedback(&quot;Not a valid response&quot;);				&#xD;
+			}&#xD;
+			&#xD;
+		}&#xD;
+&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_aiamkb5uEeuUdIo-vNH3CQ" name="help" specification="_aa1X4L5uEeuUdIo-vNH3CQ">
+          <language>java</language>
+          <body>/**&#xD;
+		 * stream help.txt to console&#xD;
+		 */&#xD;
+		try {&#xD;
+			// track code excution time&#xD;
+			final long startTime = System.currentTimeMillis();&#xD;
+&#xD;
+			FileReader reader = new FileReader(&quot;lib/help.txt&quot;);&#xD;
+			int data = reader.read(); // stream returns -1 if empty&#xD;
+			&#xD;
+			displayBlankLine();&#xD;
+			&#xD;
+			// while data is not empty, print stream to console&#xD;
+			while(data != -1) {&#xD;
+				System.out.print((char)data);&#xD;
+				data = reader.read();&#xD;
+			}&#xD;
+			reader.close();&#xD;
+			&#xD;
+			displayBlankLine();&#xD;
+			&#xD;
+			// track code excution time&#xD;
+			final long endTime = System.currentTimeMillis();&#xD;
+			sendExecutionTimeFeedback(startTime, endTime);&#xD;
+		} catch (FileNotFoundException e) {&#xD;
+			e.printStackTrace();&#xD;
+		} catch (IOException e) {&#xD;
+			e.printStackTrace();&#xD;
+		} 	&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_aibNoL5uEeuUdIo-vNH3CQ" name="newContact" specification="_aa1-8L5uEeuUdIo-vNH3CQ">
+          <language>java</language>
+          <body>try {&#xD;
+			// track code excution time&#xD;
+			final long startTime = System.currentTimeMillis();&#xD;
+&#xD;
+			// prompt user for new contact details&#xD;
+			// create new contact object&#xD;
+			Contact contact = requestNewContactDetails();&#xD;
+									&#xD;
+			// save to database&#xD;
+			db.create(contact);&#xD;
+			&#xD;
+			// track code excution time&#xD;
+			final long endTime = System.currentTimeMillis();&#xD;
+			sendExecutionTimeFeedback(startTime, endTime);&#xD;
+			sendFeedback(&quot;sucessfully added to Telephone Directory!&quot;);&#xD;
+		} catch (Exception e) {&#xD;
+			e.printStackTrace();&#xD;
+			sendFeedback(e.getMessage());&#xD;
+		}&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_aibNob5uEeuUdIo-vNH3CQ" name="list" specification="_aa2mAL5uEeuUdIo-vNH3CQ">
+          <language>java</language>
+          <body>try {&#xD;
+			// track code excution time&#xD;
+			final long startTime = System.currentTimeMillis();&#xD;
+			&#xD;
+			ArrayList&lt;Contact> contactList = db.getAll();&#xD;
+			sortAndDisplayData(contactList);			&#xD;
+			&#xD;
+			// track code excution time&#xD;
+			final long endTime = System.currentTimeMillis();&#xD;
+			sendExecutionTimeFeedback(startTime, endTime);&#xD;
+		} catch (Exception e) {&#xD;
+			sendFeedback(e.getMessage());&#xD;
+		}&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_aidC0L5uEeuUdIo-vNH3CQ" name="find" specification="_aa3NEL5uEeuUdIo-vNH3CQ">
+          <language>java</language>
+          <body>// track code excution time&#xD;
+		final long startTime = System.currentTimeMillis();&#xD;
+&#xD;
+		String queryString = requestQuery();&#xD;
+		Boolean toFindAll = askToFindAllMatch();&#xD;
+		&#xD;
+		try {&#xD;
+			if(!toFindAll) {&#xD;
+				// find exact match&#xD;
+				Contact response = db.find(queryString);&#xD;
+				if(response != null) {&#xD;
+					displayData(response);				&#xD;
+					// More actions: Update, Delete, Quit&#xD;
+					requestMoreAction(response);&#xD;
+				} else {&#xD;
+					displayBlankLine();&#xD;
+					sendFeedback(&quot;Contact not found!&quot;);&#xD;
+				}				&#xD;
+			} else {&#xD;
+				// find all possible matches&#xD;
+				ArrayList&lt;Contact> response = db.findAll(queryString);&#xD;
+				if(response != null &amp;&amp; !response.isEmpty()) {&#xD;
+					sortAndDisplayData(response);				&#xD;
+				} else {&#xD;
+					displayBlankLine();&#xD;
+					sendFeedback(&quot;No matches found!&quot;);&#xD;
+				}								&#xD;
+			}&#xD;
+			&#xD;
+			// track code excution time&#xD;
+			final long endTime = System.currentTimeMillis();&#xD;
+			sendExecutionTimeFeedback(startTime, endTime);&#xD;
+		} catch (Exception e) {&#xD;
+			e.printStackTrace();&#xD;
+		}&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_aidp4L5uEeuUdIo-vNH3CQ" name="quit" specification="_aa30IL5uEeuUdIo-vNH3CQ">
+          <language>java</language>
+          <body>killAppStaticFeedback();		&#xD;
+		System.exit(0);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_aidp4b5uEeuUdIo-vNH3CQ" name="sortAndDisplayData" specification="_agq6IL5uEeuUdIo-vNH3CQ">
+          <ownedParameter xmi:id="_aidp4r5uEeuUdIo-vNH3CQ" name="contactList" type="_ad7IIb5uEeuUdIo-vNH3CQ"/>
+          <language>java</language>
+          <body>// range 0 - Z&#xD;
+		final Map&lt;Character, Boolean> range = generateMapOfRange0ToZ();&#xD;
+&#xD;
+		displayBlankLine();&#xD;
+		sendFeedback(&quot;================ Telephone Directory Result ================&quot;);&#xD;
+		displayBlankLine();&#xD;
+		&#xD;
+		// sort by firstname&#xD;
+		contactList.sort(Helpers.firstnameComparator);&#xD;
+		&#xD;
+		// parse and print contact list&#xD;
+		helpers.forEachWithCounter(contactList, new BiConsumer&lt;Integer, Contact>() {&#xD;
+			public void accept(Integer i, Contact contact) {&#xD;
+				// TODO: grep data to console		&#xD;
+				displayByRange(range, contact);&#xD;
+				displayContactDetails(i, contact);&#xD;
+			}&#xD;
+		});&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_aieQ8L5uEeuUdIo-vNH3CQ" name="generateMapOfRange0ToZ" specification="_aa4bML5uEeuUdIo-vNH3CQ">
+          <ownedParameter xmi:id="_aieQ8b5uEeuUdIo-vNH3CQ" type="_afFlwb5uEeuUdIo-vNH3CQ" direction="return"/>
+          <language>java</language>
+          <body>final Map&lt;Character, Boolean> range = new HashMap&lt;Character, Boolean>();&#xD;
+		range.put('A', false);&#xD;
+		range.put('B', false);&#xD;
+		range.put('C', false);&#xD;
+		range.put('D', false);&#xD;
+		range.put('E', false);&#xD;
+		range.put('F', false);&#xD;
+		range.put('G', false);&#xD;
+		range.put('H', false);&#xD;
+		range.put('I', false);&#xD;
+		range.put('J', false);&#xD;
+		range.put('K', false);&#xD;
+		range.put('L', false);&#xD;
+		range.put('M', false);&#xD;
+		range.put('N', false);&#xD;
+		range.put('O', false);&#xD;
+		range.put('P', false);&#xD;
+		range.put('Q', false);&#xD;
+		range.put('R', false);&#xD;
+		range.put('S', false);&#xD;
+		range.put('T', false);&#xD;
+		range.put('U', false);&#xD;
+		range.put('V', false);&#xD;
+		range.put('W', false);&#xD;
+		range.put('X', false);&#xD;
+		range.put('Y', false);&#xD;
+		range.put('Z', false);&#xD;
+		range.put('0', false);&#xD;
+		range.put('1', false);&#xD;
+		range.put('2', false);&#xD;
+		range.put('3', false);&#xD;
+		range.put('4', false);&#xD;
+		range.put('5', false);&#xD;
+		range.put('6', false);&#xD;
+		range.put('7', false);&#xD;
+		range.put('8', false);&#xD;
+		range.put('9', false);&#xD;
+		&#xD;
+		return range;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_aieQ8r5uEeuUdIo-vNH3CQ" name="displayByRange" specification="_agt9cb5uEeuUdIo-vNH3CQ">
+          <ownedParameter xmi:id="_aieQ875uEeuUdIo-vNH3CQ" name="range" type="_afFlwb5uEeuUdIo-vNH3CQ"/>
+          <ownedParameter xmi:id="_aieQ9L5uEeuUdIo-vNH3CQ" name="contact" type="_aWdOML5uEeuUdIo-vNH3CQ"/>
+          <language>java</language>
+          <body>// get the first character in firstname string&#xD;
+		Character firtCharOfString = Character.toUpperCase(contact.getFirstname().charAt(0));&#xD;
+		if(range.get(firtCharOfString) == false) {&#xD;
+			sendFeedback(&quot;&quot;);&#xD;
+			sendFeedback(&quot;---------&quot; + String.valueOf(firtCharOfString));&#xD;
+			sendFeedback(&quot;&quot;);&#xD;
+			range.replace(firtCharOfString, true);					&#xD;
+		}&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_aie4AL5uEeuUdIo-vNH3CQ" name="displayData" specification="_afLFUL5uEeuUdIo-vNH3CQ">
+          <ownedParameter xmi:id="_aie4Ab5uEeuUdIo-vNH3CQ" name="response" type="_aWdOML5uEeuUdIo-vNH3CQ"/>
+          <language>java</language>
+          <body>displayBlankLine();&#xD;
+		sendFeedback(&quot;================ Telephone Directory Result ================&quot;);&#xD;
+		displayBlankLine();&#xD;
+		displayContactDetails(0, response);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_aie4Ar5uEeuUdIo-vNH3CQ" name="requestQuery" specification="_aa7egL5uEeuUdIo-vNH3CQ">
+          <ownedParameter xmi:id="_aie4A75uEeuUdIo-vNH3CQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>String queryString = null;&#xD;
+		while (queryString == null || queryString.isBlank()) {&#xD;
+			sendFeedback(&quot;\nEnter query>&quot;);&#xD;
+			sendFeedbackInline(&quot;Search by Phone number, Firstname or Lastname> &quot;);&#xD;
+			queryString = scanner.nextLine();			&#xD;
+		}&#xD;
+&#xD;
+		return queryString;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_aiffEL5uEeuUdIo-vNH3CQ" name="requestNewContactDetails" specification="_aa8FkL5uEeuUdIo-vNH3CQ">
+          <ownedParameter xmi:id="_aiffEb5uEeuUdIo-vNH3CQ" type="_aWdOML5uEeuUdIo-vNH3CQ" direction="return"/>
+          <language>java</language>
+          <body>String firstname = null;&#xD;
+		String lastname = null;&#xD;
+		String phone = null;&#xD;
+		&#xD;
+		displayBlankLine();&#xD;
+		sendFeedback(&quot;Enter a New Contact Details>&quot;);&#xD;
+		&#xD;
+		while (firstname == null || firstname.isBlank()) {&#xD;
+			sendFeedback(&quot;Enter Firstname> &quot;);		&#xD;
+			firstname = scanner.nextLine();			&#xD;
+		}&#xD;
+		&#xD;
+		while (lastname == null || lastname.isBlank()) {&#xD;
+			sendFeedback(&quot;Enter Lastname> &quot;);&#xD;
+			lastname = scanner.nextLine();			&#xD;
+		}&#xD;
+		&#xD;
+		while (phone == null || phone.length() != 11) {&#xD;
+			sendFeedback(&quot;Enter Phone Number> &quot;);&#xD;
+			sendFeedback(&quot;Phone No. must be (11) digits> &quot;);&#xD;
+			phone = scanner.nextLine();					&#xD;
+		}&#xD;
+		&#xD;
+		if(firstname != null &amp;&amp; !firstname.isBlank() &amp;&amp; lastname != null &amp;&amp; !lastname.isBlank() &amp;&amp; phone != null &amp;&amp; phone.length() == 11) {&#xD;
+			Contact contact = new Contact(firstname, lastname, phone);&#xD;
+			return contact;&#xD;
+		}&#xD;
+		&#xD;
+		return null;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_aiffEr5uEeuUdIo-vNH3CQ" name="askToFindAllMatch" specification="_aa8soL5uEeuUdIo-vNH3CQ">
+          <ownedParameter xmi:id="_aiffE75uEeuUdIo-vNH3CQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>char response = 0;&#xD;
+		while (response == 0 || (response != 'Q' &amp;&amp; response != '1' &amp;&amp; response != '2')) {&#xD;
+			displayBlankLine();&#xD;
+			sendFeedbackInline(&quot;Do you want to find all matches? \n(1) Yes find all \n(2) No, find exact match \n(Q) Exit application \n> &quot;);&#xD;
+			try {	&#xD;
+				response = Character.toUpperCase(scanner.nextLine().charAt(0));&#xD;
+			} catch (StringIndexOutOfBoundsException e) {&#xD;
+				System.out.println(&quot;askToFindAllMatch context 2&quot;);&#xD;
+				displayBlankLine();&#xD;
+				sendFeedback(&quot;Not a valid response&quot;);				&#xD;
+			}&#xD;
+		}&#xD;
+		// if Yes&#xD;
+		if (response == '1' ) {&#xD;
+			return true;&#xD;
+		}&#xD;
+		// if Exit application&#xD;
+		if(response == 'Q') {&#xD;
+			quit();&#xD;
+		}&#xD;
+		// if No&#xD;
+		return false;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_aigGIL5uEeuUdIo-vNH3CQ" name="requestMoreAction" specification="_afMTcb5uEeuUdIo-vNH3CQ">
+          <ownedParameter xmi:id="_aigGIb5uEeuUdIo-vNH3CQ" name="contact" type="_aWdOML5uEeuUdIo-vNH3CQ"/>
+          <language>java</language>
+          <body>Character response = (Character) null;&#xD;
+		boolean back = false;&#xD;
+		&#xD;
+		while (!back) {&#xD;
+			displayBlankLine();&#xD;
+			sendFeedbackInline(&quot;More actions: \n(U)pdate, (D)elete, (B)ack, (Q)uit > &quot;);&#xD;
+			try {	&#xD;
+				response = Character.toUpperCase(scanner.nextLine().charAt(0));&#xD;
+				&#xD;
+				switch (response) {&#xD;
+				case 'U':&#xD;
+					// exit loop if contact was successfully updated&#xD;
+					back = updateContact(contact);&#xD;
+					break;&#xD;
+				case 'D':&#xD;
+					// exit loop if contact was successfully deleted&#xD;
+					back = deleteContact(contact);&#xD;
+					break;&#xD;
+				case 'B':&#xD;
+					back = true;&#xD;
+					break;&#xD;
+				case 'Q':&#xD;
+					quit();&#xD;
+					break;&#xD;
+				default:&#xD;
+					throw new StringIndexOutOfBoundsException();&#xD;
+				}&#xD;
+			&#xD;
+			} catch (StringIndexOutOfBoundsException e) {&#xD;
+				displayBlankLine();&#xD;
+				sendFeedback(&quot;Not a valid response&quot;);				&#xD;
+			}&#xD;
+		}		&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_aigtML5uEeuUdIo-vNH3CQ" name="deleteContact" specification="_afNhkL5uEeuUdIo-vNH3CQ">
+          <ownedParameter xmi:id="_aigtMb5uEeuUdIo-vNH3CQ" name="contact" type="_aWdOML5uEeuUdIo-vNH3CQ"/>
+          <ownedParameter xmi:id="_aigtMr5uEeuUdIo-vNH3CQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>Character response = null;&#xD;
+		// prompt warning&#xD;
+		while (response == null || response != 'Y' &amp;&amp; response != 'N') {&#xD;
+			displayBlankLine();&#xD;
+			sendFeedbackInline(&quot;Are you sure you want to delete this data? (Y)es or (N)o...> &quot;);&#xD;
+			try {&#xD;
+				response = Character.toUpperCase(scanner.nextLine().charAt(0));&#xD;
+			} catch (StringIndexOutOfBoundsException e) {&#xD;
+				displayBlankLine();&#xD;
+				sendFeedback(&quot;Not a valid response&quot;);				&#xD;
+			}&#xD;
+		}&#xD;
+		&#xD;
+		Boolean done;&#xD;
+		// if Yes, perform delete operation&#xD;
+		if(response == 'Y') {&#xD;
+			done = db.delete(contact);&#xD;
+			if(done) {&#xD;
+				displayBlankLine();&#xD;
+				sendFeedback(&quot;successfully deleted&quot;);&#xD;
+				return true;&#xD;
+			} else {&#xD;
+				displayBlankLine();&#xD;
+				sendFeedback(&quot;unable to delete contact&quot;);&#xD;
+				return false;&#xD;
+			}&#xD;
+		}&#xD;
+		// if No, don't delete&#xD;
+		return false;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_aihUQL5uEeuUdIo-vNH3CQ" name="updateContact" specification="_afOvsL5uEeuUdIo-vNH3CQ">
+          <ownedParameter xmi:id="_aihUQb5uEeuUdIo-vNH3CQ" name="oldContact" type="_aWdOML5uEeuUdIo-vNH3CQ"/>
+          <ownedParameter xmi:id="_aihUQr5uEeuUdIo-vNH3CQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>String firstname = null;&#xD;
+		String lastname = null;&#xD;
+		String phone = null;&#xD;
+		&#xD;
+		displayBlankLine();&#xD;
+		sendFeedback(&quot;Modify contact details (press ENTER to Skip a feild)>&quot;);&#xD;
+		&#xD;
+		displayBlankLine();&#xD;
+		sendFeedbackInline(&quot;Change firstname From: &quot; + oldContact.getFirstname() + &quot; To: &quot; + &quot;> &quot;);		&#xD;
+		firstname = scanner.nextLine();			&#xD;
+		&#xD;
+		sendFeedbackInline(&quot;\nChange lastname From: &quot; + oldContact.getLastname() + &quot; To: &quot; + &quot;> &quot;);		&#xD;
+		lastname = scanner.nextLine();			&#xD;
+&#xD;
+		sendFeedbackInline(&quot;\nChange phone From: &quot; + oldContact.getPhone() + &quot; To: &quot; + &quot;> &quot;);		&#xD;
+		phone = scanner.nextLine();			&#xD;
+		&#xD;
+		if(firstname != null &amp;&amp; !firstname.isBlank()) oldContact.setFirstname(firstname);&#xD;
+		if(lastname != null &amp;&amp; !lastname.isBlank()) oldContact.setLastname(lastname);&#xD;
+		if(phone != null &amp;&amp; !phone.isBlank()) oldContact.setPhone(phone);&#xD;
+		&#xD;
+		Character response = null;&#xD;
+		// prompt warning&#xD;
+		while (response == null || response != 'Y' &amp;&amp; response != 'N') {&#xD;
+			displayBlankLine();&#xD;
+			sendFeedbackInline(&quot;Proceed to modify data? (Y)es or (N)o...> &quot;);&#xD;
+			try {&#xD;
+				response = Character.toUpperCase(scanner.nextLine().charAt(0));&#xD;
+			} catch (StringIndexOutOfBoundsException e) {&#xD;
+				displayBlankLine();&#xD;
+				sendFeedback(&quot;Not a valid response&quot;);				&#xD;
+			}&#xD;
+		}&#xD;
+		&#xD;
+		Boolean done;&#xD;
+		// if Yes, proceed to update contact&#xD;
+		if(response == 'Y') {&#xD;
+			done = db.update(oldContact);&#xD;
+			if(done) {&#xD;
+				displayBlankLine();&#xD;
+				sendFeedback(&quot;successfully updated&quot;);&#xD;
+				return true;&#xD;
+			} else {&#xD;
+				displayBlankLine();&#xD;
+				sendFeedback(&quot;unable to update contact&quot;);&#xD;
+				return false;&#xD;
+			}&#xD;
+		}&#xD;
+		// if No, don't update&#xD;
+		return false;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_aihUQ75uEeuUdIo-vNH3CQ" name="sendFeedback" specification="_aa_v8L5uEeuUdIo-vNH3CQ">
+          <ownedParameter xmi:id="_aihURL5uEeuUdIo-vNH3CQ" name="data">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>System.out.println(data);			&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_aih7UL5uEeuUdIo-vNH3CQ" name="sendFeedbackInline" specification="_abBlIL5uEeuUdIo-vNH3CQ">
+          <ownedParameter xmi:id="_aih7Ub5uEeuUdIo-vNH3CQ" name="data">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>System.out.print(data);			&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_aih7Ur5uEeuUdIo-vNH3CQ" name="displayBlankLine" specification="_abCzQL5uEeuUdIo-vNH3CQ">
+          <language>java</language>
+          <body>System.out.println();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_aiiiYL5uEeuUdIo-vNH3CQ" name="launchAppStaticFeedback" specification="_abDaUL5uEeuUdIo-vNH3CQ">
+          <language>java</language>
+          <body>final long startTime = System.currentTimeMillis();&#xD;
+		System.out.print(&quot;Execute - Start Telephone Directory App &quot;);&#xD;
+		System.out.print(&quot;[&quot;);&#xD;
+		for (int i = 0; i &lt; 25; i++) {&#xD;
+			try {&#xD;
+				Thread.sleep(50);&#xD;
+			} catch (InterruptedException e) {&#xD;
+				e.printStackTrace();&#xD;
+			}&#xD;
+			System.out.print(&quot;#&quot;);&#xD;
+		}&#xD;
+		System.out.print(&quot;]\n&quot;);&#xD;
+		final long endTime = System.currentTimeMillis();&#xD;
+		sendExecutionTimeFeedback(startTime, endTime);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_aiiiYb5uEeuUdIo-vNH3CQ" name="killAppStaticFeedback" specification="_abDaUb5uEeuUdIo-vNH3CQ">
+          <language>java</language>
+          <body>final long startTime = System.currentTimeMillis();&#xD;
+		System.out.println();&#xD;
+		System.out.print(&quot;Execute - Kill Application &quot;);&#xD;
+		System.out.print(&quot;[&quot;);&#xD;
+		for (int i = 0; i &lt; 20; i++) {&#xD;
+			try {&#xD;
+				Thread.sleep(50);&#xD;
+			} catch (InterruptedException e) {&#xD;
+				e.printStackTrace();&#xD;
+			}&#xD;
+			System.out.print(&quot;#&quot;);&#xD;
+		}&#xD;
+		System.out.print(&quot;]\n&quot;);&#xD;
+		final long endTime = System.currentTimeMillis();&#xD;
+		sendExecutionTimeFeedback(startTime, endTime);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_aiiiYr5uEeuUdIo-vNH3CQ" name="sendExecutionTimeFeedback" specification="_abEocL5uEeuUdIo-vNH3CQ">
+          <ownedParameter xmi:id="_aiiiY75uEeuUdIo-vNH3CQ" name="startTime">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_aiiiZL5uEeuUdIo-vNH3CQ" name="endTime">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>sendFeedback(&quot;\nDone in &quot; + (endTime - startTime) + &quot;s.&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_aijJcL5uEeuUdIo-vNH3CQ" name="displayContactDetails" specification="_afWEcL5uEeuUdIo-vNH3CQ">
+          <ownedParameter xmi:id="_aijJcb5uEeuUdIo-vNH3CQ" name="i">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_aijJcr5uEeuUdIo-vNH3CQ" name="contact" type="_aWdOML5uEeuUdIo-vNH3CQ"/>
+          <language>java</language>
+          <body>String firstname = (String) contact.getFirstname();    &#xD;
+ 	String lastname = (String) contact.getLastname();    &#xD;
+ 	String phone = (String) contact.getPhone();    &#xD;
+ 	&#xD;
+ 	// TODO: USE ConsoleColors&#xD;
+ 	// System.out.print(ConsoleColors.BLUE_BACKGROUND);&#xD;
+ 	System.out.println(&#xD;
+				&quot;(&quot; + (i+1) + &quot;)&quot; &#xD;
+				+ &quot; &quot; &#xD;
+				+ &quot;Firstname: &quot; &#xD;
+				+ firstname &#xD;
+				+ &quot; &quot; &#xD;
+				+ &quot;Lastname: &quot; &#xD;
+				+ lastname &#xD;
+				+ &quot; &quot; + &quot;Phone: &quot; &#xD;
+				+ phone);&#xD;
+ 	// System.out.print(ConsoleColors.RESET);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_aayUkL5uEeuUdIo-vNH3CQ" name="TelephoneDirectory" visibility="package" method="_aiZ_g75uEeuUdIo-vNH3CQ">
+          <eAnnotations xmi:id="_aay7oL5uEeuUdIo-vNH3CQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_aay7ob5uEeuUdIo-vNH3CQ" key="create"/>
+          </eAnnotations>
+          <ownedComment xmi:id="_airFQ75uEeuUdIo-vNH3CQ">
+            <body>Telephone Directory constructor</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_aay7or5uEeuUdIo-vNH3CQ" type="_aauqML5uEeuUdIo-vNH3CQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_aazisL5uEeuUdIo-vNH3CQ" name="askQuestion" visibility="private" method="_aiamkL5uEeuUdIo-vNH3CQ">
+          <ownedComment xmi:id="_airsUL5uEeuUdIo-vNH3CQ">
+            <body>request user actions and listen for response</body>
+          </ownedComment>
+        </ownedOperation>
+        <ownedOperation xmi:id="_aa1X4L5uEeuUdIo-vNH3CQ" name="help" method="_aiamkb5uEeuUdIo-vNH3CQ">
+          <ownedComment xmi:id="_airsUb5uEeuUdIo-vNH3CQ">
+            <body>Displays help about Telephone Directory cmdlets</body>
+          </ownedComment>
+        </ownedOperation>
+        <ownedOperation xmi:id="_aa1-8L5uEeuUdIo-vNH3CQ" name="newContact" method="_aibNoL5uEeuUdIo-vNH3CQ">
+          <ownedComment xmi:id="_airsUr5uEeuUdIo-vNH3CQ">
+            <body>creates a new contact&#xD;
+	 * and save to the database</body>
+          </ownedComment>
+        </ownedOperation>
+        <ownedOperation xmi:id="_aa2mAL5uEeuUdIo-vNH3CQ" name="list" method="_aibNob5uEeuUdIo-vNH3CQ">
+          <ownedComment xmi:id="_airsU75uEeuUdIo-vNH3CQ">
+            <body>list all contacts in the Telephone Directory</body>
+          </ownedComment>
+        </ownedOperation>
+        <ownedOperation xmi:id="_aa3NEL5uEeuUdIo-vNH3CQ" name="find" method="_aidC0L5uEeuUdIo-vNH3CQ">
+          <ownedComment xmi:id="_airsVL5uEeuUdIo-vNH3CQ">
+            <body>find contact by query&lt;br>&#xD;
+	 * prompts user for:&#xD;
+	 * &lt;ul>&#xD;
+	 * 	&lt;li>query string&lt;/li>&#xD;
+	 * 	&lt;li>find exact match&lt;/li>&#xD;
+	 * 	&lt;li>find all possible match&lt;/li>&#xD;
+	 * &lt;/ul></body>
+          </ownedComment>
+        </ownedOperation>
+        <ownedOperation xmi:id="_aa30IL5uEeuUdIo-vNH3CQ" name="quit" method="_aidp4L5uEeuUdIo-vNH3CQ">
+          <ownedComment xmi:id="_airsVb5uEeuUdIo-vNH3CQ">
+            <body>kill or stop running application</body>
+          </ownedComment>
+        </ownedOperation>
+        <ownedOperation xmi:id="_aa4bML5uEeuUdIo-vNH3CQ" name="generateMapOfRange0ToZ" visibility="private" method="_aieQ8L5uEeuUdIo-vNH3CQ">
+          <ownedComment xmi:id="_airsV75uEeuUdIo-vNH3CQ">
+            <body>generate an object map &#xD;
+	 * &lt;ul>&#xD;
+	 * 	&lt;li>whose keys ranges from 0 to Z char&lt;/li> &#xD;
+	 * 	&lt;li>holds boolean value - true or false&lt;/li>&#xD;
+	 * &lt;/ul>&#xD;
+	 * @return Map</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_agt9cL5uEeuUdIo-vNH3CQ" type="_afFlwb5uEeuUdIo-vNH3CQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_aa7egL5uEeuUdIo-vNH3CQ" name="requestQuery" visibility="private" method="_aie4Ar5uEeuUdIo-vNH3CQ">
+          <ownedComment xmi:id="_aisTYb5uEeuUdIo-vNH3CQ">
+            <body>prompt user to enter search query&lt;br></body>
+          </ownedComment>
+          <ownedParameter xmi:id="_aa7egb5uEeuUdIo-vNH3CQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_aa8FkL5uEeuUdIo-vNH3CQ" name="requestNewContactDetails" visibility="private" method="_aiffEL5uEeuUdIo-vNH3CQ">
+          <ownedComment xmi:id="_aisTYr5uEeuUdIo-vNH3CQ">
+            <body>prompt user to enter details for a new contact&lt;br>&#xD;
+	 * &lt;small>prompt for &lt;i>firstname, lastname, phone&lt;/i>&lt;/small>&#xD;
+	 * @return a new contact object</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_afMTcL5uEeuUdIo-vNH3CQ" type="_aWdOML5uEeuUdIo-vNH3CQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_aa8soL5uEeuUdIo-vNH3CQ" name="askToFindAllMatch" visibility="private" method="_aiffEr5uEeuUdIo-vNH3CQ">
+          <ownedComment xmi:id="_ais6cL5uEeuUdIo-vNH3CQ">
+            <body>prompt user for action to either find all matches to query,&#xD;
+	 * find the exact match or quit app&#xD;
+	 * @return boolean</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_aa9TsL5uEeuUdIo-vNH3CQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_aa_v8L5uEeuUdIo-vNH3CQ" name="sendFeedback" visibility="private" method="_aihUQ75uEeuUdIo-vNH3CQ">
+          <ownedComment xmi:id="_ais6c75uEeuUdIo-vNH3CQ">
+            <body>A wrapper arround System.out.println. &#xD;
+	 * Prints string data to the console&#xD;
+	 * @param data</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_abAXAL5uEeuUdIo-vNH3CQ" name="data">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_abBlIL5uEeuUdIo-vNH3CQ" name="sendFeedbackInline" visibility="private" method="_aih7UL5uEeuUdIo-vNH3CQ">
+          <ownedComment xmi:id="_ais6dL5uEeuUdIo-vNH3CQ">
+            <body>print data inline</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_abCMML5uEeuUdIo-vNH3CQ" name="data">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_abCzQL5uEeuUdIo-vNH3CQ" name="displayBlankLine" visibility="private" method="_aih7Ur5uEeuUdIo-vNH3CQ">
+          <ownedComment xmi:id="_ais6db5uEeuUdIo-vNH3CQ">
+            <body>print an empty line to std-output</body>
+          </ownedComment>
+        </ownedOperation>
+        <ownedOperation xmi:id="_abDaUL5uEeuUdIo-vNH3CQ" name="launchAppStaticFeedback" visibility="private" method="_aiiiYL5uEeuUdIo-vNH3CQ">
+          <ownedComment xmi:id="_ais6dr5uEeuUdIo-vNH3CQ">
+            <body>&lt;p>&lt;i>visual que&lt;/i>&lt;/p>&#xD;
+	 * imitate application startup progress feedback</body>
+          </ownedComment>
+        </ownedOperation>
+        <ownedOperation xmi:id="_abDaUb5uEeuUdIo-vNH3CQ" name="killAppStaticFeedback" visibility="private" method="_aiiiYb5uEeuUdIo-vNH3CQ">
+          <ownedComment xmi:id="_ais6d75uEeuUdIo-vNH3CQ">
+            <body>&lt;p>&lt;i>visual que&lt;/i>&lt;/p>&#xD;
+	 * imitate application exit progress feedback</body>
+          </ownedComment>
+        </ownedOperation>
+        <ownedOperation xmi:id="_abEocL5uEeuUdIo-vNH3CQ" name="sendExecutionTimeFeedback" visibility="private" method="_aiiiYr5uEeuUdIo-vNH3CQ">
+          <ownedComment xmi:id="_aithgL5uEeuUdIo-vNH3CQ">
+            <body>display total execution time after a task &#xD;
+	 * @param startTime&#xD;
+	 * @param endTime</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_abEocb5uEeuUdIo-vNH3CQ" name="startTime">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_abEocr5uEeuUdIo-vNH3CQ" name="endTime">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_afLFUL5uEeuUdIo-vNH3CQ" name="displayData" visibility="private" method="_aie4AL5uEeuUdIo-vNH3CQ">
+          <ownedComment xmi:id="_aisTYL5uEeuUdIo-vNH3CQ">
+            <body>display a single contact object to console&#xD;
+	 * @param response</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_afLsYL5uEeuUdIo-vNH3CQ" name="response" type="_aWdOML5uEeuUdIo-vNH3CQ"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_afMTcb5uEeuUdIo-vNH3CQ" name="requestMoreAction" visibility="private" method="_aigGIL5uEeuUdIo-vNH3CQ">
+          <ownedComment xmi:id="_ais6cb5uEeuUdIo-vNH3CQ">
+            <body>request more actions on a contact&#xD;
+	 * (U)pdate, (D)elete, (B)ack to main menu, (Q)uit app &#xD;
+	 * @return</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_afM6gL5uEeuUdIo-vNH3CQ" name="contact" type="_aWdOML5uEeuUdIo-vNH3CQ"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_afNhkL5uEeuUdIo-vNH3CQ" name="deleteContact" method="_aigtML5uEeuUdIo-vNH3CQ">
+          <ownedComment xmi:id="_ais6cr5uEeuUdIo-vNH3CQ">
+            <body>Delete contact from Telephone Directory&#xD;
+	 * @param uid&#xD;
+	 * @return boolean</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_afNhkb5uEeuUdIo-vNH3CQ" name="contact" type="_aWdOML5uEeuUdIo-vNH3CQ"/>
+          <ownedParameter xmi:id="_afNhkr5uEeuUdIo-vNH3CQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_afOvsL5uEeuUdIo-vNH3CQ" name="updateContact" method="_aihUQL5uEeuUdIo-vNH3CQ">
+          <ownedParameter xmi:id="_afPWwL5uEeuUdIo-vNH3CQ" name="oldContact" type="_aWdOML5uEeuUdIo-vNH3CQ"/>
+          <ownedParameter xmi:id="_afP90L5uEeuUdIo-vNH3CQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_afWEcL5uEeuUdIo-vNH3CQ" name="displayContactDetails" visibility="private" method="_aijJcL5uEeuUdIo-vNH3CQ">
+          <ownedComment xmi:id="_aithgb5uEeuUdIo-vNH3CQ">
+            <body>parse and print contact object to console&#xD;
+	 * @param i&#xD;
+	 * @param contact</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_afWEcb5uEeuUdIo-vNH3CQ" name="i">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_afWEcr5uEeuUdIo-vNH3CQ" name="contact" type="_aWdOML5uEeuUdIo-vNH3CQ"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_agq6IL5uEeuUdIo-vNH3CQ" name="sortAndDisplayData" visibility="private" method="_aidp4b5uEeuUdIo-vNH3CQ">
+          <ownedComment xmi:id="_airsVr5uEeuUdIo-vNH3CQ">
+            <body>sort and display a list of contacts to the console&#xD;
+	 * @param contactList</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_agq6Ib5uEeuUdIo-vNH3CQ" name="contactList" type="_ad7IIb5uEeuUdIo-vNH3CQ"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_agt9cb5uEeuUdIo-vNH3CQ" name="displayByRange" visibility="private" method="_aieQ8r5uEeuUdIo-vNH3CQ">
+          <ownedComment xmi:id="_airsWL5uEeuUdIo-vNH3CQ">
+            <body>track and display range 0 - Z to console&#xD;
+	 * @param range&#xD;
+	 * @param contact</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_agt9cr5uEeuUdIo-vNH3CQ" name="range" type="_afFlwb5uEeuUdIo-vNH3CQ"/>
+          <ownedParameter xmi:id="_agukgL5uEeuUdIo-vNH3CQ" name="contact" type="_aWdOML5uEeuUdIo-vNH3CQ"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_agALwL5uEeuUdIo-vNH3CQ" name="T"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_agCoAb5uEeuUdIo-vNH3CQ" name="U"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ai-AML5uEeuUdIo-vNH3CQ" name="" memberEnd="_ai-AMb5uEeuUdIo-vNH3CQ _aZ1SUL5uEeuUdIo-vNH3CQ">
+        <ownedEnd xmi:id="_ai-AMb5uEeuUdIo-vNH3CQ" name="" type="_aZ0EML5uEeuUdIo-vNH3CQ" association="_ai-AML5uEeuUdIo-vNH3CQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ajC4sL5uEeuUdIo-vNH3CQ" name="" memberEnd="_ajC4sb5uEeuUdIo-vNH3CQ _ag48kL5uEeuUdIo-vNH3CQ">
+        <ownedEnd xmi:id="_ajC4sb5uEeuUdIo-vNH3CQ" name="" type="_aWdOML5uEeuUdIo-vNH3CQ" association="_ajC4sL5uEeuUdIo-vNH3CQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ajGjEL5uEeuUdIo-vNH3CQ" name="" memberEnd="_ajGjEb5uEeuUdIo-vNH3CQ _ag_qQL5uEeuUdIo-vNH3CQ">
+        <ownedEnd xmi:id="_ajGjEb5uEeuUdIo-vNH3CQ" name="" type="_aXBO4L5uEeuUdIo-vNH3CQ" association="_ajGjEL5uEeuUdIo-vNH3CQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ajI_UL5uEeuUdIo-vNH3CQ" name="" memberEnd="_ajI_Ub5uEeuUdIo-vNH3CQ _ahFJ0L5uEeuUdIo-vNH3CQ">
+        <ownedEnd xmi:id="_ajI_Ub5uEeuUdIo-vNH3CQ" name="" type="_aXBO4L5uEeuUdIo-vNH3CQ" association="_ajI_UL5uEeuUdIo-vNH3CQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ajKNcL5uEeuUdIo-vNH3CQ" name="" memberEnd="_ajKNcb5uEeuUdIo-vNH3CQ _ahFw4b5uEeuUdIo-vNH3CQ">
+        <ownedEnd xmi:id="_ajKNcb5uEeuUdIo-vNH3CQ" name="" type="_aXBO4L5uEeuUdIo-vNH3CQ" association="_ajKNcL5uEeuUdIo-vNH3CQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ajMpsL5uEeuUdIo-vNH3CQ" name="" memberEnd="_ajMpsb5uEeuUdIo-vNH3CQ _ahHmEL5uEeuUdIo-vNH3CQ">
+        <ownedEnd xmi:id="_ajMpsb5uEeuUdIo-vNH3CQ" name="" type="_aZeF8L5uEeuUdIo-vNH3CQ" association="_ajMpsL5uEeuUdIo-vNH3CQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ajN30L5uEeuUdIo-vNH3CQ" name="" memberEnd="_ajN30b5uEeuUdIo-vNH3CQ _ahL3gL5uEeuUdIo-vNH3CQ">
+        <ownedEnd xmi:id="_ajN30b5uEeuUdIo-vNH3CQ" name="" type="_aZeF8L5uEeuUdIo-vNH3CQ" association="_ajN30L5uEeuUdIo-vNH3CQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ajPtAb5uEeuUdIo-vNH3CQ" name="" memberEnd="_ajPtAr5uEeuUdIo-vNH3CQ _ahO60L5uEeuUdIo-vNH3CQ">
+        <ownedEnd xmi:id="_ajPtAr5uEeuUdIo-vNH3CQ" name="" type="_aauqML5uEeuUdIo-vNH3CQ" association="_ajPtAb5uEeuUdIo-vNH3CQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ajQ7IL5uEeuUdIo-vNH3CQ" name="" memberEnd="_ajQ7Ib5uEeuUdIo-vNH3CQ _ahQI8L5uEeuUdIo-vNH3CQ">
+        <ownedEnd xmi:id="_ajQ7Ib5uEeuUdIo-vNH3CQ" name="" type="_aauqML5uEeuUdIo-vNH3CQ" association="_ajQ7IL5uEeuUdIo-vNH3CQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ajgywL5uEeuUdIo-vNH3CQ" name="" memberEnd="_ajgywb5uEeuUdIo-vNH3CQ _ahQwAb5uEeuUdIo-vNH3CQ">
+        <ownedEnd xmi:id="_ajgywb5uEeuUdIo-vNH3CQ" name="" type="_aauqML5uEeuUdIo-vNH3CQ" association="_ajgywL5uEeuUdIo-vNH3CQ"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_aSxBAL5uEeuUdIo-vNH3CQ" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_aSxBAb5uEeuUdIo-vNH3CQ" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_adtswL5uEeuUdIo-vNH3CQ" name="UUID"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_ad7IIb5uEeuUdIo-vNH3CQ" name="ArrayList"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_aerWEL5uEeuUdIo-vNH3CQ" name="Comparator"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_afDJgb5uEeuUdIo-vNH3CQ" name="HashMap"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_afFlwb5uEeuUdIo-vNH3CQ" name="Map"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_afHa8b5uEeuUdIo-vNH3CQ" name="Scanner"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_aTQJML5uEeuUdIo-vNH3CQ" name="text">
+        <packagedElement xmi:type="uml:Class" xmi:id="_ad5S8L5uEeuUdIo-vNH3CQ" name="ParseException"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_aT7eoL5uEeuUdIo-vNH3CQ" name="io">
+        <packagedElement xmi:type="uml:Class" xmi:id="_aecskL5uEeuUdIo-vNH3CQ" name="FileReader"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_aefI0L5uEeuUdIo-vNH3CQ" name="FileWriter"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_aegW8L5uEeuUdIo-vNH3CQ" name="IOException"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_afB7YL5uEeuUdIo-vNH3CQ" name="FileNotFoundException"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_aT8FsL5uEeuUdIo-vNH3CQ" name="lang">
+        <packagedElement xmi:type="uml:Package" xmi:id="_aT8swL5uEeuUdIo-vNH3CQ" name="reflect">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_aehlEL5uEeuUdIo-vNH3CQ" name="Type"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_agJVsL5uEeuUdIo-vNH3CQ" name="Object"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_agLx8L5uEeuUdIo-vNH3CQ" name="CloneNotSupportedException"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_agWxEL5uEeuUdIo-vNH3CQ" name="Iterable"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_aT9T0L5uEeuUdIo-vNH3CQ" name="com">
+      <packagedElement xmi:type="uml:Package" xmi:id="_aUA-ML5uEeuUdIo-vNH3CQ" name="google">
+        <packagedElement xmi:type="uml:Package" xmi:id="_aUCMUL5uEeuUdIo-vNH3CQ" name="gson">
+          <packagedElement xmi:type="uml:Package" xmi:id="_aUCzYL5uEeuUdIo-vNH3CQ" name="reflect">
+            <packagedElement xmi:type="uml:Class" xmi:id="_aelPcb5uEeuUdIo-vNH3CQ" name="TypeToken"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_aekBUL5uEeuUdIo-vNH3CQ" name="Gson"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_aeuZYL5uEeuUdIo-vNH3CQ" name="GsonBuilder"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_ZJ5UcL5uEeuUdIo-vNH3CQ">
+      <eAnnotations xmi:id="_ZKHW4L5uEeuUdIo-vNH3CQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_ZKcHAL5uEeuUdIo-vNH3CQ" base_Package="_YkfhUL5uEeuUdIo-vNH3CQ">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:Generics xmi:id="_aWN9oL5uEeuUdIo-vNH3CQ" genericsValue="T, U" base_Element="_aWH3AL5uEeuUdIo-vNH3CQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_aWUEQL5uEeuUdIo-vNH3CQ" base_Element="_aWH3AL5uEeuUdIo-vNH3CQ"/>
+  <UMLLabProfile:Annotations xmi:id="_aWY8wL5uEeuUdIo-vNH3CQ" base_Element="_aWH3AL5uEeuUdIo-vNH3CQ">
+    <annotations xmi:id="_aWaK4L5uEeuUdIo-vNH3CQ" name="FunctionalInterface"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_aWsewL5uEeuUdIo-vNH3CQ" base_Element="_aWrQoL5uEeuUdIo-vNH3CQ"/>
+  <UMLLabProfile:Annotations xmi:id="_aWxXQL5uEeuUdIo-vNH3CQ" base_Element="_aWrQoL5uEeuUdIo-vNH3CQ">
+    <annotations xmi:id="_aWx-UL5uEeuUdIo-vNH3CQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_aWzMcL5uEeuUdIo-vNH3CQ" base_Element="_aWx-Ub5uEeuUdIo-vNH3CQ"/>
+  <UMLLabProfile:Annotations xmi:id="_aW1osL5uEeuUdIo-vNH3CQ" base_Element="_aWx-Ub5uEeuUdIo-vNH3CQ">
+    <annotations xmi:id="_aW1osb5uEeuUdIo-vNH3CQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_aXWmEL5uEeuUdIo-vNH3CQ" genericsValue="Contact" base_Element="_aXUJ0L5uEeuUdIo-vNH3CQ"/>
+  <UMLLabProfile:Generics xmi:id="_aXkogL5uEeuUdIo-vNH3CQ" genericsValue="Contact" base_Element="_aXizUL5uEeuUdIo-vNH3CQ"/>
+  <UMLLabProfile:Generics xmi:id="_aYnxYL5uEeuUdIo-vNH3CQ" genericsValue="Contact" base_Element="_aXnEwL5uEeuUdIo-vNH3CQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_aZGSgL5uEeuUdIo-vNH3CQ" base_Element="_aZCBEL5uEeuUdIo-vNH3CQ"/>
+  <UMLLabProfile:Generics xmi:id="_aZTt4L5uEeuUdIo-vNH3CQ" genericsValue="Contact" base_Element="_aZLLAL5uEeuUdIo-vNH3CQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_aZkzob5uEeuUdIo-vNH3CQ" base_Element="_aZfUEL5uEeuUdIo-vNH3CQ"/>
+  <UMLLabProfile:Generics xmi:id="_aZ4VoL5uEeuUdIo-vNH3CQ" genericsValue="Contact" base_Element="_aZ1SUL5uEeuUdIo-vNH3CQ"/>
+  <UMLLabProfile:Generics xmi:id="_aaDUwL5uEeuUdIo-vNH3CQ" genericsValue="Contact" base_Element="_aZ-cQL5uEeuUdIo-vNH3CQ"/>
+  <UMLLabProfile:Generics xmi:id="_aaKCcL5uEeuUdIo-vNH3CQ" genericsValue="Contact" base_Element="_aaFxAL5uEeuUdIo-vNH3CQ"/>
+  <UMLLabProfile:Generics xmi:id="_aa5pUL5uEeuUdIo-vNH3CQ" genericsValue="Character, Boolean" base_Element="_aa4bML5uEeuUdIo-vNH3CQ"/>
+  <UMLLabProfile:Reference xmi:id="_advh8L5uEeuUdIo-vNH3CQ" base_Element="_adtswL5uEeuUdIo-vNH3CQ"/>
+  <UMLLabProfile:Reference xmi:id="_ad7IIL5uEeuUdIo-vNH3CQ" base_Element="_ad5S8L5uEeuUdIo-vNH3CQ"/>
+  <UMLLabProfile:Reference xmi:id="_ad-LcL5uEeuUdIo-vNH3CQ" base_Element="_ad7IIb5uEeuUdIo-vNH3CQ"/>
+  <UMLLabProfile:Reference xmi:id="_aeehwL5uEeuUdIo-vNH3CQ" base_Element="_aecskL5uEeuUdIo-vNH3CQ"/>
+  <UMLLabProfile:Reference xmi:id="_aefv4L5uEeuUdIo-vNH3CQ" base_Element="_aefI0L5uEeuUdIo-vNH3CQ"/>
+  <UMLLabProfile:Reference xmi:id="_aeg-AL5uEeuUdIo-vNH3CQ" base_Element="_aegW8L5uEeuUdIo-vNH3CQ"/>
+  <UMLLabProfile:Reference xmi:id="_aejaQL5uEeuUdIo-vNH3CQ" base_Element="_aehlEL5uEeuUdIo-vNH3CQ"/>
+  <UMLLabProfile:Reference xmi:id="_aelPcL5uEeuUdIo-vNH3CQ" base_Element="_aekBUL5uEeuUdIo-vNH3CQ"/>
+  <UMLLabProfile:Reference xmi:id="_aemdkL5uEeuUdIo-vNH3CQ" base_Element="_aelPcb5uEeuUdIo-vNH3CQ"/>
+  <UMLLabProfile:Reference xmi:id="_aeskML5uEeuUdIo-vNH3CQ" base_Element="_aerWEL5uEeuUdIo-vNH3CQ"/>
+  <UMLLabProfile:Reference xmi:id="_aexcsL5uEeuUdIo-vNH3CQ" base_Element="_aeuZYL5uEeuUdIo-vNH3CQ"/>
+  <UMLLabProfile:Reference xmi:id="_afDJgL5uEeuUdIo-vNH3CQ" base_Element="_afB7YL5uEeuUdIo-vNH3CQ"/>
+  <UMLLabProfile:Reference xmi:id="_afFlwL5uEeuUdIo-vNH3CQ" base_Element="_afDJgb5uEeuUdIo-vNH3CQ"/>
+  <UMLLabProfile:Reference xmi:id="_afHa8L5uEeuUdIo-vNH3CQ" base_Element="_afFlwb5uEeuUdIo-vNH3CQ"/>
+  <UMLLabProfile:Reference xmi:id="_afIpEL5uEeuUdIo-vNH3CQ" base_Element="_afHa8b5uEeuUdIo-vNH3CQ"/>
+  <UMLLabProfile:Reference xmi:id="_agCoAL5uEeuUdIo-vNH3CQ" base_Element="_agALwL5uEeuUdIo-vNH3CQ"/>
+  <UMLLabProfile:Reference xmi:id="_agG5cL5uEeuUdIo-vNH3CQ" base_Element="_agCoAb5uEeuUdIo-vNH3CQ"/>
+  <UMLLabProfile:StyledElement xmi:id="_agIHkL5uEeuUdIo-vNH3CQ" base_Element="_agG5cb5uEeuUdIo-vNH3CQ"/>
+  <UMLLabProfile:Reference xmi:id="_agKj0L5uEeuUdIo-vNH3CQ" base_Element="_agJVsL5uEeuUdIo-vNH3CQ"/>
+  <UMLLabProfile:Reference xmi:id="_agNAEL5uEeuUdIo-vNH3CQ" base_Element="_agLx8L5uEeuUdIo-vNH3CQ"/>
+  <UMLLabProfile:Generics xmi:id="_agVi8L5uEeuUdIo-vNH3CQ" genericsValue="Contact" base_Element="_agTtwb5uEeuUdIo-vNH3CQ"/>
+  <UMLLabProfile:Reference xmi:id="_agYmQL5uEeuUdIo-vNH3CQ" base_Element="_agWxEL5uEeuUdIo-vNH3CQ"/>
+  <UMLLabProfile:TypeParameterDeclaration xmi:id="_agZ0YL5uEeuUdIo-vNH3CQ" typeParameterDeclarationValue="T" base_Operation="_agZNUL5uEeuUdIo-vNH3CQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_agabcL5uEeuUdIo-vNH3CQ" base_Element="_agZNUL5uEeuUdIo-vNH3CQ"/>
+  <UMLLabProfile:Generics xmi:id="_agbpkL5uEeuUdIo-vNH3CQ" genericsValue="T" base_Element="_agZNUb5uEeuUdIo-vNH3CQ"/>
+  <UMLLabProfile:Generics xmi:id="_ages4L5uEeuUdIo-vNH3CQ" genericsValue="Integer, T" base_Element="_agZNUr5uEeuUdIo-vNH3CQ"/>
+  <UMLLabProfile:Generics xmi:id="_agjlYL5uEeuUdIo-vNH3CQ" genericsValue="Contact" base_Element="_agfT8b5uEeuUdIo-vNH3CQ"/>
+  <UMLLabProfile:Generics xmi:id="_agnPwL5uEeuUdIo-vNH3CQ" genericsValue="Contact" base_Element="_agkMcb5uEeuUdIo-vNH3CQ"/>
+  <UMLLabProfile:Generics xmi:id="_agtWYL5uEeuUdIo-vNH3CQ" genericsValue="Contact" base_Element="_agq6Ib5uEeuUdIo-vNH3CQ"/>
+  <UMLLabProfile:Generics xmi:id="_agzdAL5uEeuUdIo-vNH3CQ" genericsValue="Character, Boolean" base_Element="_agt9cr5uEeuUdIo-vNH3CQ"/>
+  <UMLLabProfile:Generics xmi:id="_ahBfcL5uEeuUdIo-vNH3CQ" genericsValue="Contact" base_Element="_ag_qQL5uEeuUdIo-vNH3CQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ahDUoL5uEeuUdIo-vNH3CQ" base_Element="_ag_qQL5uEeuUdIo-vNH3CQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ahEiwL5uEeuUdIo-vNH3CQ" base_Element="_ahD7sL5uEeuUdIo-vNH3CQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ahFw4L5uEeuUdIo-vNH3CQ" base_Element="_ahFJ0L5uEeuUdIo-vNH3CQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ahGX8L5uEeuUdIo-vNH3CQ" base_Element="_ahFw4b5uEeuUdIo-vNH3CQ"/>
+  <UMLLabProfile:Generics xmi:id="_ahI0ML5uEeuUdIo-vNH3CQ" genericsValue="Contact" base_Element="_ahHmEL5uEeuUdIo-vNH3CQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ahLQcL5uEeuUdIo-vNH3CQ" base_Element="_ahHmEL5uEeuUdIo-vNH3CQ"/>
+  <UMLLabProfile:Generics xmi:id="_ahMekL5uEeuUdIo-vNH3CQ" genericsValue="Contact" base_Element="_ahL3gL5uEeuUdIo-vNH3CQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ahOTwL5uEeuUdIo-vNH3CQ" base_Element="_ahL3gL5uEeuUdIo-vNH3CQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ahPh4L5uEeuUdIo-vNH3CQ" base_Element="_ahO60L5uEeuUdIo-vNH3CQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ahQwAL5uEeuUdIo-vNH3CQ" base_Element="_ahQI8L5uEeuUdIo-vNH3CQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ahRXEL5uEeuUdIo-vNH3CQ" base_Element="_ahQwAb5uEeuUdIo-vNH3CQ"/>
+  <UMLLabProfile:Reference xmi:id="_ai-nQL5uEeuUdIo-vNH3CQ" base_Element="_ai-AML5uEeuUdIo-vNH3CQ"/>
+  <UMLLabProfile:Reference xmi:id="_ajF8AL5uEeuUdIo-vNH3CQ" base_Element="_ajC4sL5uEeuUdIo-vNH3CQ"/>
+  <UMLLabProfile:Reference xmi:id="_ajIYQL5uEeuUdIo-vNH3CQ" base_Element="_ajGjEL5uEeuUdIo-vNH3CQ"/>
+  <UMLLabProfile:Reference xmi:id="_ajJmYL5uEeuUdIo-vNH3CQ" base_Element="_ajI_UL5uEeuUdIo-vNH3CQ"/>
+  <UMLLabProfile:Reference xmi:id="_ajMCoL5uEeuUdIo-vNH3CQ" base_Element="_ajKNcL5uEeuUdIo-vNH3CQ"/>
+  <UMLLabProfile:Reference xmi:id="_ajNQwL5uEeuUdIo-vNH3CQ" base_Element="_ajMpsL5uEeuUdIo-vNH3CQ"/>
+  <UMLLabProfile:Reference xmi:id="_ajPtAL5uEeuUdIo-vNH3CQ" base_Element="_ajN30L5uEeuUdIo-vNH3CQ"/>
+  <UMLLabProfile:Reference xmi:id="_ajQUEL5uEeuUdIo-vNH3CQ" base_Element="_ajPtAb5uEeuUdIo-vNH3CQ"/>
+  <UMLLabProfile:Reference xmi:id="_ajgLsL5uEeuUdIo-vNH3CQ" base_Element="_ajQ7IL5uEeuUdIo-vNH3CQ"/>
+  <UMLLabProfile:Reference xmi:id="_ajhZ0L5uEeuUdIo-vNH3CQ" base_Element="_ajgywL5uEeuUdIo-vNH3CQ"/>
+</xmi:XMI>

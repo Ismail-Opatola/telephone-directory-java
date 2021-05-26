@@ -1,0 +1,74 @@
+[
+  {
+    "uid": "2a7d9214-1438-4f66-b29b-19d8307bf617",
+    "firstname": "Draconi",
+    "lastname": "Marcus",
+    "phone": "09227722728"
+  },
+  {
+    "uid": "3ab6dfd4-0725-41cb-bfdc-6758d1b79337",
+    "firstname": "Abel",
+    "lastname": "Tesfaye",
+    "phone": "22209298229"
+  },
+  {
+    "uid": "8aedfb4d-22bf-4d79-85b0-2f4b06f5c310",
+    "firstname": "James",
+    "lastname": "Spader",
+    "phone": "44444488220"
+  },
+  {
+    "uid": "8fa6c5cb-2da3-4e24-ae42-4a3df58301d4",
+    "firstname": "Frank",
+    "lastname": "Ocean",
+    "phone": "00011100117"
+  },
+  {
+    "uid": "a1d4c16b-d106-4121-ad12-40b092cf3f5e",
+    "firstname": "Grogu",
+    "lastname": "DaJedi",
+    "phone": "00000000005"
+  },
+  {
+    "uid": "b1c5b82d-d765-4d0e-ae72-34a2a1877c8f",
+    "firstname": "Sarah",
+    "lastname": "Smiley",
+    "phone": "10199999999"
+  },
+  {
+    "uid": "b6039a94-079b-46b0-a03c-7616b3f86c44",
+    "firstname": "Agent",
+    "lastname": "Kimisky",
+    "phone": "09088877332"
+  },
+  {
+    "uid": "c67dac62-acda-4d77-b126-1b804ebf64a6",
+    "firstname": "Fadihlat",
+    "lastname": "Opatola",
+    "phone": "09000000001"
+  },
+  {
+    "uid": "ea653ce6-329a-49ce-9e30-1ce8feded9a9",
+    "firstname": "Kendrick",
+    "lastname": "Duckworth",
+    "phone": "09029277700"
+  },
+  {
+    "uid": "ee6020d8-4ca4-4b0a-a726-3d46de1dcec8",
+    "firstname": "Ismail",
+    "lastname": "Opatola",
+    "phone": "08117464199"
+  },
+  {
+    "uid": "ee6a2887-77ca-495c-971a-b4d45a1055fe",
+    "firstname": "John",
+    "lastname": "Kennedy",
+    "phone": "09055522728"
+  },
+  {
+    "uid": "fb571a32-e00b-4515-8285-a846e763987c",
+    "firstname": "Dark",
+    "lastname": "Sage",
+    "phone": "08034295333"
+  }
+]
