@@ -1,6 +1,7 @@
 # telephone-directory-java
 
-Telephone Directory Application developed in the Java programming language.
+Telephone Directory Console Application developed in the Java programming language.
 
-See documentation: <>
-UML model: <>
+See 
++ Documentation: <https://github.com/Ismail-Opatola/telephone-directory-java/tree/main/doc>
++ UML model: <>
